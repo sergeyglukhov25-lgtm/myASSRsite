@@ -1,0 +1,823 @@
+{
+  "workspaces": {
+    "Black Belt": {
+      "main": {
+        "id": "b60ebbc34299465f",
+        "type": "split",
+        "children": [
+          {
+            "id": "0e0209c57361eea5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b85904738ffa2341",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LSSBlackBeltUpgradeCoursev5.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "6d855450597b1731",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LSSBlackBeltUp.Кано.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "e7631e9cc1c1467f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7d0528f64c389bf8",
+                "type": "leaf",
+                "state": {
+                  "type": "reveal-preview-view",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "8133cad33149e4eb",
+        "type": "split",
+        "children": [
+          {
+            "id": "472f8275ac79554e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "12c9eb8d1b2eefe8",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "кано",
+                    "matchingCase": false,
+                    "explainSearch": true,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "byCreatedTime"
+                  }
+                }
+              },
+              {
+                "id": "a58ca3eb9f166589",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d72fdf94d44ab07d",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "4a41ecc723f862fe",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 224.5037841796875
+      },
+      "right": {
+        "id": "769626807010ce6a",
+        "type": "split",
+        "children": [
+          {
+            "id": "86c8ba7fdd26210e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aa5d0790597b5ed7",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "LSSBlackBeltUp.Кано.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": true,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "7be8459250268fbe",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "LSSBlackBeltUp.Кано.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "ccd333dcde76b02e",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "a3dbaef4f3c3021f",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "LSSBlackBeltUp.Кано.md"
+                  }
+                }
+              },
+              {
+                "id": "ab1c7bb24f8965ab",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1bcb706d05e8dbda",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "f8ed1aae9349aa11",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "LSSBlackBeltUp.Кано.md"
+                  }
+                }
+              },
+              {
+                "id": "cc8edc97728acfca",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  }
+                }
+              },
+              {
+                "id": "91bcbed2b509410a",
+                "type": "leaf",
+                "state": {
+                  "type": "side-panel-control-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bc91f365ae9fc2fe",
+                "type": "leaf",
+                "state": {
+                  "type": "metatable-sidebar-view",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 5
+          }
+        ],
+        "direction": "horizontal",
+        "width": 425.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "graph:Граф": false,
+          "templates:Вставить шаблон": false,
+          "obsidian-wordpress:WordPress Publish": false,
+          "canvas:Создать новый холст": false,
+          "switcher:Меню быстрого перехода": false,
+          "command-palette:Открыть палитру команд": false,
+          "obsidian-metatable:Metatable": false,
+          "dbfolder:Create a new database table": false,
+          "obsidian-full-calendar:Open Full Calendar": false,
+          "obsidian-advanced-slides:Show Slide Preview": false,
+          "cmdr:Make a copy of the current file": false,
+          "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
+          "obsidian-projects:Open projects": false,
+          "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+          "cmdr:Сохранить текущий файл": false,
+          "cmdr:Regex Find/Replace: Find and Replace using regular expressions": false,
+          "cmdr:Pluck: Insert contents from URL": false,
+          "cmdr:Экспортировать в PDF": false,
+          "cmdr:Slurp: Create note from URL": false,
+          "obsidian-importer:Open Importer": false,
+          "file-cleaner-redux:Clean files": false,
+          "templater-obsidian:Templater": false,
+          "callout-manager:Insert Callout": false,
+          "workspaces:Пространства": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false
+        }
+      },
+      "active": "6d855450597b1731",
+      "mtime": "2024-07-03T00:28:37+03:00"
+    },
+    "Basic": {
+      "main": {
+        "id": "b60ebbc34299465f",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9181d8af59aed34",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "646fe60dba3a12c0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Модуль Проверки гипотез-GPN.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "609be9e6c1720d84",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f6f15c59c3a0aa78",
+                "type": "leaf",
+                "state": {
+                  "type": "reveal-preview-view",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "8133cad33149e4eb",
+        "type": "split",
+        "children": [
+          {
+            "id": "472f8275ac79554e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "12c9eb8d1b2eefe8",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "проверка",
+                    "matchingCase": false,
+                    "explainSearch": true,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "byCreatedTime"
+                  }
+                }
+              },
+              {
+                "id": "a58ca3eb9f166589",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d72fdf94d44ab07d",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "4a41ecc723f862fe",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 232.5037841796875,
+        "collapsed": true
+      },
+      "right": {
+        "id": "769626807010ce6a",
+        "type": "split",
+        "children": [
+          {
+            "id": "86c8ba7fdd26210e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aa5d0790597b5ed7",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Модуль Проверки гипотез-GPN.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": true,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "7be8459250268fbe",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Модуль Проверки гипотез-GPN.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "ccd333dcde76b02e",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "a3dbaef4f3c3021f",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Модуль Проверки гипотез-GPN.md"
+                  }
+                }
+              },
+              {
+                "id": "ab1c7bb24f8965ab",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1bcb706d05e8dbda",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "f8ed1aae9349aa11",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Модуль Проверки гипотез-GPN.md"
+                  }
+                }
+              },
+              {
+                "id": "cc8edc97728acfca",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  }
+                }
+              },
+              {
+                "id": "91bcbed2b509410a",
+                "type": "leaf",
+                "state": {
+                  "type": "side-panel-control-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bc91f365ae9fc2fe",
+                "type": "leaf",
+                "state": {
+                  "type": "metatable-sidebar-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "e1cd6309c717bc25",
+                "type": "leaf",
+                "state": {
+                  "type": "view-notes-merger",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 425.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "templates:Вставить шаблон": false,
+          "canvas:Создать новый холст": false,
+          "switcher:Меню быстрого перехода": false,
+          "command-palette:Открыть палитру команд": false,
+          "dbfolder:Create a new database table": false,
+          "cmdr:Сохранить текущий файл": false,
+          "cmdr:Regex Find/Replace: Find and Replace using regular expressions": false,
+          "cmdr:Pluck: Insert contents from URL": false,
+          "cmdr:Экспортировать в PDF": false,
+          "cmdr:Make a copy of the current file": false,
+          "cmdr:Slurp: Create note from URL": false,
+          "obsidian-metatable:Metatable": false,
+          "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
+          "obsidian-importer:Open Importer": false,
+          "obsidian-projects:Open projects": false,
+          "obsidian-full-calendar:Open Full Calendar": false,
+          "callout-manager:Insert Callout": false,
+          "templater-obsidian:Templater": false,
+          "file-cleaner-redux:Clean files": false,
+          "obsidian-wordpress:WordPress Publish": false,
+          "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-advanced-slides:Show Slide Preview": false,
+          "graph:Граф": false,
+          "workspaces:Пространства": false
+        }
+      },
+      "active": "646fe60dba3a12c0",
+      "mtime": "2024-07-03T00:32:17+03:00"
+    },
+    "Hypothesis Tests": {
+      "main": {
+        "id": "b60ebbc34299465f",
+        "type": "split",
+        "children": [
+          {
+            "id": "18173b5534809b92",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8f5c5a14d860502a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Senlen 6.02.25.md",
+                    "mode": "source",
+                    "source": true,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Senlen 6.02.25"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "8133cad33149e4eb",
+        "type": "split",
+        "children": [
+          {
+            "id": "472f8275ac79554e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "12c9eb8d1b2eefe8",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "file: mpl-",
+                    "matchingCase": false,
+                    "explainSearch": true,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Поиск"
+                }
+              },
+              {
+                "id": "a58ca3eb9f166589",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              },
+              {
+                "id": "1c15f197875905dc",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Закладки"
+                }
+              },
+              {
+                "id": "d15514a2846b42e4",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Файловый менеджер"
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 292.5044631958008,
+        "collapsed": true
+      },
+      "right": {
+        "id": "769626807010ce6a",
+        "type": "split",
+        "children": [
+          {
+            "id": "86c8ba7fdd26210e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aa5d0790597b5ed7",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "CapCut UserManual.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": true,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Обратные ссылки для CapCut UserManual"
+                }
+              },
+              {
+                "id": "7be8459250268fbe",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Slurped Pages/Select the prediction results to display for CART® Regression.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Исходящие ссылки из Select the prediction results to display for CART® Regression"
+                }
+              },
+              {
+                "id": "ccd333dcde76b02e",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Теги"
+                }
+              },
+              {
+                "id": "a3dbaef4f3c3021f",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "EffectorTraining11v4.0 Slide duration.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Структура EffectorTraining11v4.0 Slide duration"
+                }
+              },
+              {
+                "id": "ab1c7bb24f8965ab",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "f8ed1aae9349aa11",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "EffectorTraining11v4.0 Slide duration.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "Свойства файла для EffectorTraining11v4.0 Slide duration"
+                }
+              },
+              {
+                "id": "cc8edc97728acfca",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "Все свойства"
+                }
+              },
+              {
+                "id": "710e57832d849872",
+                "type": "leaf",
+                "state": {
+                  "type": "khoj-chat-view",
+                  "state": {},
+                  "icon": "message-circle",
+                  "title": "Khoj Chat"
+                }
+              },
+              {
+                "id": "f48d88aebd10e08c",
+                "type": "leaf",
+                "state": {
+                  "type": "side-panel-control-view",
+                  "state": {},
+                  "icon": "viewIcon",
+                  "title": "Markdown-Autocomplete"
+                }
+              },
+              {
+                "id": "511743585cb72647",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {},
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
+                }
+              },
+              {
+                "id": "2460c6dfddd90ca0",
+                "type": "leaf",
+                "state": {
+                  "type": "metatable-sidebar-view",
+                  "state": {},
+                  "icon": "bracket-glyph",
+                  "title": "Metatable Sidebar"
+                }
+              },
+              {
+                "id": "8c397c93199d31a2",
+                "type": "leaf",
+                "state": {
+                  "type": "mermaid-toolbar-view",
+                  "state": {},
+                  "icon": "trident-custom",
+                  "title": "Mermaid Toolbar"
+                }
+              }
+            ],
+            "currentTab": 7
+          }
+        ],
+        "direction": "horizontal",
+        "width": 477.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "templates:Вставить шаблон": false,
+          "canvas:Создать новый холст": false,
+          "switcher:Меню быстрого перехода": false,
+          "command-palette:Открыть палитру команд": false,
+          "graph:Граф": false,
+          "workspaces:Пространства": false,
+          "dbfolder:Create a new database table": false,
+          "cmdr:Make a copy of the current file": false,
+          "obsidian-metatable:Metatable": false,
+          "obsidian-projects:Open projects": false,
+          "obsidian-full-calendar:Open Full Calendar": false,
+          "callout-manager:Insert Callout": false,
+          "templater-obsidian:Templater": false,
+          "file-cleaner-redux:Clean files": false,
+          "obsidian-wordpress:WordPress Publish": false,
+          "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+          "obsidian-advanced-slides:Show Slide Preview": false,
+          "mermaid-tools:Open Mermaid Toolbar": false,
+          "obsidian-importer:Open Importer": false,
+          "obsidian42-text-transporter:Text Transporter": false,
+          "khoj:Khoj": false,
+          "cmdr:Сохранить текущий файл": false,
+          "cmdr:Regex Find/Replace: Find and Replace using regular expressions": false,
+          "cmdr:Pluck: Insert contents from URL": false,
+          "cmdr:Экспортировать в PDF": false,
+          "cmdr:Slurp: Create note from URL": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "audio-recorder:Начать/остановить запись": false,
+          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
+        }
+      },
+      "active": "8f5c5a14d860502a",
+      "mtime": "2025-02-06T11:06:17+03:00"
+    }
+  },
+  "active": "Hypothesis Tests"
+}

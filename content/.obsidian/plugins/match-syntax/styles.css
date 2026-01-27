@@ -1,0 +1,11 @@
+.match-syntax-highlight-text {
+  background-color: var(--text-highlight-bg);
+}
+
+.match-syntax-input-setting {
+  display: block;
+}
+
+.match-syntax-input-element {
+  width: 100%;
+}

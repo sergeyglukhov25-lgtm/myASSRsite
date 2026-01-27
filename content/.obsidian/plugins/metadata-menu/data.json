@@ -1,0 +1,61 @@
+{
+  "presetFields": [
+    {
+      "name": "Author",
+      "options": {},
+      "id": "1",
+      "type": "Input",
+      "command": {
+        "id": "insert__presetField__Author",
+        "icon": "list-plus",
+        "label": "Insert Author field"
+      }
+    },
+    {
+      "name": "Out",
+      "options": {},
+      "id": "2",
+      "type": "Input",
+      "command": {
+        "id": "insert__presetField__Out",
+        "icon": "list-plus",
+        "label": "Insert Out field"
+      }
+    },
+    {
+      "name": "NoSlides",
+      "options": {},
+      "id": "3",
+      "type": "Number"
+    }
+  ],
+  "fileClassQueries": [],
+  "displayFieldsInContextMenu": true,
+  "globallyIgnoredFields": [],
+  "classFilesPath": "FileType/",
+  "isAutosuggestEnabled": false,
+  "fileClassAlias": "fileClass",
+  "settingsVersion": "5.0",
+  "globalFileClass": "",
+  "firstDayOfWeek": 1,
+  "enableLinks": true,
+  "enableTabHeader": true,
+  "enableEditor": true,
+  "enableBacklinks": true,
+  "enableStarred": true,
+  "enableFileExplorer": true,
+  "enableSearch": true,
+  "enableProperties": true,
+  "buttonIcon": "clipboard-list",
+  "tableViewMaxRecords": 100,
+  "frontmatterListDisplay": "asList",
+  "fileClassExcludedFolders": [],
+  "showIndexingStatusInStatusBar": true,
+  "fileIndexingExcludedFolders": [],
+  "fileIndexingExcludedExtensions": [
+    ".excalidraw.md"
+  ],
+  "fileIndexingExcludedRegex": [],
+  "frontmatterOnly": false,
+  "showFileClassSelectInModal": true
+}

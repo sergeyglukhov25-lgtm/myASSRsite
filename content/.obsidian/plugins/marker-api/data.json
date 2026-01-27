@@ -1,0 +1,14 @@
+{
+  "markerEndpoint": "localhost:8000",
+  "createFolder": true,
+  "deleteOriginal": false,
+  "extractContent": "all",
+  "writeMetadata": true,
+  "movePDFtoFolder": false,
+  "createAssetSubfolder": true,
+  "apiEndpoint": "datalab",
+  "apiKey": "1ZmdiigEvl5n_UoKnuSaPTvxZlwA2FFGP3mVXEiQQWI",
+  "langs": "en, ru",
+  "forceOCR": true,
+  "paginate": false
+}

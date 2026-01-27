@@ -1,0 +1,15 @@
+{
+  "showCLICommands": true,
+  "addExtensionsToInternalLinks": "html",
+  "injectAppCSS": "light",
+  "injectThemeCSS": false,
+  "customCSSFile": null,
+  "displayYAMLFrontmatter": false,
+  "linkStrippingBehaviour": "strip",
+  "highDPIDiagrams": true,
+  "pandoc": null,
+  "pdflatex": "C:\\Users\\Сергей\\Documents\\pdflatex",
+  "outputFolder": "C:\\Users\\Сергей\\Documents\\pdflatex",
+  "extraArguments": "",
+  "exportFrom": "md"
+}

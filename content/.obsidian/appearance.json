@@ -1,0 +1,15 @@
+{
+  "accentColor": "",
+  "theme": "moonstone",
+  "nativeMenus": true,
+  "baseFontSize": 17,
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "centerH1",
+    "table-wrap",
+    "imagealign",
+    "S - Images Adjustments"
+  ],
+  "showViewHeader": true,
+  "baseFontSizeAction": true
+}

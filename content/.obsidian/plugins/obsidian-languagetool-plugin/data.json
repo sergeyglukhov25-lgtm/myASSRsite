@@ -1,0 +1,11 @@
+{
+  "serverUrl": "https://api.languagetool.org",
+  "urlMode": "standard",
+  "glassBg": false,
+  "shouldAutoCheck": true,
+  "autoCheckDelay": 3000,
+  "pickyMode": true,
+  "motherTongue": "ru-RU",
+  "staticLanguage": "ru-RU",
+  "username": "s_glukhov@fdp.ru"
+}

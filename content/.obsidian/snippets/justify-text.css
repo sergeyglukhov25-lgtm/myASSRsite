@@ -1,0 +1,22 @@
+/* Выравнивание текста по ширине (justify) для всех режимов Obsidian */
+
+/* Для режима чтения (Reading View) */
+.markdown-preview-view p {
+  text-align: justify;
+  hyphens: auto; /* Автоматические переносы для улучшения вида */
+}
+
+/* Для Live Preview и режима исходного кода (Source Mode) */
+.markdown-source-view.mod-cm6 .cm-line {
+  text-align: justify;
+  hyphens: auto; /* Автоматические переносы */
+}
+
+/* Опционально: если хотите применить к заголовкам или другим элементам, можно добавить: */
+/*
+.markdown-preview-view h1, .markdown-preview-view h2, .markdown-preview-view h3,
+.markdown-preview-view h4, .markdown-preview-view h5, .markdown-preview-view h6 {
+  text-align: justify;
+  hyphens: auto;
+}
+*/

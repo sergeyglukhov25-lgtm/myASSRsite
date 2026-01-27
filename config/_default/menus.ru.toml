@@ -1,0 +1,61 @@
+# Основное меню (шапка)
+
+[[main]]
+  name   = "Главная"          # или убери name, если только иконка
+  pageRef = "/"               # ссылка на главную
+  weight = 10
+  pre    = "sigma-icon"            # иконка домика перед текстом
+
+[[main]]
+ name   = "Обучение"
+ pageRef = "obuchenye"
+ weight = 20
+ pre    = "list"        # иконка газеты/статей
+
+[[main]]
+ name   = "Курсы"
+ parent = "Обучение"
+ url  = "/tags/training/"
+ weight = 10
+ pre    = "list"        # иконка газеты/статей
+
+[[main]]
+ name   = "Зеленый пояс"
+ parent = "Обучение"
+ pageRef  = "Зеленый пояс Lean Six Sigma"
+ weight = 20
+ pre    = "graduation-cap"        # иконка газеты/статей
+
+
+[[main]]
+  name   = "Консалтинг"
+  pageRef = "posts"
+  weight = 30
+  pre    = "mug-hot"             # иконка человека
+
+[[main]]
+  name = "Сертификация"  # ОБЯЗАТЕЛЬНО укажи identifier, если нет name!
+  url        = "https://github.com/твой-ник"
+  weight     = 40
+  pre        = "graduation-cap"       # иконка GitHub
+
+[[main]]
+  name   = "Контакты"
+  pageRef = "contacts"
+  pre    = "edit"
+  weight = 100
+
+[[subnavigation]]
+  name   = "Обучение"
+  url  = "/tags/training/"
+  weight = 10
+  pre    = "graduation-cap"       # иконка GitHub
+
+[[subnavigation]]
+  name   = "Консалтинг"
+  pageRef = "posts"
+  weight = 20
+  pre    = "mug-hot"             # иконка человека
+
+
+

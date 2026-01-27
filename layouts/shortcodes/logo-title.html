@@ -1,0 +1,37 @@
+<div class="logo-title-container">
+  {{ if .Get "logo" }}
+    <img src="{{ .Get "logo" }}" alt="{{ .Get "alt" }}" class="logo-title-logo">
+  {{ end }}
+  <h1 class="logo-title-text">{{ .Get "title" | default "Заголовок" }}</h1>
+</div>
+
+<style>
+.logo-title-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 30px 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-title-logo {
+  height: 100px;
+  width: auto;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+  transition: transform 0.3s ease;
+}
+
+.logo-title-logo:hover {
+  transform: scale(1.05);
+}
+
+.logo-title-text {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+</style>

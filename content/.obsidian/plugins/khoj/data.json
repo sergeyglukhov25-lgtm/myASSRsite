@@ -1,0 +1,123 @@
+{
+  "resultsCount": 6,
+  "khojUrl": "https://app.khoj.dev",
+  "khojApiKey": "kk-0q7tXXn8hVJzqgCk3QJxQP5T18GYyDezb-AWYbK2C6U",
+  "connectedToBackend": true,
+  "autoConfigure": false,
+  "lastSync": {},
+  "syncFileType": {
+    "markdown": true,
+    "images": false,
+    "pdf": true
+  },
+  "userInfo": {
+    "email": "sergey.glukhov25@gmail.com",
+    "username": "sergey.glukhov25@gmail.com",
+    "photo": "https://lh3.googleusercontent.com/a/ACg8ocIS5USJrH21boqydDOub5v5a-UrSMlBSpJ-OT4AIrJQViMyOg=s96-c",
+    "is_active": true,
+    "has_documents": true
+  },
+  "syncFolders": [],
+  "syncInterval": 60,
+  "autoVoiceResponse": true,
+  "fileAccessMode": "read",
+  "selectedChatModelId": "33",
+  "availableChatModels": [
+    {
+      "id": "16",
+      "name": "O3 Mini"
+    },
+    {
+      "id": "17",
+      "name": "Llama 3.1 405B"
+    },
+    {
+      "id": "22",
+      "name": "Qwen 3 32B"
+    },
+    {
+      "id": "19",
+      "name": "Claude Haiku 3.5"
+    },
+    {
+      "id": "27",
+      "name": "Gemini Flash 2.5"
+    },
+    {
+      "id": "26",
+      "name": "Gemini Pro 2.5"
+    },
+    {
+      "id": "39",
+      "name": "GPT OSS 120B"
+    },
+    {
+      "id": "7",
+      "name": "GPT 4o"
+    },
+    {
+      "id": "35",
+      "name": "O3"
+    },
+    {
+      "id": "24",
+      "name": "Gemini 2.5 Flash Lite"
+    },
+    {
+      "id": "38",
+      "name": "Kimi K2"
+    },
+    {
+      "id": "10",
+      "name": "Claude Sonnet 4"
+    },
+    {
+      "id": "29",
+      "name": "O4 Mini"
+    },
+    {
+      "id": "32",
+      "name": "Grok 4"
+    },
+    {
+      "id": "28",
+      "name": "GPT 5"
+    },
+    {
+      "id": "23",
+      "name": "Deepseek R1 (Official)"
+    },
+    {
+      "id": "20",
+      "name": "Llama 3.3 70B"
+    },
+    {
+      "id": "21",
+      "name": "Qwen 2.5 72B"
+    },
+    {
+      "id": "25",
+      "name": "Claude Sonnet 3.7"
+    },
+    {
+      "id": "31",
+      "name": "GPT 5 Nano"
+    },
+    {
+      "id": "12",
+      "name": "GPT 4o Mini"
+    },
+    {
+      "id": "30",
+      "name": "GPT 5 Mini"
+    },
+    {
+      "id": "15",
+      "name": "Gemini Flash Lite 2.0"
+    },
+    {
+      "id": "33",
+      "name": "Grok Mini 3"
+    }
+  ]
+}

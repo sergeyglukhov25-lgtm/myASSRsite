@@ -1,0 +1,27 @@
+{
+  "frames": [
+    {
+      "url": "https://www.matrisacademy.com/matrisacademy/eep/index2.aspx?encQS=7f20BdQ1AoxYBbUfK+c5q/VbWsOny+q0s4mxg033Et+cF8VPfx++Y8/Gcu6Iv5CXD6l4orTVU9nGng6MbvT975aPMYK54Xt5TsvzvuIkVBWTPUeUT43QAY/mXtsYobiI",
+      "displayName": "Matris Academy",
+      "icon": "graduation-cap",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ""
+    },
+    {
+      "url": "https://mail.yandex.ru/?from=profile_left_panel&uid=1130000063891160#template",
+      "displayName": "Letter to Kemal",
+      "icon": "mail",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ""
+    }
+  ],
+  "padding": 5
+}

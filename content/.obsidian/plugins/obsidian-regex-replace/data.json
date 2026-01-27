@@ -1,0 +1,10 @@
+{
+  "findText": "::: ---",
+  "replaceText": ":::\n\n---\n\n",
+  "useRegEx": true,
+  "selOnly": false,
+  "caseInsensitive": false,
+  "processLineBreak": true,
+  "processTab": false,
+  "prefillFind": false
+}

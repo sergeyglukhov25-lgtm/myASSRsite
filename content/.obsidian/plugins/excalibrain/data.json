@@ -1,0 +1,259 @@
+{
+  "compactView": true,
+  "compactingFactor": 1.5,
+  "minLinkLength": 18,
+  "excalibrainFilepath": "excalibrain/excalibrain.md",
+  "indexUpdateInterval": 25000,
+  "hierarchy": {
+    "exclusions": [
+      "excalidraw-border-color",
+      "excalidraw-css",
+      "excalidraw-default-mode",
+      "excalidraw-export-dark",
+      "excalidraw-export-pngscale",
+      "excalidraw-export-svgpadding",
+      "excalidraw-export-transparent",
+      "excalidraw-font",
+      "excalidraw-font-color",
+      "excalidraw-link-brackets",
+      "excalidraw-link-prefix",
+      "excalidraw-linkbutton-opacity",
+      "excalidraw-onload-script",
+      "excalidraw-plugin",
+      "excalidraw-url-prefix",
+      "kanban-plugin"
+    ],
+    "parents": [
+      "Parent",
+      "Parents",
+      "u",
+      "up"
+    ],
+    "children": [
+      "Child",
+      "Children",
+      "d",
+      "down"
+    ],
+    "friends": [
+      "Friend",
+      "Friends",
+      "j",
+      "Jump",
+      "Jumps"
+    ],
+    "leftFriends": [
+      "Friend",
+      "Friends",
+      "j",
+      "Jump",
+      "Jumps"
+    ],
+    "rightFriends": [
+      "cons",
+      "disadvantages",
+      "missing",
+      "opposes"
+    ],
+    "previous": [
+      "Before",
+      "Prev",
+      "Previous",
+      "w",
+      "West"
+    ],
+    "next": [
+      "After",
+      "e",
+      "East",
+      "n",
+      "Next"
+    ]
+  },
+  "inferAllLinksAsFriends": false,
+  "inverseInfer": false,
+  "inverseArrowDirection": true,
+  "renderAlias": true,
+  "nodeTitleScript": "",
+  "backgroundColor": "#0c3e6aff",
+  "excludeFilepaths": [],
+  "autoOpenCentralDocument": true,
+  "toggleEmbedTogglesAutoOpen": true,
+  "showInferredNodes": true,
+  "showAttachments": true,
+  "showURLNodes": true,
+  "showVirtualNodes": true,
+  "showFolderNodes": false,
+  "showTagNodes": true,
+  "showPageNodes": true,
+  "showNeighborCount": true,
+  "showFullTagName": true,
+  "maxItemCount": 5,
+  "renderSiblings": true,
+  "baseNodeStyle": {
+    "prefix": "",
+    "backgroundColor": "#00000066",
+    "fillStyle": "solid",
+    "textColor": "#ffffffff",
+    "borderColor": "#00000000",
+    "fontSize": 20,
+    "fontFamily": 3,
+    "maxLabelLength": 30,
+    "roughness": 0,
+    "strokeShaprness": "round",
+    "strokeWidth": 1,
+    "strokeStyle": "solid",
+    "padding": 10,
+    "gateRadius": 5,
+    "gateOffset": 15,
+    "gateStrokeColor": "#ffffffff",
+    "gateBackgroundColor": "#ffffffff",
+    "gateFillStyle": "solid"
+  },
+  "centralNodeStyle": {
+    "fontSize": 30,
+    "backgroundColor": "#C49A13FF",
+    "textColor": "#000000ff"
+  },
+  "inferredNodeStyle": {
+    "backgroundColor": "#000005b3",
+    "textColor": "#95c7f3ff"
+  },
+  "urlNodeStyle": {
+    "prefix": "🌐 "
+  },
+  "virtualNodeStyle": {
+    "backgroundColor": "#ff000066",
+    "fillStyle": "hachure",
+    "textColor": "#ffffffff"
+  },
+  "siblingNodeStyle": {
+    "fontSize": 15
+  },
+  "attachmentNodeStyle": {
+    "prefix": "📎 "
+  },
+  "folderNodeStyle": {
+    "prefix": "📂 ",
+    "strokeShaprness": "sharp",
+    "borderColor": "#ffd700ff",
+    "textColor": "#ffd700ff"
+  },
+  "tagNodeStyle": {
+    "prefix": "#",
+    "strokeShaprness": "sharp",
+    "borderColor": "#4682b4ff",
+    "textColor": "#4682b4ff"
+  },
+  "tagNodeStyles": {},
+  "tagStyleList": [],
+  "primaryTagField": "Note type",
+  "primaryTagFieldLowerCase": "note-type",
+  "displayAllStylePrefixes": true,
+  "baseLinkStyle": {
+    "strokeColor": "#696969FF",
+    "strokeWidth": 1,
+    "strokeStyle": "solid",
+    "roughness": 0,
+    "startArrowHead": "none",
+    "endArrowHead": "none",
+    "showLabel": false,
+    "fontSize": 10,
+    "fontFamily": 2,
+    "textColor": "#ffffffff"
+  },
+  "inferredLinkStyle": {
+    "strokeStyle": "dashed"
+  },
+  "folderLinkStyle": {
+    "strokeColor": "#ffd700ff"
+  },
+  "tagLinkStyle": {
+    "strokeColor": "#4682b4ff"
+  },
+  "hierarchyLinkStyles": {
+    "Parent": {},
+    "Parents": {},
+    "u": {},
+    "up": {},
+    "Child": {},
+    "Children": {},
+    "d": {},
+    "down": {},
+    "Friend": {},
+    "Friends": {},
+    "j": {},
+    "Jump": {},
+    "Jumps": {}
+  },
+  "navigationHistory": [
+    "Excalidraw/Drawing 2023-05-18 14.24.22.excalidraw.md",
+    "folder:excalibrain",
+    "Drawing 2023-05-17 13.54.27.excalidraw.md",
+    "Excalidraw/ExcaliBrain Snapshot - Без названия 8_1.excalidraw.md",
+    "Untitled Diagram.svg",
+    "Без названия/ШС в кино.md",
+    "Шесть сигм в кино.md",
+    "Разница между средним и стандартным отклонением.md",
+    "Без названия/Effector (1).md",
+    "ANOVA.md",
+    "2023-05-17.md",
+    "Без названия 8.md",
+    "Архитектор Григорий Глухов.md",
+    "ДИ эффектора.md",
+    "Excalidraw/Франшиза 2023-05-23 11.46.45.excalidraw.md",
+    "Без названия/МБиШС.md",
+    "Курс эффектора 11.5/РГО/Шесть Сигм 3.0/Договор СОНО РГО разработка правил инвентаризации газа и ПК 30.03.2023.md",
+    "Курс эффектора 11.5/РГО/Шесть Сигм 3.0/Допсоглашение РГО.md",
+    "Курс эффектора 11.5/РГО/Мое предложение.md",
+    "FileGlobalFields/Letter.md",
+    "FileGlobalFields/OutID.md",
+    "FileType/Letter.md",
+    "Программа Зеленого пояса GBLSSASSR03-2022.md",
+    "Франшиза.md",
+    "Без названия 1.md",
+    "Письмо ММК.md",
+    "Оргструктура ШС3.md",
+    "folder:templates",
+    "templates/Письмо.md",
+    "Goodline предложение.md",
+    "ШестьСигм3Высокоточныекомплексы.pdf",
+    "Check Insert.md",
+    "WordPress.md",
+    "folder:/",
+    "1384463.docx",
+    "2211443.docx",
+    "2225733.docx",
+    "Предложения для Академии Ростеха 1.md",
+    "GPT Акселератор проектов.md",
+    "tag:goodline",
+    "Untitled Diagram 2.svg",
+    "media/ПодписьСГлухова.png",
+    "media/OESGLetterHeader3.png",
+    "media/OESGLetterHeader7.png",
+    "Lean Six Sigma Toolset.md",
+    "Sisecam Links.canvas",
+    "2023-10-04 sadasd.md",
+    "2023-04-17.md",
+    "Russixsigma.md",
+    "Вводный курс Лин Шесть Сигм.md"
+  ],
+  "allowOntologySuggester": true,
+  "ontologySuggesterParentTrigger": "::p",
+  "ontologySuggesterChildTrigger": "::c",
+  "ontologySuggesterLeftFriendTrigger": "::l",
+  "ontologySuggesterRightFriendTrigger": "::r",
+  "ontologySuggesterPreviousTrigger": "::e",
+  "ontologySuggesterNextTrigger": "::n",
+  "ontologySuggesterTrigger": ":::",
+  "ontologySuggesterMidSentenceTrigger": "(",
+  "boldFields": true,
+  "allowAutozoom": true,
+  "maxZoom": 1,
+  "allowAutofocuOnSearch": true,
+  "defaultAlwaysOnTop": true,
+  "embedCentralNode": false,
+  "centerEmbedWidth": 550,
+  "centerEmbedHeight": 700,
+  "ontologySuggesterFriendTrigger": "::f"
+}

@@ -1,0 +1,46 @@
+{
+  "botToken": "8968f7e6f04764c113bcc315d42ea856bde5f84b078ba20e3967f0c7649c268ab9fba0a71b3941686460e67e82511420",
+  "encryptionByPinCode": false,
+  "botTokenEncrypted": true,
+  "deleteMessagesFromTelegram": false,
+  "allowedChats": [
+    "1373936802"
+  ],
+  "mainDeviceId": "5c539200-c295-489d-9249-2e131a0aedd2",
+  "pluginVersion": "4.0.0",
+  "telegramSessionType": "bot",
+  "telegramSessionId": 20250723101605396,
+  "betaVersion": "",
+  "connectionStatusIndicatorType": "CONSTANT",
+  "cacheCleanupAtStartup": false,
+  "messageDistributionRules": [
+    {
+      "messageFilterQuery": "{{all}}",
+      "messageFilterConditions": [
+        {
+          "conditionType": "all",
+          "operation": "",
+          "value": ""
+        }
+      ],
+      "templateFilePath": "templates/TelegramSync.md",
+      "notePathTemplate": "Telegram/{{content:60}} - {{messageTime:YYYY-MM-DD--HH.mm.ss.SSS}}.md",
+      "filePathTemplate": "Telegram/{{file:type}}s/{{file:name}} - {{messageTime:YYYYMMDDHHmmssSSS}}.{{file:extension}}",
+      "reversedOrder": false,
+      "heading": ""
+    }
+  ],
+  "defaultMessageDelimiter": true,
+  "parallelMessageProcessing": false,
+  "processOldMessages": false,
+  "processOldMessagesSettings": {
+    "lastProcessingDate": 1759846594,
+    "daysLimit": 14,
+    "dialogsLimit": 100,
+    "messagesLimit": 1000,
+    "chatsForSearch": []
+  },
+  "processOtherBotsMessages": false,
+  "retryFailedMessagesProcessing": false,
+  "topicNames": []
+}

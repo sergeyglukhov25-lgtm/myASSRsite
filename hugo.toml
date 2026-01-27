@@ -1,0 +1,144 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'ru-ru'
+title = 'Ассоциация Шесть Сигм'
+theme = 'blowfish'
+
+[languages.ru]
+  languageCode = 'ru-ru'
+  languageName = 'Русский'
+  weight = 1
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  description = 'Официальный сайт Ассоциации Шесть Сигм'
+  
+  # Основные настройки BlowFish
+  colorScheme = "auto"
+  displayMode = "auto"
+  
+  # Изображения
+  logo = "logo.svg"
+  favicon = "favicon.ico"
+  
+  # Мета-настройки
+  defaultImage = "cover.jpg"
+  image = "cover.jpg"
+  
+  # Настройки статей
+  showReadingTime = true
+  showWordCount = true
+  showTableOfContents = true
+  
+  # Настройки блога
+  showBreadcrumbs = true
+  showSummary = true
+  showArticleNumbers = false
+  showEdit = false
+  showDate = true
+  showAuthor = true
+  showHeadingAnchors = true
+  showCodeCopyButtons = true
+
+# Настройки меню
+[[menu.main]]
+  name = "Главная"
+  pageRef = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Обучение"
+  pageRef = "/courses"
+  weight = 2
+
+[[menu.main]]
+  name = "О сайте"
+  pageRef = "/about"
+  weight = 3
+
+[[menu.main]]
+  name = "Проекты"
+  pageRef = "/projects"
+  weight = 4
+
+[[menu.main]]
+  name = "Контакты"
+  pageRef = "/contact"
+  weight = 5
+
+# Настройки поиска
+[services.search]
+  type = "fusejs"
+
+# Настройки статей
+[params.article]
+  showNavigation = true
+  showRelated = true
+
+# Настройки нижнего колонтитула
+[params.footer]
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+
+# ОБНОВЛЕННЫЕ НАСТРОЙКИ ГЛАВНОЙ СТРАНИЦЫ
+[params.homepage]
+  layout = "custom"  # Используем кастомный layout для главной страницы
+  title = "Ассоциация Шесть Сигм"  # Заголовок на главной странице
+  subtitle = "Повышение качества через статистическое управление процессами"  # Подзаголовок
+  
+  # Фон главной страницы
+  backgroundImage = "background.jpg"  # Фоновое изображение
+  
+  # Стилизация фона
+  backgroundDarken = 0.5  # Затемнение фона (0-1, где 1 - максимальное затемнение)
+  backgroundSize = "cover"  # cover, contain, auto
+  backgroundPosition = "center"  # center, top, bottom, left, right
+  
+  # Логотип на главной странице
+  logo = "logo.svg"  # Логотип (можно использовать другой, чем в основном заголовке)
+  logoWidth = 200  # Ширина логотипа в пикселях
+  logoHeight = 200  # Высота логотипа в пикселях
+
+  # Кнопки на главной странице
+  [[params.homepage.buttons]]
+    text = "Вступить в ассоциацию"
+    url = "/join"
+    icon = "fas fa-user-plus"
+    type = "primary"  # primary, secondary, outline
+  
+  [[params.homepage.buttons]]
+    text = "Наши проекты"
+    url = "/projects"
+    icon = "fas fa-project-diagram"
+    type = "secondary"
+  
+  [[params.homepage.buttons]]
+    text = "Контакты"
+    url = "/contact"
+    icon = "fas fa-envelope"
+    type = "outline"
+  
+  # Особенности/преимущества (отображаются под заголовком)
+  [[params.homepage.features]]
+    title = "Экспертиза"
+    description = "Ведущие специалисты в области Six Sigma"
+    icon = "fas fa-graduation-cap"
+  
+  [[params.homepage.features]]
+    title = "Сертификация"
+    description = "Международные программы сертификации"
+    icon = "fas fa-certificate"
+  
+  [[params.homepage.features]]
+    title = "Сообщество"
+    description = "Профессиональное сообщество практиков"
+    icon = "fas fa-users"
+  
+  # Блок с последними статьями (опционально)
+  showRecent = true
+  recentTitle = "Последние публикации"
+  recentCount = 3
+  showMoreLink = true
+  moreLinkText = "Все статьи →"

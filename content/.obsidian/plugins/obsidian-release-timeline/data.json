@@ -1,0 +1,8 @@
+{
+  "defaultSortOrder": "desc",
+  "collapseEmptyYears": true,
+  "bulletPoints": true,
+  "collapseLimit": "3",
+  "collapseEmptyMonthsWeeklyTimeline": true,
+  "weekDisplayFormat": "weekNames"
+}

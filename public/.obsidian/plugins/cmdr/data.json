@@ -1,0 +1,109 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "obsidian-text-format:text-format-table2bullet",
+      "icon": "list",
+      "name": "Text Format: Convert table to bullet list",
+      "mode": "desktop"
+    },
+    {
+      "id": "obsidian-heading-shifter:apply-heading4",
+      "icon": "headingShifter_heading4",
+      "name": "Heading Shifter: Apply Heading 4",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-heading-shifter:apply-heading4",
+      "icon": "headingShifter_heading4",
+      "name": "Heading Shifter: Apply Heading 4",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "editor:save-file",
+      "icon": "arrow-up",
+      "name": "Сохранить текущий файл",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-regex-replace:obsidian-regex-replace",
+      "icon": "lucide-search",
+      "name": "Regex Find/Replace: Find and Replace using regular expressions",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-pluck:pluck-insert-from-url",
+      "icon": "globe",
+      "name": "Pluck: Insert contents from URL",
+      "mode": "any",
+      "color": "#1b51f3"
+    },
+    {
+      "id": "workspace:export-pdf",
+      "icon": "file-input",
+      "name": "Экспортировать в PDF",
+      "mode": "any",
+      "color": "#000ba3"
+    },
+    {
+      "id": "file-explorer:duplicate-file",
+      "icon": "lucide-files",
+      "name": "Make a copy of the current file",
+      "mode": "any"
+    },
+    {
+      "id": "slurp:create-note-from-url",
+      "icon": "arrow-left-right",
+      "name": "Slurp: Create note from URL",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "editor:save-file",
+      "icon": "airplay",
+      "name": "Сохранить текущий файл",
+      "mode": "any"
+    }
+  ],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-text-format:text-format-table2bullet"
+        }
+      ],
+      "name": "Bullet",
+      "icon": "list",
+      "startup": false
+    }
+  ],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "Open Mermaid Toolbar",
+      "Сохранить текущий файл"
+    ]
+  },
+  "spacing": "8",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

@@ -1,0 +1,3 @@
+[params]
+  logo = "images/logo-colored.svg"          # ← относительный путь от assets/
+  # secondaryLogo = "images/logo-inverted.svg"   # опционально для тёмного режима

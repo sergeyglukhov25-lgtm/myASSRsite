@@ -1,0 +1,7 @@
+{
+  "deleteFileAfterConversion": false,
+  "importComments": true,
+  "fallbackAttachmentName": "Attachment",
+  "attachmentsFolder": "vault",
+  "customAttachmentsFolder": "Attachments"
+}

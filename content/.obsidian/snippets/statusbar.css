@@ -1,0 +1,4 @@
+.status-bar {
+    border-left: 1px solid var(--text-normal);
+    border-top: 1px solid var(--text-normal);
+}

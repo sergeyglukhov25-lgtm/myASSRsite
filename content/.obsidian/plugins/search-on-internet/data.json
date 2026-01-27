@@ -1,0 +1,23 @@
+{
+  "searches": [
+    {
+      "tags": [],
+      "query": "https://www.google.ru/search?&q={{query}}",
+      "name": "Google",
+      "encode": true
+    },
+    {
+      "tags": [],
+      "query": "https://en.wikipedia.org/wiki/Special:Search/{{query}}",
+      "name": "Wikipedia",
+      "encode": true
+    },
+    {
+      "tags": [],
+      "query": "",
+      "name": "ГОСТ Шесть Сигм",
+      "encode": true
+    }
+  ],
+  "useIframe": true
+}

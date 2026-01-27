@@ -1,0 +1,37 @@
+{
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 91
+  },
+  "spellcheck": true,
+  "promptDelete": false,
+  "showFrontmatter": false,
+  "showInlineTitle": true,
+  "attachmentFolderPath": "Attachments",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "strictLineBreaks": false,
+  "livePreview": false,
+  "propertiesInDocument": "hidden",
+  "autoConvertHtml": false,
+  "spellcheckDictionary": [
+    "промпта",
+    "интелелкта",
+    "ящичковой",
+    "A058S",
+    "ssbas",
+    "Хосин Канри",
+    "Processing",
+    "Матрис",
+    "Матрис",
+    "answer‘s",
+    "не<br><br>рассматривается",
+    "Солбоновну",
+    "Сэлмэг"
+  ],
+  "readableLineLength": false,
+  "showLineNumber": false
+}

@@ -1,0 +1,82 @@
+{
+  "callouts": {
+    "custom": [
+      "training",
+      "sixsigma3",
+      "Training",
+      "sssgame"
+    ],
+    "settings": {
+      "failure": [
+        {
+          "changes": {
+            "icon": "lucide-flame"
+          }
+        }
+      ],
+      "example": [
+        {
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "120, 82, 238"
+          }
+        }
+      ],
+      "Training": [
+        {
+          "changes": {
+            "icon": "lucide-graduation-cap",
+            "color": "1, 142, 29"
+          }
+        }
+      ],
+      "training": [
+        {
+          "changes": {
+            "icon": "lucide-graduation-cap",
+            "color": "54, 173, 20"
+          }
+        }
+      ],
+      "sixsigma3": [
+        {
+          "changes": {
+            "icon": "lucide-flame",
+            "color": "236, 31, 9"
+          }
+        }
+      ],
+      "success": [
+        {
+          "changes": {
+            "icon": "lucide-alert-triangle"
+          }
+        }
+      ],
+      "sssgame": [
+        {
+          "changes": {
+            "icon": "lucide-gamepad-2",
+            "color": "233, 151, 63"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

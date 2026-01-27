@@ -1,0 +1,33 @@
+{
+  "lang": "auto",
+  "profiles": [
+    {
+      "name": "Obsidian",
+      "apiType": "xml-rpc",
+      "endpoint": "https://russixsigma.ru",
+      "xmlRpcPath": "/xmlrpc.php",
+      "saveUsername": true,
+      "savePassword": true,
+      "isDefault": true,
+      "lastSelectedCategories": [
+        86
+      ],
+      "username": "Obsidian",
+      "encryptedPassword": {
+        "key": "{\"alg\":\"A256GCM\",\"ext\":true,\"k\":\"J2V1Nw4j0XbBErRJL0WAopsix_8iOj9smavgw7MeKNo\",\"key_ops\":[\"encrypt\",\"decrypt\"],\"kty\":\"oct\"}",
+        "vector": "4AXj0fGY38jCnAqy",
+        "encrypted": "BV63PSfJuwLlkzqm9L0KOTxoqWP7tG7lUldLeaTx33DBQwJdZUjWyNzu4Xfk"
+      }
+    }
+  ],
+  "showRibbonIcon": true,
+  "defaultPostStatus": "draft",
+  "defaultCommentStatus": "open",
+  "rememberLastSelectedCategories": true,
+  "showWordPressEditConfirm": true,
+  "mathJaxOutputType": "svg",
+  "commentConvertMode": "ignore",
+  "enableHtml": true,
+  "replaceMediaLinks": true,
+  "version": "2"
+}

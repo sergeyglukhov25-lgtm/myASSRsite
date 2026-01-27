@@ -1,0 +1,20 @@
+{
+  "snippets_file": "snippets : It is an obsidian plugin, that replaces your selected text.\nss3 : effector training.\nsst : <!--slide template=\"[[epl-Basic-slide]]\"-->$nl$ $end$\nssbas : <!-- slide template=\"[[mpl-Basic-slide]]\" -->$nl$$nl$::: Title$nl$$nl$::: $nl$ $nl$::: left-side $nl$ $nl$::: $nl$ $nl$---$nl$ $end$\nsscol : <!-- slide template=\"[[mpl-Basic-2column]]\" --> $nl$$nl$::: Title$nl$$nl$::: $nl$ $nl$::: left-side $nl$ $nl$::: $nl$ $nl$::: right-side$nl$$nl$::: $nl$$nl$---$nl$$end$\nmbbas : <!-- slide template=\"[[bpl-Basic-page]]\" -->$nl$$nl$::: Title$nl$$nl$::: $nl$ $nl$::: left-side $nl$ $nl$::: $nl$ $nl$---$nl$ $end$\nmb2 : <!-- slide template=\"[[bpl-Basic-2column]]\" --> $nl$$nl$::: Title$nl$$nl$::: $nl$ $nl$::: left-side $nl$ $nl$::: $nl$ $nl$::: right-side$nl$$nl$::: $nl$$nl$---$nl$$end$",
+  "snippets": [
+    "snippets : It is an obsidian plugin, that replaces your selected text.",
+    "ss3 : effector training.",
+    "sst : <!--slide template=\"[[epl-Basic-slide]]\"-->$nl$ $end$",
+    "ssbas : <!-- slide template=\"[[mpl-Basic-slide]]\" -->$nl$$nl$::: Title$nl$$nl$::: $nl$ $nl$::: left-side $nl$ $nl$::: $nl$ $nl$---$nl$ $end$",
+    "sscol : <!-- slide template=\"[[mpl-Basic-2column]]\" --> $nl$$nl$::: Title$nl$$nl$::: $nl$ $nl$::: left-side $nl$ $nl$::: $nl$ $nl$::: right-side$nl$$nl$::: $nl$$nl$---$nl$$end$",
+    "mbbas : <!-- slide template=\"[[bpl-Basic-page]]\" -->$nl$$nl$::: Title$nl$$nl$::: $nl$ $nl$::: left-side $nl$ $nl$::: $nl$ $nl$---$nl$ $end$",
+    "mb2 : <!-- slide template=\"[[bpl-Basic-2column]]\" --> $nl$$nl$::: Title$nl$$nl$::: $nl$ $nl$::: left-side $nl$ $nl$::: $nl$ $nl$::: right-side$nl$$nl$::: $nl$$nl$---$nl$$end$"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": true,
+  "useSpace": false,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}
