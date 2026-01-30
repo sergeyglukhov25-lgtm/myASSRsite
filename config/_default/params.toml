@@ -1,18 +1,28 @@
 [homepage]
-  layout = "background"          # ← основной параметр, определяет шаблон главной
-  homepageImage = "High_Night_Moscow.jpeg"   # для hero, card, background
-  showRecent = true           # показывать ли список последних статей
-  showRecentItems = 6         # сколько статей показывать (по умолчанию 6)
-  showMoreLink = true         # показывать кнопку "Больше статей"
-  showMoreLinkDest = "posts"  # куда вести кнопку (slug раздела, например "blog", "articles")
-  cardView = true             # карточки вместо списка (только если showRecent = true)
-  cardViewScreenWidth = false # карточки на всю ширину экрана
+  layout = "background"                  # ← это правильно
+  homepageImage = "High_Night_Moscow.jpeg"   # ← относительный путь ОТ assets/
+  # или homepageImage = "img/High_Night_Moscow.jpeg" если в assets/img/
+  showRecent = true
+  showRecentItems = 6
+  showMoreLink = true
+  showMoreLinkDest = "/posts"
+  cardView = true
+  cardViewScreenWidth = true
 
 [params]
-  customCSS = ["css/custom.css"]
+  logo = "logo.svg"        
+  secondaryLogo = "logo-dark.svg"         
+  disableTextInHeader = false   # ← если true — текст скрыт, логотип может остаться один, но иногда и он пропадает
 
 [article]
-  showTableOfContents = true          # ← это включает TOC глобально для всех статей
-  # Опционально, для красоты:
-  smartTOC = true                     # подсветка текущего раздела при скролле
-  smartTOCHideUnfocusedChildren = true # прячет неактивные вложенные пункты
+  showTableOfContents = true
+  smartTOC = true
+  smartTOCHideUnfocusedChildren = true
+
+[params.footer]
+  showCopyright       = true      # ← оставь true, чтобы копирайт показывался
+  showThemeAttribution = false     # ← это отключает "Работает на Hugo & Blowfish"
+  showScrollToTop     = true
+
+[params.header]
+  layout = "basic"                 # простой хедер с логотипом слева

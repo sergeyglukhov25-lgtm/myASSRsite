@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Ассоциация Шесть Сигм</title>
+    <link>http://localhost:1313/rucopy/tags/</link>
+    <description>Recent content in Tags on Ассоциация Шесть Сигм</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>rucopy</language>
+    <copyright>  © 2026 Ассоциация Шесть Сигм  
+  Москва, проспект Мира 124, корпус 15  
+  Все права защищены.
+  </copyright>
+    <atom:link href="http://localhost:1313/rucopy/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

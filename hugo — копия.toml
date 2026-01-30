@@ -1,0 +1,135 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'ru'
+title = 'Ассоциация Шесть Сигм'
+theme = 'blowfish'
+defaultContentLanguage = "ru"
+
+[languages.ru]
+  languageCode = 'ru'
+  languageName = 'Russian'
+  weight = 1
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  description = 'Официальный сайт Ассоциации Шесть Сигм'
+  
+  # Основные настройки BlowFish
+  colorScheme = "auto"
+  displayMode = "auto"
+
+  #images  
+  logo = "logo-dark.svg"
+  secondaryLogo = "logo.svg"
+  flavicon = "flavicon.svg"
+
+  # Мета-настройки
+  defaultImage = "cover.jpg"
+  image = "cover.jpg"
+  
+  # Настройки статей
+  showReadingTime = true
+  showWordCount = true
+  showTableOfContents = true
+  
+  # Настройки блога
+  showBreadcrumbs = true
+  showSummary = true
+  showArticleNumbers = false
+  showEdit = false
+  showDate = true
+  showAuthor = true
+  showHeadingAnchors = true
+  showCodeCopyButtons = true
+
+# Настройки меню
+[[menu.main]]
+  name = "Главная"
+  pageRef = "/"
+  weight = 1
+[[menu.main]]
+  name = "Обучение"
+  pageRef = "/courses"
+  weight = 2
+[[menu.main]]
+  name = "О сайте"
+  pageRef = "/about"
+  weight = 3
+[[menu.main]]
+  name = "Проекты"
+  pageRef = "/projects"
+  weight = 4
+[[menu.main]]
+  name = "Контакты"
+  pageRef = "/contact"
+  weight = 5
+
+# Настройки поиска
+[services.search]
+  type = "fusejs"
+
+# Настройки статей
+[params.article]
+  showNavigation = true
+  showRelated = true
+
+# Настройки нижнего колонтитула
+[params.footer]
+  showCopyright = true
+  showThemeAttribution = false          # ← можно поставить false, если не хочешь "Powered by Blowfish"
+  showAppearanceSwitcher = true
+
+# ОБНОВЛЕННЫЕ НАСТРОЙКИ ГЛАВНОЙ СТРАНИЦЫ
+[params.homepage]
+  layout = "custom"
+  title = "Ассоциация Шесть Сигм"
+  subtitle = "Повышение качества через статистическое управление процессами"
+  
+  backgroundImage = "background.jpg"
+  backgroundDarken = 0.5
+  backgroundSize = "cover"
+  backgroundPosition = "center"
+  
+  logo = "logo.svg"
+  logoWidth = 200
+  logoHeight = 200
+  
+  [[params.homepage.buttons]]
+    text = "Вступить в ассоциацию"
+    url = "/join"
+    icon = "fas fa-user-plus"
+    type = "primary"
+  
+  [[params.homepage.buttons]]
+    text = "Наши проекты"
+    url = "/projects"
+    icon = "fas fa-project-diagram"
+    type = "secondary"
+  
+  [[params.homepage.buttons]]
+    text = "Контакты"
+    url = "/contact"
+    icon = "fas fa-envelope"
+    type = "outline"
+  
+  [[params.homepage.features]]
+    title = "Экспертиза"
+    description = "Ведущие специалисты в области Six Sigma"
+    icon = "fas fa-graduation-cap"
+  
+  [[params.homepage.features]]
+    title = "Сертификация"
+    description = "Международные программы сертификации"
+    icon = "fas fa-certificate"
+  
+  [[params.homepage.features]]
+    title = "Сообщество"
+    description = "Профессиональное сообщество практиков"
+    icon = "fas fa-users"
+  
+  showRecent = true
+  recentTitle = "Последние публикации"
+  recentCount = 3
+  showMoreLink = true
+  moreLinkText = "Все статьи →"

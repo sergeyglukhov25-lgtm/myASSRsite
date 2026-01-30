@@ -9985,6 +9985,33 @@
   justify-content: center;
 }
 
+.ss-meeting-processor__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.ss-meeting-processor__filter {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: var(--ss-layer-base);
+  color: var(--text-muted);
+  font-size: 12px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.ss-meeting-processor__filter:hover {
+  border-color: var(--interactive-accent-hover);
+}
+
+.ss-meeting-processor__filter.is-active {
+  border-color: var(--interactive-accent);
+  background: color-mix(in srgb, var(--interactive-accent) 14%, var(--ss-layer-base));
+  color: var(--text-normal);
+}
+
 .ss-meeting-processor__list {
   max-height: 420px;
   overflow-y: auto;
@@ -10030,6 +10057,40 @@
   gap: 6px;
   color: var(--text-muted);
   font-size: 12px;
+}
+
+.ss-meeting-processor__file-badge-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.ss-meeting-processor__file-badge--status {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 999px;
+  padding: 2px 8px;
+  background: var(--background-primary);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.ss-meeting-processor__file-badge--status.is-processed {
+  background: var(--ss-surface-success);
+  border-color: var(--text-success);
+  color: var(--text-success);
+}
+
+.ss-meeting-processor__file-badge--status.is-stale {
+  background: var(--ss-surface-warning);
+  border-color: var(--text-warning);
+  color: var(--text-warning);
+}
+
+.ss-meeting-processor__file-badge--status.is-unprocessed {
+  background: var(--ss-layer-base);
+  border-color: var(--background-modifier-border);
+  color: var(--text-muted);
 }
 
 .ss-meeting-processor__file-badge-icon svg {
@@ -10378,6 +10439,108 @@
   color: var(--text-muted);
   line-height: 1.6;
   white-space: pre-wrap;
+}
+
+/* Language Section */
+.ss-youtube-canvas-modal__language-section {
+  margin-bottom: var(--ss-space-md);
+  padding: var(--ss-space-md);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--ss-radius-lg);
+  background: var(--ss-layer-muted);
+}
+
+.ss-youtube-canvas-modal__language-header {
+  display: flex;
+  align-items: center;
+  gap: var(--ss-space-sm);
+  margin-bottom: var(--ss-space-sm);
+  font-size: var(--ss-font-size-sm);
+  font-weight: var(--ss-font-weight-medium);
+  color: var(--text-muted);
+}
+
+.ss-youtube-canvas-modal__language-header svg {
+  width: 16px;
+  height: 16px;
+}
+
+.ss-youtube-canvas-modal__language-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--ss-space-sm);
+}
+
+.ss-youtube-canvas-modal__language-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ss-space-xs);
+  padding: 6px 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--ss-radius-full);
+  background: var(--background-primary);
+  color: var(--text-normal);
+  font-size: var(--ss-font-size-sm);
+  cursor: pointer;
+  transition: all var(--ss-transition-fast);
+}
+
+.ss-youtube-canvas-modal__language-chip:hover:not(:disabled) {
+  border-color: var(--interactive-accent);
+  background: var(--background-modifier-hover);
+}
+
+.ss-youtube-canvas-modal__language-chip--active {
+  border-color: var(--interactive-accent);
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  cursor: default;
+}
+
+.ss-youtube-canvas-modal__language-chip--active:hover {
+  background: var(--interactive-accent);
+}
+
+.ss-youtube-canvas-modal__language-chip:disabled {
+  opacity: 0.7;
+}
+
+.ss-youtube-canvas-modal__language-chip-code {
+  color: var(--text-muted);
+  font-size: var(--ss-font-size-xs);
+}
+
+.ss-youtube-canvas-modal__language-chip--active .ss-youtube-canvas-modal__language-chip-code {
+  color: var(--text-on-accent);
+  opacity: 0.8;
+}
+
+.ss-youtube-canvas-modal__language-chip-check {
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+}
+
+.ss-youtube-canvas-modal__language-chip-check svg {
+  width: 12px;
+  height: 12px;
+}
+
+.ss-youtube-canvas-modal__language-chip-badge {
+  font-size: 9px;
+  font-weight: var(--ss-font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 1px 4px;
+  border-radius: var(--ss-radius-sm);
+  background: var(--background-modifier-border);
+  color: var(--text-muted);
+  margin-left: 2px;
+}
+
+.ss-youtube-canvas-modal__language-chip--active .ss-youtube-canvas-modal__language-chip-badge {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--text-on-accent);
 }
 
 /* Status */
@@ -11923,6 +12086,16 @@ body:not(.theme-dark) .systemsculpt-favorite-toggle:not(.is-favorite):hover svg 
 /* Inline pill sizing for compact row placement */
 .systemsculpt-model-indicator-section.inline .systemsculpt-chip {
   max-width: 280px;
+}
+
+/* Toggle state styling for agent mode chip */
+.systemsculpt-chip.is-on {
+  border-color: var(--interactive-accent);
+  color: var(--text-normal);
+}
+
+.systemsculpt-chip.is-off {
+  opacity: 0.85;
 }
 
 
@@ -13498,6 +13671,125 @@ body:not(.theme-dark) .systemsculpt-favorite-toggle:not(.is-favorite):hover svg 
     width: 14px;
     height: 14px;
   }
+}
+
+
+/* tool-approval.css */
+/**
+ * Tool Approval UI Styles
+ *
+ * Styles for the approve/deny buttons shown for destructive tool calls
+ * and the "Allow All" button for multiple pending calls.
+ */
+
+/* Approval button group container */
+.systemsculpt-approval-buttons {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.systemsculpt-approval-buttons .systemsculpt-button {
+  padding: 2px 8px;
+  font-size: var(--font-ui-smallest);
+  line-height: 1.4;
+  min-height: unset;
+  border-radius: 4px;
+}
+
+/* Make "Always Allow" button more subtle */
+.systemsculpt-approval-buttons .systemsculpt-button-secondary {
+  opacity: 0.85;
+}
+
+.systemsculpt-approval-buttons .systemsculpt-button-secondary:hover {
+  opacity: 1;
+}
+
+/* "Allow All" container in group header */
+.systemsculpt-allow-all-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px 8px 4px 0;
+  margin-bottom: 2px;
+}
+
+.systemsculpt-allow-all-container .systemsculpt-button {
+  padding: 2px 10px;
+  font-size: var(--font-ui-smaller);
+}
+
+/* Subtle highlight for pending lines that need approval */
+.systemsculpt-chat-structured-line[data-state="pending"] {
+  background-color: var(--background-modifier-hover);
+  border-radius: 4px;
+  padding: 2px 4px;
+  margin: -2px -4px;
+}
+
+/* Ensure actions container displays properly when visible */
+.systemsculpt-chat-structured-line-actions {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* Inline tool actions (for chronological inline display) */
+.systemsculpt-inline-tool-actions {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.systemsculpt-inline-tool-actions .systemsculpt-button {
+  padding: 2px 8px;
+  font-size: var(--font-ui-smallest);
+  line-height: 1.4;
+  min-height: unset;
+  border-radius: 4px;
+}
+
+/* Inline tool line layout */
+.systemsculpt-inline-tool-line {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+/* Approval preview container */
+.systemsculpt-approval-preview {
+  margin-top: 8px;
+  padding: 8px;
+  background: var(--background-secondary);
+  border-radius: 6px;
+  border: 1px solid var(--background-modifier-border);
+}
+
+.systemsculpt-approval-diff {
+  max-height: 300px;
+  overflow: auto;
+}
+
+.systemsculpt-approval-ops ul {
+  margin: 0;
+  padding-left: 16px;
+  list-style: disc;
+}
+
+.systemsculpt-approval-ops li {
+  margin: 4px 0;
+  font-size: var(--font-ui-small);
+}
+
+.systemsculpt-approval-ops code {
+  font-family: var(--font-monospace);
+  background: var(--background-primary);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: var(--font-ui-smaller);
 }
 
 
@@ -15515,6 +15807,15 @@ mark.ss-hl {
   cursor: not-allowed;
 }
 
+.ss-context-file-item.is-attached {
+  opacity: 0.75;
+  cursor: default;
+}
+
+.ss-context-file-item.is-attached:hover {
+  background: var(--background-primary);
+}
+
 .ss-context-file-icon {
   width: var(--icon-m);
   height: var(--icon-m);
@@ -15546,6 +15847,12 @@ mark.ss-hl {
   overflow: hidden;
   text-overflow: ellipsis;
   margin-top: var(--size-2-1);
+}
+
+.ss-context-file-badge {
+  margin-top: var(--size-2-1);
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
 }
 
 .ss-context-file-item input[type="checkbox"] {

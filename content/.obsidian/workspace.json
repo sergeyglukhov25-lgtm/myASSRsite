@@ -150,9 +150,57 @@
               "icon": "lucide-file",
               "title": "Зеленый пояс Лин Шесть Сигм Real Estate"
             }
+          },
+          {
+            "id": "4a88fff6f3d288d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/projects.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "projects"
+            }
+          },
+          {
+            "id": "e1f9c2ba896c8b10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/Ассоциация/index.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -188,8 +236,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           },
           {
@@ -328,8 +376,8 @@
             "state": {
               "type": "khoj-chat-view",
               "state": {},
-              "icon": "message-circle",
-              "title": "Khoj Chat"
+              "icon": "lucide-ghost",
+              "title": "khoj-chat-view"
             }
           },
           {
@@ -357,18 +405,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "quick-tagger:Add tag to current note": false,
-      "quick-tagger:Remove tag from current note": false,
-      "bpmn-plugin:New BPMN": false,
-      "tasknotes:Open mini calendar": false,
-      "tasknotes:Open advanced calendar": false,
-      "tasknotes:Open task list": false,
-      "tasknotes:Open agenda": false,
-      "tasknotes:Open kanban board": false,
-      "tasknotes:Open pomodoro": false,
-      "tasknotes:Open pomodoro stats": false,
-      "tasknotes:Create new task": false,
-      "terminal:Open terminal": false,
       "templates:Вставить шаблон": false,
       "bases:Создать новую базу": false,
       "canvas:Создать новый холст": false,
@@ -399,19 +435,39 @@
       "obsidian-projects:Open projects": false,
       "obsidian42-text-transporter:Text Transporter": false,
       "khoj:Khoj": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "quick-tagger:Add tag to current note": false,
+      "quick-tagger:Remove tag from current note": false,
+      "bpmn-plugin:New BPMN": false,
+      "tasknotes:Open mini calendar": false,
+      "tasknotes:Open advanced calendar": false,
+      "tasknotes:Open task list": false,
+      "tasknotes:Open agenda": false,
+      "tasknotes:Open kanban board": false,
+      "tasknotes:Open pomodoro": false,
+      "tasknotes:Open pomodoro stats": false,
+      "tasknotes:Create new task": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "c3d8bffe046fb513",
+  "active": "e1f9c2ba896c8b10",
   "lastOpenFiles": [
-    "posts/Зеленый пояс Лин Шесть Сигм.md",
+    "posts/АпгрейдЧП/index.md",
+    "posts/Ассоциация/index.md",
+    "posts/Ассоциация/featured.png",
+    "posts/Ассоциация/CentralBank2.png",
+    "posts/Роль консультанта/index.md",
+    "posts/Ассоциация",
+    "posts/projects.md",
+    "posts/Роль консультанта/featured.png",
+    "Attachments",
     "posts/Зеленый пояс Лин Шесть Сигм Real Estate.md",
+    "posts/Зеленый пояс Лин Шесть Сигм.md",
     "posts/Лин Шесть Сигм в недвижимости.md",
     "posts/Апгрейд Черного пояса Лин Шесть сигм.md",
     "posts/Зеленый пояс для нефтянки.md",
     "posts/Зеленый пояс Lean Six Sigma.md",
     "posts/Черный пояс/index.md",
-    "posts/Роль консультанта/index.md",
     "posts/Черный пояс/NewGBCertificateTemplate2025.png",
     "posts/Черный пояс/featured.png",
     "posts/Черный пояс/MBBSSTrainingRoundLogo.png",
@@ -423,16 +479,13 @@
     "tags/Новая папка",
     "templates/Course.md",
     "_index.md",
-    "posts/projects.md",
     "posts/contacts.md",
     "CalendarMyYandexCalendar.ical",
     "Зеленый пояс для нефтянки",
     "templates",
-    "Без названия",
     "Templates",
     "posts/Курс зеленого пояса.md",
     "courses/Курс зеленого пояса.md",
-    "courses",
     "images/logo.svg",
     "posts/about.md",
     "posts/first.md",
@@ -441,15 +494,9 @@
     "tags/_index.md",
     "categories/_index.md",
     "Clippings/DeepSeek 13.md",
-    "Hugo Site Grock.md",
-    "Clippings/Инструкция по созданию сайта на Blowfish.md",
-    "Шаблоны страниц в Hugo.md",
     "HTML import/Attachments/CentralBank2.png",
     "HTML import/Attachments/ASSRRebLogoSmall3.png",
     "Attachments/5b588fa1bf3b9b1ea3dae5fcb68ab81e_MD5.jpg",
-    "Attachments/357e362a47b2a27cd7309c3a2c6b434b_MD5.jpg",
-    "Attachments/44e25bec8333b6c1b7a3dc30877df36d_MD5.jpg",
-    "Attachments/0f3fe290b510222bc9c0374c78ecd66b_MD5.jpg",
     "Без названия.canvas",
     "Без названия 2.canvas",
     "Без названия 1.canvas",

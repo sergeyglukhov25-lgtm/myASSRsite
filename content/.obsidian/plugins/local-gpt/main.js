@@ -96,7 +96,7 @@ var require_dist = __commonJS({
       waitForAI: () => waitForAI3
     });
     module2.exports = __toCommonJS2(sdk_exports);
-    var import_obsidian5 = require("obsidian");
+    var import_obsidian6 = require("obsidian");
     var FALLBACK_TIMEOUT = 100;
     var REQUIRED_AI_PROVIDERS_VERSION = 3;
     var AI_PROVIDERS_READY_EVENT = "ai-providers-ready";
@@ -212,7 +212,7 @@ var require_dist = __commonJS({
       return waitForAIProviders(manager.getApp(), manager.getPlugin());
     }
     __name(waitForAI3, "waitForAI");
-    var AIProvidersFallbackSettingsTab = class extends import_obsidian5.PluginSettingTab {
+    var AIProvidersFallbackSettingsTab = class extends import_obsidian6.PluginSettingTab {
       constructor(app, plugin) {
         super(app, plugin);
         this.plugin = plugin;
@@ -223,7 +223,7 @@ var require_dist = __commonJS({
         const aiProvidersNotice = containerEl.createEl("div");
         aiProvidersNotice.addClass("ai-providers-notice");
         aiProvidersNotice.appendChild(
-          (0, import_obsidian5.sanitizeHTMLToDom)(`
+          (0, import_obsidian6.sanitizeHTMLToDom)(`
             <p>\u26A0\uFE0F This plugin requires <a href="obsidian://show-plugin?id=ai-providers">AI Providers</a> plugin to be installed.</p>
             <p>Please install and configure AI Providers plugin first.</p>
         `)
@@ -240,10 +240,10 @@ __export(main_exports, {
   default: () => LocalGPT
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian4 = require("obsidian");
+var import_obsidian5 = require("obsidian");
 
 // src/LocalGPTSettingTab.ts
-var import_obsidian = require("obsidian");
+var import_obsidian2 = require("obsidian");
 
 // src/defaultSettings.ts
 var DEFAULT_SETTINGS = {
@@ -369,7 +369,7 @@ var de_default = {
     actions: "Aktionen",
     quickAdd: "Schnell hinzuf\xFCgen",
     quickAddPlaceholder: "Aktion einf\xFCgen",
-    quickAddDesc: 'Sie k\xF6nnen die besten S\xE4tze von Prompts teilen oder einen <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/2">aus der Community</a> erhalten.<br/><strong>Wichtig:</strong> Wenn Sie bereits eine Aktion mit demselben Namen haben, wird sie \xFCberschrieben.',
+    quickAddDesc: "F\xFCgen Sie eine geteilte Aktion ein, um sie schnell hinzuzuf\xFCgen.<br/><strong>Wichtig:</strong> Wenn Sie bereits eine Aktion mit demselben Namen haben, wird sie \xFCberschrieben.",
     addNewManually: "Manuell hinzuf\xFCgen",
     addAction: "Aktion hinzuf\xFCgen",
     addSeparator: "Trenner hinzuf\xFCgen",
@@ -389,6 +389,35 @@ var de_default = {
     save: "Speichern",
     separator: "Trenner",
     actionsList: "Aktionsliste",
+    communityActions: "Community-Aktionen",
+    communityActionsDesc: 'Unten findest du Aktionen aus der GitHub-Diskussion. Klicke auf \u201EInstallieren\u201C, um eine Aktion hinzuzuf\xFCgen, oder <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/89">teile deine eigene</a>.',
+    communityActionsOpen: "Community-Aktionen \xF6ffnen",
+    communityActionsOpenDesc: "Durchsuchen und installieren Sie Community-Aktionen, die von unserer Community erstellt wurden.",
+    communityActionsAutoUpdate: "Community-Aktionen werden beim Aktualisieren der Liste automatisch aktualisiert. Ge\xE4nderte Aktionen bleiben unangetastet.",
+    communityActionsLanguage: "Sprache der Community-Aktionen",
+    communityActionsLanguageDesc: "Standard ist die Obsidian-Sprache.",
+    communityActionsSearch: "Community-Aktionen filtern",
+    communityActionsSearchPlaceholder: "Suche nach Name, Beschreibung, Prompt oder System-Prompt",
+    communityActionsScoreLabel: "Bewertung",
+    communityActionsByAuthor: "von {{author}}",
+    communityActionsReplaceTag: "Ersetzt Auswahl",
+    communityActionsBadge: "Community",
+    communityActionsInstalled: "Installiert",
+    communityActionsModified: "Ge\xE4ndert",
+    communityActionsInList: "Bereits in Aktionen",
+    communityActionsInstall: "Installieren",
+    communityActionsReplace: "Ersetzen",
+    communityActionsUpdate: "Aktualisieren",
+    communityActionsRefresh: "Aktualisieren",
+    communityActionsLoading: "Aktionen werden geladen...",
+    communityActionsEmpty: "F\xFCr diese Sprache gibt es noch keine Aktionen.",
+    communityActionsSearchEmpty: "Keine Aktionen passen zu deiner Suche.",
+    communityActionsError: "Community-Aktionen konnten nicht geladen werden. Bitte sp\xE4ter erneut versuchen.",
+    communityActionsModifiedNote: "Lokal ge\xE4ndert. Auto-Updates pausiert.",
+    communityActionsConflictNote: "Eine Aktion mit diesem Namen existiert bereits. Installation \xFCberschreibt sie.",
+    communityActionsSyncSummary: "{{updated}} Aktionen aktualisiert, {{skipped}} ge\xE4nderte \xFCbersprungen.",
+    communityActionsUpdated: "{{count}} Community-Aktionen aktualisiert.",
+    communityActionsSkipped: "{{count}} ge\xE4nderte Community-Aktionen \xFCbersprungen.",
     changeOrder: "Reihenfolge \xE4ndern",
     done: "Fertig",
     advancedSettings: "Erweiterte Einstellungen",
@@ -455,7 +484,7 @@ var en_default = {
     actions: "Actions",
     quickAdd: "Quick add",
     quickAddPlaceholder: "Paste action",
-    quickAddDesc: 'You can share the best sets prompts or get one <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/2">from the community</a>.<br/><strong>Important:</strong> if you already have an action with the same name it will be overwritten.',
+    quickAddDesc: "Paste a shared action to add it quickly.<br/><strong>Important:</strong> if you already have an action with the same name it will be overwritten.",
     addNewManually: "Add new manually",
     addAction: "Add action",
     addSeparator: "Add separator",
@@ -475,6 +504,35 @@ var en_default = {
     save: "Save",
     separator: "Separator",
     actionsList: "Actions list",
+    communityActions: "Community actions",
+    communityActionsDesc: 'Below are actions collected from the GitHub discussion. Click Install to add one or <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/89">share yours</a>.',
+    communityActionsOpen: "Open community actions",
+    communityActionsOpenDesc: "Browse and install community actions made by our amazing community.",
+    communityActionsAutoUpdate: "Community actions update automatically when the list refreshes. Modified actions are left untouched.",
+    communityActionsLanguage: "Community actions language",
+    communityActionsLanguageDesc: "Defaults to your Obsidian language.",
+    communityActionsSearch: "Filter community actions",
+    communityActionsSearchPlaceholder: "Search by name, description, prompt, or system prompt",
+    communityActionsScoreLabel: "Score",
+    communityActionsByAuthor: "by {{author}}",
+    communityActionsReplaceTag: "Replaces selection",
+    communityActionsBadge: "Community",
+    communityActionsInstalled: "Installed",
+    communityActionsModified: "Modified",
+    communityActionsInList: "In your actions",
+    communityActionsInstall: "Install",
+    communityActionsReplace: "Replace",
+    communityActionsUpdate: "Update",
+    communityActionsRefresh: "Refresh",
+    communityActionsLoading: "Loading actions...",
+    communityActionsEmpty: "No actions for this language yet.",
+    communityActionsSearchEmpty: "No actions match your search.",
+    communityActionsError: "Failed to load community actions. Please try again later.",
+    communityActionsModifiedNote: "Modified locally. Auto-updates are paused.",
+    communityActionsConflictNote: "An action with this name already exists. Installing will overwrite it.",
+    communityActionsSyncSummary: "Updated {{updated}} actions. Skipped {{skipped}} modified.",
+    communityActionsUpdated: "Updated {{count}} community actions.",
+    communityActionsSkipped: "Skipped {{count}} modified community actions.",
     changeOrder: "Change order",
     done: "Done",
     advancedSettings: "Advanced settings",
@@ -541,7 +599,7 @@ var es_default = {
     actions: "Acciones",
     quickAdd: "A\xF1adir r\xE1pido",
     quickAddPlaceholder: "Pegar acci\xF3n",
-    quickAddDesc: 'Puedes compartir los mejores conjuntos de instrucciones u obtener uno <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/2">de la comunidad</a>.<br/><strong>Importante:</strong> si ya tienes una acci\xF3n con el mismo nombre, se sobrescribir\xE1.',
+    quickAddDesc: "Pega una acci\xF3n compartida para a\xF1adirla r\xE1pidamente.<br/><strong>Importante:</strong> si ya tienes una acci\xF3n con el mismo nombre, se sobrescribir\xE1.",
     addNewManually: "A\xF1adir nueva manualmente",
     addAction: "A\xF1adir acci\xF3n",
     addSeparator: "A\xF1adir separador",
@@ -576,7 +634,36 @@ var es_default = {
     resetActions: "Restablecer acciones",
     resetActionsDesc: "\u{1F6A8} Restablecer todas las acciones a los valores predeterminados. Esto no se puede deshacer y eliminar\xE1 todas tus acciones personalizadas.",
     reset: "Restablecer",
-    confirmReset: "Confirmar restablecimiento"
+    confirmReset: "Confirmar restablecimiento",
+    communityActions: "Acciones de la comunidad",
+    communityActionsDesc: `A continuaci\xF3n se muestran acciones recopiladas de la discusi\xF3n en GitHub. Haz clic en 'Instalar' para a\xF1adir una, o <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/89">comparte la tuya</a>.`,
+    communityActionsOpen: "Abrir acciones de la comunidad",
+    communityActionsOpenDesc: "Explora e instala acciones creadas por nuestra comunidad.",
+    communityActionsAutoUpdate: "Las acciones de la comunidad se actualizan autom\xE1ticamente al refrescar la lista. Las acciones modificadas permanecen intactas.",
+    communityActionsLanguage: "Idioma de las acciones de la comunidad",
+    communityActionsLanguageDesc: "Por defecto es el idioma de tu Obsidian.",
+    communityActionsSearch: "Filtrar acciones de la comunidad",
+    communityActionsSearchPlaceholder: "Busca por nombre, descripci\xF3n, prompt o prompt del sistema",
+    communityActionsScoreLabel: "Puntuaci\xF3n",
+    communityActionsByAuthor: "por {{author}}",
+    communityActionsReplaceTag: "Reemplaza selecci\xF3n",
+    communityActionsBadge: "Comunidad",
+    communityActionsInstalled: "Instalado",
+    communityActionsModified: "Modificado",
+    communityActionsInList: "En tus acciones",
+    communityActionsInstall: "Instalar",
+    communityActionsReplace: "Reemplazar",
+    communityActionsUpdate: "Actualizar",
+    communityActionsRefresh: "Refrescar",
+    communityActionsLoading: "Cargando acciones...",
+    communityActionsEmpty: "A\xFAn no hay acciones para este idioma.",
+    communityActionsSearchEmpty: "No hay acciones que coincidan con tu b\xFAsqueda.",
+    communityActionsError: "Error al cargar acciones de la comunidad. Int\xE9ntalo de nuevo m\xE1s tarde.",
+    communityActionsModifiedNote: "Modificado localmente. Actualizaciones autom\xE1ticas pausadas.",
+    communityActionsConflictNote: "Ya existe una acci\xF3n con este nombre. Instalarla la sobrescribir\xE1.",
+    communityActionsSyncSummary: "{{updated}} acciones actualizadas. {{skipped}} modificadas omitidas.",
+    communityActionsUpdated: "Se actualizaron {{count}} acciones de la comunidad.",
+    communityActionsSkipped: "Se omitieron {{count}} acciones de la comunidad modificadas."
   }
 };
 
@@ -627,7 +714,7 @@ var fr_default = {
     actions: "Actions",
     quickAdd: "Ajout rapide",
     quickAddPlaceholder: "Coller l'action",
-    quickAddDesc: `Vous pouvez partager les meilleurs sets d'invites ou en obtenir un <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/2">de la communaut\xE9</a>.<br/><strong>Important :</strong> si vous avez d\xE9j\xE0 une action avec le m\xEAme nom, elle sera \xE9cras\xE9e.`,
+    quickAddDesc: "Collez une action partag\xE9e pour l'ajouter rapidement.<br/><strong>Important :</strong> si vous avez d\xE9j\xE0 une action portant le m\xEAme nom, elle sera \xE9cras\xE9e.",
     addNewManually: "Ajouter manuellement",
     addAction: "Ajouter une action",
     addSeparator: "Ajouter un s\xE9parateur",
@@ -662,7 +749,36 @@ var fr_default = {
     resetActions: "R\xE9initialiser les actions",
     resetActionsDesc: "\u{1F6A8} R\xE9initialiser toutes les actions par d\xE9faut. Cela ne peut pas \xEAtre annul\xE9 et supprimera toutes vos actions personnalis\xE9es.",
     reset: "R\xE9initialiser",
-    confirmReset: "Confirmer la r\xE9initialisation"
+    confirmReset: "Confirmer la r\xE9initialisation",
+    communityActions: "Actions de la communaut\xE9",
+    communityActionsDesc: 'Vous trouverez ci-dessous des actions collect\xE9es \xE0 partir de la discussion GitHub. Cliquez sur Installer pour en ajouter une ou <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/89">partagez la v\xF4tre</a>.',
+    communityActionsOpen: "Ouvrir les actions de la communaut\xE9",
+    communityActionsOpenDesc: "Parcourez et installez des actions cr\xE9\xE9es par notre communaut\xE9.",
+    communityActionsAutoUpdate: "Les actions de la communaut\xE9 se mettent \xE0 jour automatiquement lors de l'actualisation de la liste. Les actions modifi\xE9es restent inchang\xE9es.",
+    communityActionsLanguage: "Langue des actions de la communaut\xE9",
+    communityActionsLanguageDesc: "Par d\xE9faut, la langue de votre Obsidian.",
+    communityActionsSearch: "Filtrer les actions de la communaut\xE9",
+    communityActionsSearchPlaceholder: "Rechercher par nom, description, prompt ou prompt syst\xE8me",
+    communityActionsScoreLabel: "Score",
+    communityActionsByAuthor: "par {{author}}",
+    communityActionsReplaceTag: "Remplace la s\xE9lection",
+    communityActionsBadge: "Communaut\xE9",
+    communityActionsInstalled: "Install\xE9",
+    communityActionsModified: "Modifi\xE9",
+    communityActionsInList: "Dans vos actions",
+    communityActionsInstall: "Installer",
+    communityActionsReplace: "Remplacer",
+    communityActionsUpdate: "Mettre \xE0 jour",
+    communityActionsRefresh: "Actualiser",
+    communityActionsLoading: "Chargement des actions...",
+    communityActionsEmpty: "Pas encore d'actions pour cette langue.",
+    communityActionsSearchEmpty: "Aucune action ne correspond \xE0 votre recherche.",
+    communityActionsError: "\xC9chec du chargement des actions de la communaut\xE9. Veuillez r\xE9essayer plus tard.",
+    communityActionsModifiedNote: "Modifi\xE9 localement. Mises \xE0 jour automatiques suspendues.",
+    communityActionsConflictNote: "Une action portant ce nom existe d\xE9j\xE0. L'installation l'\xE9crasera.",
+    communityActionsSyncSummary: "{{updated}} actions mises \xE0 jour. {{skipped}} modifi\xE9es ignor\xE9es.",
+    communityActionsUpdated: "{{count}} actions de la communaut\xE9 mises \xE0 jour.",
+    communityActionsSkipped: "{{count}} actions de la communaut\xE9 modifi\xE9es ignor\xE9es."
   }
 };
 
@@ -713,7 +829,7 @@ var it_default = {
     actions: "Azioni",
     quickAdd: "Aggiunta rapida",
     quickAddPlaceholder: "Incolla azione",
-    quickAddDesc: `Puoi condividere i migliori set di prompt o ottenerne uno <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/2">dalla community</a>.<br/><strong>Importante:</strong> se hai gi\xE0 un'azione con lo stesso nome, verr\xE0 sovrascritta.`,
+    quickAddDesc: "Incolla un'azione condivisa per aggiungerla rapidamente.<br/><strong>Importante:</strong> se hai gi\xE0 un'azione con lo stesso nome, verr\xE0 sovrascritta.",
     addNewManually: "Aggiungi nuova manualmente",
     addAction: "Aggiungi azione",
     addSeparator: "Aggiungi separatore",
@@ -748,7 +864,36 @@ var it_default = {
     resetActions: "Ripristina azioni",
     resetActionsDesc: "\u{1F6A8} Ripristina tutte le azioni ai valori predefiniti. Questa operazione non pu\xF2 essere annullata ed eliminer\xE0 tutte le tue azioni personalizzate.",
     reset: "Ripristina",
-    confirmReset: "Conferma ripristino"
+    confirmReset: "Conferma ripristino",
+    communityActions: "Azioni della community",
+    communityActionsDesc: 'Di seguito sono riportate le azioni raccolte dalla discussione su GitHub. Clicca su Installa per aggiungerne una o <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/89">condividi la tua</a>.',
+    communityActionsOpen: "Apri azioni della community",
+    communityActionsOpenDesc: "Sfoglia e installa azioni create dalla community.",
+    communityActionsAutoUpdate: "Le azioni della community si aggiornano automaticamente quando l'elenco viene aggiornato. Le azioni modificate rimangono invariate.",
+    communityActionsLanguage: "Lingua delle azioni della community",
+    communityActionsLanguageDesc: "Predefinito nella lingua di Obsidian.",
+    communityActionsSearch: "Filtra azioni della community",
+    communityActionsSearchPlaceholder: "Cerca per nome, descrizione, prompt o prompt di sistema",
+    communityActionsScoreLabel: "Punteggio",
+    communityActionsByAuthor: "di {{author}}",
+    communityActionsReplaceTag: "Sostituisce la selezione",
+    communityActionsBadge: "Community",
+    communityActionsInstalled: "Installato",
+    communityActionsModified: "Modificato",
+    communityActionsInList: "Nelle tue azioni",
+    communityActionsInstall: "Installa",
+    communityActionsReplace: "Sostituisci",
+    communityActionsUpdate: "Aggiorna",
+    communityActionsRefresh: "Aggiorna",
+    communityActionsLoading: "Caricamento azioni...",
+    communityActionsEmpty: "Nessuna azione ancora per questa lingua.",
+    communityActionsSearchEmpty: "Nessuna azione corrisponde alla tua ricerca.",
+    communityActionsError: "Impossibile caricare le azioni della community. Riprova pi\xF9 tardi.",
+    communityActionsModifiedNote: "Modificato localmente. Aggiornamenti automatici in pausa.",
+    communityActionsConflictNote: "Esiste gi\xE0 un'azione con questo nome. L'installazione la sovrascriver\xE0.",
+    communityActionsSyncSummary: "Aggiornate {{updated}} azioni. Saltate {{skipped}} modificate.",
+    communityActionsUpdated: "Aggiornate {{count}} azioni della community.",
+    communityActionsSkipped: "Saltate {{count}} azioni della community modificate."
   }
 };
 
@@ -799,7 +944,7 @@ var ja_default = {
     actions: "\u30A2\u30AF\u30B7\u30E7\u30F3",
     quickAdd: "\u30AF\u30A4\u30C3\u30AF\u8FFD\u52A0",
     quickAddPlaceholder: "\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u8CBC\u308A\u4ED8\u3051",
-    quickAddDesc: '\u6700\u9AD8\u306E\u30D7\u30ED\u30F3\u30D7\u30C8\u30BB\u30C3\u30C8\u3092\u5171\u6709\u3057\u305F\u308A\u3001<a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/2">\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u304B\u3089</a>\u53D6\u5F97\u3057\u305F\u308A\u3067\u304D\u307E\u3059\u3002<br/><strong>\u91CD\u8981:</strong> \u540C\u3058\u540D\u524D\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u304C\u65E2\u306B\u3042\u308B\u5834\u5408\u306F\u4E0A\u66F8\u304D\u3055\u308C\u307E\u3059\u3002',
+    quickAddDesc: "\u5171\u6709\u3055\u308C\u305F\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u8CBC\u308A\u4ED8\u3051\u3066\u7D20\u65E9\u304F\u8FFD\u52A0\u3067\u304D\u307E\u3059\u3002<br/><strong>\u91CD\u8981:</strong> \u540C\u3058\u540D\u524D\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u304C\u65E2\u306B\u3042\u308B\u5834\u5408\u306F\u4E0A\u66F8\u304D\u3055\u308C\u307E\u3059\u3002",
     addNewManually: "\u624B\u52D5\u3067\u65B0\u898F\u8FFD\u52A0",
     addAction: "\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u8FFD\u52A0",
     addSeparator: "\u533A\u5207\u308A\u7DDA\u3092\u8FFD\u52A0",
@@ -834,7 +979,36 @@ var ja_default = {
     resetActions: "\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u30EA\u30BB\u30C3\u30C8",
     resetActionsDesc: "\u{1F6A8} \u3059\u3079\u3066\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u30C7\u30D5\u30A9\u30EB\u30C8\u306B\u30EA\u30BB\u30C3\u30C8\u3057\u307E\u3059\u3002\u3053\u308C\u306F\u5143\u306B\u623B\u305B\u307E\u305B\u3093\u3002\u30AB\u30B9\u30BF\u30E0\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u3059\u3079\u3066\u524A\u9664\u3055\u308C\u307E\u3059\u3002",
     reset: "\u30EA\u30BB\u30C3\u30C8",
-    confirmReset: "\u30EA\u30BB\u30C3\u30C8\u3092\u78BA\u8A8D"
+    confirmReset: "\u30EA\u30BB\u30C3\u30C8\u3092\u78BA\u8A8D",
+    communityActions: "\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u30A2\u30AF\u30B7\u30E7\u30F3",
+    communityActionsDesc: '\u4EE5\u4E0B\u306FGitHub\u30C7\u30A3\u30B9\u30AB\u30C3\u30B7\u30E7\u30F3\u304B\u3089\u53CE\u96C6\u3055\u308C\u305F\u30A2\u30AF\u30B7\u30E7\u30F3\u3067\u3059\u3002\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u8FFD\u52A0\u3059\u308B\u304B\u3001<a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/89">\u3042\u306A\u305F\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u5171\u6709</a>\u3057\u3066\u304F\u3060\u3055\u3044\u3002',
+    communityActionsOpen: "\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u958B\u304F",
+    communityActionsOpenDesc: "\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u304C\u4F5C\u6210\u3057\u305F\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u95B2\u89A7\u3057\u3066\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3067\u304D\u307E\u3059\u3002",
+    communityActionsAutoUpdate: "\u30EA\u30B9\u30C8\u3092\u66F4\u65B0\u3059\u308B\u3068\u3001\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u81EA\u52D5\u7684\u306B\u66F4\u65B0\u3055\u308C\u307E\u3059\u3002\u5909\u66F4\u3055\u308C\u305F\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u305D\u306E\u307E\u307E\u6B8B\u308A\u307E\u3059\u3002",
+    communityActionsLanguage: "\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u30A2\u30AF\u30B7\u30E7\u30F3\u306E\u8A00\u8A9E",
+    communityActionsLanguageDesc: "\u30C7\u30D5\u30A9\u30EB\u30C8\u306FObsidian\u306E\u8A00\u8A9E\u3067\u3059\u3002",
+    communityActionsSearch: "\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u7D5E\u308A\u8FBC\u307F",
+    communityActionsSearchPlaceholder: "\u540D\u524D\u3001\u8AAC\u660E\u3001\u30D7\u30ED\u30F3\u30D7\u30C8\u3001\u30B7\u30B9\u30C6\u30E0\u30D7\u30ED\u30F3\u30D7\u30C8\u3067\u691C\u7D22",
+    communityActionsScoreLabel: "\u30B9\u30B3\u30A2",
+    communityActionsByAuthor: "\u4F5C\u6210\u8005: {{author}}",
+    communityActionsReplaceTag: "\u9078\u629E\u7BC4\u56F2\u3092\u7F6E\u63DB",
+    communityActionsBadge: "\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3",
+    communityActionsInstalled: "\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u6E08\u307F",
+    communityActionsModified: "\u5909\u66F4\u6E08\u307F",
+    communityActionsInList: "\u30A2\u30AF\u30B7\u30E7\u30F3\u306B\u8FFD\u52A0\u6E08\u307F",
+    communityActionsInstall: "\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB",
+    communityActionsReplace: "\u7F6E\u63DB",
+    communityActionsUpdate: "\u66F4\u65B0",
+    communityActionsRefresh: "\u66F4\u65B0",
+    communityActionsLoading: "\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u8AAD\u307F\u8FBC\u3093\u3067\u3044\u307E\u3059...",
+    communityActionsEmpty: "\u3053\u306E\u8A00\u8A9E\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u307E\u3060\u3042\u308A\u307E\u305B\u3093\u3002",
+    communityActionsSearchEmpty: "\u691C\u7D22\u306B\u4E00\u81F4\u3059\u308B\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u3042\u308A\u307E\u305B\u3093\u3002",
+    communityActionsError: "\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u8AAD\u307F\u8FBC\u3081\u307E\u305B\u3093\u3067\u3057\u305F\u3002\u5F8C\u3067\u3082\u3046\u4E00\u5EA6\u304A\u8A66\u3057\u304F\u3060\u3055\u3044\u3002",
+    communityActionsModifiedNote: "\u30ED\u30FC\u30AB\u30EB\u3067\u5909\u66F4\u3055\u308C\u307E\u3057\u305F\u3002\u81EA\u52D5\u66F4\u65B0\u306F\u4E00\u6642\u505C\u6B62\u3057\u3066\u3044\u307E\u3059\u3002",
+    communityActionsConflictNote: "\u3053\u306E\u540D\u524D\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u65E2\u306B\u5B58\u5728\u3057\u307E\u3059\u3002\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3059\u308B\u3068\u4E0A\u66F8\u304D\u3055\u308C\u307E\u3059\u3002",
+    communityActionsSyncSummary: "{{updated}} \u4EF6\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u66F4\u65B0\u3057\u307E\u3057\u305F\u3002{{skipped}} \u4EF6\u306E\u5909\u66F4\u3055\u308C\u305F\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u30B9\u30AD\u30C3\u30D7\u3057\u307E\u3057\u305F\u3002",
+    communityActionsUpdated: "{{count}} \u4EF6\u306E\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u66F4\u65B0\u3057\u307E\u3057\u305F\u3002",
+    communityActionsSkipped: "{{count}} \u4EF6\u306E\u5909\u66F4\u3055\u308C\u305F\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u30B9\u30AD\u30C3\u30D7\u3057\u307E\u3057\u305F\u3002"
   }
 };
 
@@ -885,7 +1059,7 @@ var ko_default = {
     actions: "\uC561\uC158",
     quickAdd: "\uBE60\uB978 \uCD94\uAC00",
     quickAddPlaceholder: "\uC561\uC158 \uBD99\uC5EC\uB123\uAE30",
-    quickAddDesc: '\uCD5C\uACE0\uC758 \uD504\uB86C\uD504\uD2B8 \uC138\uD2B8\uB97C \uACF5\uC720\uD558\uAC70\uB098 <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/2">\uCEE4\uBBA4\uB2C8\uD2F0</a>\uC5D0\uC11C \uC5BB\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4.<br/><strong>\uC911\uC694:</strong> \uB3D9\uC77C\uD55C \uC774\uB984\uC758 \uC561\uC158\uC774 \uC774\uBBF8 \uC788\uB294 \uACBD\uC6B0 \uB36E\uC5B4\uC50C\uC6CC\uC9D1\uB2C8\uB2E4.',
+    quickAddDesc: "\uACF5\uC720\uB41C \uC561\uC158\uC744 \uBD99\uC5EC\uB123\uC5B4 \uBE60\uB974\uAC8C \uCD94\uAC00\uD558\uC138\uC694.<br/><strong>\uC911\uC694:</strong> \uB3D9\uC77C\uD55C \uC774\uB984\uC758 \uC561\uC158\uC774 \uC774\uBBF8 \uC788\uB294 \uACBD\uC6B0 \uB36E\uC5B4\uC50C\uC6CC\uC9D1\uB2C8\uB2E4.",
     addNewManually: "\uC218\uB3D9\uC73C\uB85C \uC0C8\uB85C \uCD94\uAC00",
     addAction: "\uC561\uC158 \uCD94\uAC00",
     addSeparator: "\uAD6C\uBD84\uC120 \uCD94\uAC00",
@@ -920,7 +1094,36 @@ var ko_default = {
     resetActions: "\uC561\uC158 \uC7AC\uC124\uC815",
     resetActionsDesc: "\u{1F6A8} \uBAA8\uB4E0 \uC561\uC158\uC744 \uAE30\uBCF8\uAC12\uC73C\uB85C \uC7AC\uC124\uC815\uD569\uB2C8\uB2E4. \uC774 \uC791\uC5C5\uC740 \uCDE8\uC18C\uD560 \uC218 \uC5C6\uC73C\uBA70 \uBAA8\uB4E0 \uC0AC\uC6A9\uC790 \uC9C0\uC815 \uC561\uC158\uC774 \uC0AD\uC81C\uB429\uB2C8\uB2E4.",
     reset: "\uC7AC\uC124\uC815",
-    confirmReset: "\uC7AC\uC124\uC815 \uD655\uC778"
+    confirmReset: "\uC7AC\uC124\uC815 \uD655\uC778",
+    communityActions: "\uCEE4\uBBA4\uB2C8\uD2F0 \uC561\uC158",
+    communityActionsDesc: '\uC544\uB798\uB294 GitHub \uD1A0\uB860\uC5D0\uC11C \uC218\uC9D1\uB41C \uC561\uC158\uC785\uB2C8\uB2E4. \uC124\uCE58\uB97C \uD074\uB9AD\uD558\uC5EC \uCD94\uAC00\uD558\uAC70\uB098 <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/89">\uC790\uC2E0\uC758 \uC561\uC158\uC744 \uACF5\uC720</a>\uD558\uC138\uC694.',
+    communityActionsOpen: "\uCEE4\uBBA4\uB2C8\uD2F0 \uC561\uC158 \uC5F4\uAE30",
+    communityActionsOpenDesc: "\uCEE4\uBBA4\uB2C8\uD2F0\uAC00 \uB9CC\uB4E0 \uC561\uC158\uC744 \uCC3E\uC544\uBCF4\uACE0 \uC124\uCE58\uD558\uC138\uC694.",
+    communityActionsAutoUpdate: "\uBAA9\uB85D\uC774 \uC0C8\uB85C \uACE0\uCE68\uB420 \uB54C \uCEE4\uBBA4\uB2C8\uD2F0 \uC561\uC158\uC774 \uC790\uB3D9\uC73C\uB85C \uC5C5\uB370\uC774\uD2B8\uB429\uB2C8\uB2E4. \uC218\uC815\uB41C \uC561\uC158\uC740 \uADF8\uB300\uB85C \uC720\uC9C0\uB429\uB2C8\uB2E4.",
+    communityActionsLanguage: "\uCEE4\uBBA4\uB2C8\uD2F0 \uC561\uC158 \uC5B8\uC5B4",
+    communityActionsLanguageDesc: "\uAE30\uBCF8\uAC12\uC740 Obsidian \uC5B8\uC5B4\uC785\uB2C8\uB2E4.",
+    communityActionsSearch: "\uCEE4\uBBA4\uB2C8\uD2F0 \uC561\uC158 \uD544\uD130",
+    communityActionsSearchPlaceholder: "\uC774\uB984, \uC124\uBA85, \uD504\uB86C\uD504\uD2B8 \uB610\uB294 \uC2DC\uC2A4\uD15C \uD504\uB86C\uD504\uD2B8\uB85C \uAC80\uC0C9",
+    communityActionsScoreLabel: "\uC810\uC218",
+    communityActionsByAuthor: "\uC791\uC131\uC790: {{author}}",
+    communityActionsReplaceTag: "\uC120\uD0DD \uD56D\uBAA9 \uB300\uCCB4",
+    communityActionsBadge: "\uCEE4\uBBA4\uB2C8\uD2F0",
+    communityActionsInstalled: "\uC124\uCE58\uB428",
+    communityActionsModified: "\uC218\uC815\uB428",
+    communityActionsInList: "\uB0B4 \uC561\uC158\uC5D0 \uC788\uC74C",
+    communityActionsInstall: "\uC124\uCE58",
+    communityActionsReplace: "\uAD50\uCCB4",
+    communityActionsUpdate: "\uC5C5\uB370\uC774\uD2B8",
+    communityActionsRefresh: "\uC0C8\uB85C \uACE0\uCE68",
+    communityActionsLoading: "\uC561\uC158 \uBD88\uB7EC\uC624\uB294 \uC911...",
+    communityActionsEmpty: "\uC544\uC9C1 \uC774 \uC5B8\uC5B4\uC5D0 \uB300\uD55C \uC561\uC158\uC774 \uC5C6\uC2B5\uB2C8\uB2E4.",
+    communityActionsSearchEmpty: "\uAC80\uC0C9\uACFC \uC77C\uCE58\uD558\uB294 \uC561\uC158\uC774 \uC5C6\uC2B5\uB2C8\uB2E4.",
+    communityActionsError: "\uCEE4\uBBA4\uB2C8\uD2F0 \uC561\uC158\uC744 \uBD88\uB7EC\uC624\uC9C0 \uBABB\uD588\uC2B5\uB2C8\uB2E4. \uB098\uC911\uC5D0 \uB2E4\uC2DC \uC2DC\uB3C4\uD558\uC138\uC694.",
+    communityActionsModifiedNote: "\uB85C\uCEEC\uC5D0\uC11C \uC218\uC815\uB428. \uC790\uB3D9 \uC5C5\uB370\uC774\uD2B8 \uC77C\uC2DC \uC911\uC9C0\uB428.",
+    communityActionsConflictNote: "\uC774 \uC774\uB984\uC758 \uC561\uC158\uC774 \uC774\uBBF8 \uC874\uC7AC\uD569\uB2C8\uB2E4. \uC124\uCE58\uD558\uBA74 \uB36E\uC5B4\uC501\uB2C8\uB2E4.",
+    communityActionsSyncSummary: "{{updated}}\uAC1C \uC561\uC158 \uC5C5\uB370\uC774\uD2B8\uB428. \uC218\uC815\uB41C {{skipped}}\uAC1C \uAC74\uB108\uB700.",
+    communityActionsUpdated: "{{count}}\uAC1C\uC758 \uCEE4\uBBA4\uB2C8\uD2F0 \uC561\uC158\uC774 \uC5C5\uB370\uC774\uD2B8\uB418\uC5C8\uC2B5\uB2C8\uB2E4.",
+    communityActionsSkipped: "{{count}}\uAC1C\uC758 \uC218\uC815\uB41C \uCEE4\uBBA4\uB2C8\uD2F0 \uC561\uC158\uC774 \uAC74\uB108\uB6F0\uC5B4\uC84C\uC2B5\uB2C8\uB2E4."
   }
 };
 
@@ -971,7 +1174,7 @@ var nl_default = {
     actions: "Acties",
     quickAdd: "Snel toevoegen",
     quickAddPlaceholder: "Plak actie",
-    quickAddDesc: 'Je kunt de beste promptsets delen of er een ophalen <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/2">van de community</a>.<br/><strong>Belangrijk:</strong> als je al een actie hebt met dezelfde naam, wordt deze overschreven.',
+    quickAddDesc: "Plak een gedeelde actie om deze snel toe te voegen.<br/><strong>Belangrijk:</strong> als je al een actie met dezelfde naam hebt, wordt deze overschreven.",
     addNewManually: "Handmatig toevoegen",
     addAction: "Actie toevoegen",
     addSeparator: "Scheidingsteken toevoegen",
@@ -1006,7 +1209,36 @@ var nl_default = {
     resetActions: "Reset acties",
     resetActionsDesc: "\u{1F6A8} Zet alle acties terug naar de standaard. Dit kan niet ongedaan worden gemaakt en verwijdert al je aangepaste acties.",
     reset: "Resetten",
-    confirmReset: "Reset bevestigen"
+    confirmReset: "Reset bevestigen",
+    communityActions: "Community-acties",
+    communityActionsDesc: 'Hieronder staan acties verzameld uit de GitHub-discussie. Klik op Installeren om er een toe te voegen of <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/89">deel de jouwe</a>.',
+    communityActionsOpen: "Open community-acties",
+    communityActionsOpenDesc: "Blader en installeer community-acties die door onze community zijn gemaakt.",
+    communityActionsAutoUpdate: "Community-acties worden automatisch bijgewerkt wanneer de lijst wordt vernieuwd. Gewijzigde acties blijven ongemoeid.",
+    communityActionsLanguage: "Taal community-acties",
+    communityActionsLanguageDesc: "Standaard ingesteld op uw Obsidian-taal.",
+    communityActionsSearch: "Community-acties filteren",
+    communityActionsSearchPlaceholder: "Zoek op naam, beschrijving, prompt of systeemprompt",
+    communityActionsScoreLabel: "Score",
+    communityActionsByAuthor: "door {{author}}",
+    communityActionsReplaceTag: "Vervangt selectie",
+    communityActionsBadge: "Community",
+    communityActionsInstalled: "Ge\xEFnstalleerd",
+    communityActionsModified: "Gewijzigd",
+    communityActionsInList: "In jouw acties",
+    communityActionsInstall: "Installeren",
+    communityActionsReplace: "Vervangen",
+    communityActionsUpdate: "Bijwerken",
+    communityActionsRefresh: "Vernieuwen",
+    communityActionsLoading: "Acties laden...",
+    communityActionsEmpty: "Nog geen acties voor deze taal.",
+    communityActionsSearchEmpty: "Geen acties komen overeen met je zoekopdracht.",
+    communityActionsError: "Kan community-acties niet laden. Probeer het later opnieuw.",
+    communityActionsModifiedNote: "Lokaal gewijzigd. Automatische updates gepauzeerd.",
+    communityActionsConflictNote: "Een actie met deze naam bestaat al. Installeren zal deze overschrijven.",
+    communityActionsSyncSummary: "{{updated}} acties bijgewerkt. {{skipped}} gewijzigde overgeslagen.",
+    communityActionsUpdated: "{{count}} community-acties bijgewerkt.",
+    communityActionsSkipped: "{{count}} gewijzigde community-acties overgeslagen."
   }
 };
 
@@ -1057,7 +1289,7 @@ var pt_default = {
     actions: "A\xE7\xF5es",
     quickAdd: "Adi\xE7\xE3o r\xE1pida",
     quickAddPlaceholder: "Colar a\xE7\xE3o",
-    quickAddDesc: 'Voc\xEA pode compartilhar os melhores conjuntos de prompts ou obter um <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/2">da comunidade</a>.<br/><strong>Importante:</strong> se voc\xEA j\xE1 tiver uma a\xE7\xE3o com o mesmo nome, ela ser\xE1 substitu\xEDda.',
+    quickAddDesc: "Cole uma a\xE7\xE3o compartilhada para adicion\xE1-la rapidamente.<br/><strong>Importante:</strong> se voc\xEA j\xE1 tiver uma a\xE7\xE3o com o mesmo nome, ela ser\xE1 substitu\xEDda.",
     addNewManually: "Adicionar nova manualmente",
     addAction: "Adicionar a\xE7\xE3o",
     addSeparator: "Adicionar separador",
@@ -1092,7 +1324,36 @@ var pt_default = {
     resetActions: "Redefinir a\xE7\xF5es",
     resetActionsDesc: "\u{1F6A8} Redefinir todas as a\xE7\xF5es para o padr\xE3o. Isso n\xE3o pode ser desfeito e excluir\xE1 todas as suas a\xE7\xF5es personalizadas.",
     reset: "Redefinir",
-    confirmReset: "Confirmar redefini\xE7\xE3o"
+    confirmReset: "Confirmar redefini\xE7\xE3o",
+    communityActions: "A\xE7\xF5es da comunidade",
+    communityActionsDesc: 'Abaixo est\xE3o a\xE7\xF5es coletadas da discuss\xE3o no GitHub. Clique em Instalar para adicionar uma ou <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/89">compartilhe a sua</a>.',
+    communityActionsOpen: "Abrir a\xE7\xF5es da comunidade",
+    communityActionsOpenDesc: "Explore e instale a\xE7\xF5es criadas pela nossa comunidade.",
+    communityActionsAutoUpdate: "As a\xE7\xF5es da comunidade s\xE3o atualizadas automaticamente ao atualizar a lista. A\xE7\xF5es modificadas permanecem intocadas.",
+    communityActionsLanguage: "Idioma das a\xE7\xF5es da comunidade",
+    communityActionsLanguageDesc: "O padr\xE3o \xE9 o idioma do seu Obsidian.",
+    communityActionsSearch: "Filtrar a\xE7\xF5es da comunidade",
+    communityActionsSearchPlaceholder: "Pesquisar por nome, descri\xE7\xE3o, prompt ou prompt do sistema",
+    communityActionsScoreLabel: "Pontua\xE7\xE3o",
+    communityActionsByAuthor: "por {{author}}",
+    communityActionsReplaceTag: "Substitui sele\xE7\xE3o",
+    communityActionsBadge: "Comunidade",
+    communityActionsInstalled: "Instalado",
+    communityActionsModified: "Modificado",
+    communityActionsInList: "Em suas a\xE7\xF5es",
+    communityActionsInstall: "Instalar",
+    communityActionsReplace: "Substituir",
+    communityActionsUpdate: "Atualizar",
+    communityActionsRefresh: "Atualizar",
+    communityActionsLoading: "Carregando a\xE7\xF5es...",
+    communityActionsEmpty: "Ainda n\xE3o h\xE1 a\xE7\xF5es para este idioma.",
+    communityActionsSearchEmpty: "Nenhuma a\xE7\xE3o corresponde \xE0 sua pesquisa.",
+    communityActionsError: "Falha ao carregar a\xE7\xF5es da comunidade. Tente novamente mais tarde.",
+    communityActionsModifiedNote: "Modificado localmente. Atualiza\xE7\xF5es autom\xE1ticas pausadas.",
+    communityActionsConflictNote: "J\xE1 existe uma a\xE7\xE3o com este nome. A instala\xE7\xE3o ir\xE1 substitu\xED-la.",
+    communityActionsSyncSummary: "{{updated}} a\xE7\xF5es atualizadas. {{skipped}} modificadas ignoradas.",
+    communityActionsUpdated: "{{count}} a\xE7\xF5es da comunidade atualizadas.",
+    communityActionsSkipped: "{{count}} a\xE7\xF5es da comunidade modificadas ignoradas."
   }
 };
 
@@ -1143,7 +1404,7 @@ var ru_default = {
     actions: "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u044F",
     quickAdd: "\u0411\u044B\u0441\u0442\u0440\u043E\u0435 \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0438\u0435",
     quickAddPlaceholder: "\u0412\u0441\u0442\u0430\u0432\u044C\u0442\u0435 \u0433\u043E\u0442\u043E\u0432\u043E\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435",
-    quickAddDesc: '\u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u043F\u043E\u0434\u0435\u043B\u0438\u0442\u044C\u0441\u044F \u0441\u0432\u043E\u0438\u043C\u0438 \u043D\u0430\u0431\u043E\u0440\u0430\u043C\u0438 \u043F\u0440\u043E\u043C\u043F\u0442\u043E\u0432 \u0438\u043B\u0438 \u043D\u0430\u0439\u0442\u0438 \u043D\u043E\u0432\u044B\u0435 \u0432 <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/2">\u0441\u043E\u043E\u0431\u0449\u0435\u0441\u0442\u0432\u0435</a>.<br/><strong>\u0412\u0430\u0436\u043D\u043E:</strong> \u0435\u0441\u043B\u0438 \u0443 \u0432\u0430\u0441 \u0443\u0436\u0435 \u0435\u0441\u0442\u044C \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u0442\u0430\u043A\u0438\u043C \u0436\u0435 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435\u043C, \u043E\u043D\u043E \u0431\u0443\u0434\u0435\u0442 \u043F\u0435\u0440\u0435\u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043E.',
+    quickAddDesc: "\u0412\u0441\u0442\u0430\u0432\u044C\u0442\u0435 \u0433\u043E\u0442\u043E\u0432\u043E\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435, \u0447\u0442\u043E\u0431\u044B \u0431\u044B\u0441\u0442\u0440\u043E \u0434\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0435\u0433\u043E.<br/><strong>\u0412\u0430\u0436\u043D\u043E:</strong> \u0435\u0441\u043B\u0438 \u0443 \u0432\u0430\u0441 \u0443\u0436\u0435 \u0435\u0441\u0442\u044C \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u0442\u0430\u043A\u0438\u043C \u0436\u0435 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435\u043C, \u043E\u043D\u043E \u0431\u0443\u0434\u0435\u0442 \u043F\u0435\u0440\u0435\u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043E.",
     addNewManually: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0432\u0440\u0443\u0447\u043D\u0443\u044E",
     addAction: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435",
     addSeparator: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0440\u0430\u0437\u0434\u0435\u043B\u0438\u0442\u0435\u043B\u044C",
@@ -1163,6 +1424,35 @@ var ru_default = {
     save: "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C",
     separator: "\u0420\u0430\u0437\u0434\u0435\u043B\u0438\u0442\u0435\u043B\u044C",
     actionsList: "\u0421\u043F\u0438\u0441\u043E\u043A \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439",
+    communityActions: "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u044F \u0441\u043E\u043E\u0431\u0449\u0435\u0441\u0442\u0432\u0430",
+    communityActionsDesc: '\u041D\u0438\u0436\u0435 \u0441\u043E\u0431\u0440\u0430\u043D\u044B \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F \u0438\u0437 GitHub Discussion. \u041D\u0430\u0436\u043C\u0438\u0442\u0435 \xAB\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C\xBB, \u0447\u0442\u043E\u0431\u044B \u0434\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435, \u0438\u043B\u0438 <a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/89">\u043F\u043E\u0434\u0435\u043B\u0438\u0442\u0435\u0441\u044C \u0441\u0432\u043E\u0438\u043C</a>.',
+    communityActionsOpen: "\u041E\u0442\u043A\u0440\u044B\u0442\u044C \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F \u0441\u043E\u043E\u0431\u0449\u0435\u0441\u0442\u0432\u0430",
+    communityActionsOpenDesc: "\u041F\u0440\u043E\u0441\u043C\u0430\u0442\u0440\u0438\u0432\u0430\u0439\u0442\u0435 \u0438 \u0443\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0439\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F, \u0441\u043E\u0437\u0434\u0430\u043D\u043D\u044B\u0435 \u043D\u0430\u0448\u0438\u043C \u0441\u043E\u043E\u0431\u0449\u0435\u0441\u0442\u0432\u043E\u043C.",
+    communityActionsAutoUpdate: "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u044F \u0441\u043E\u043E\u0431\u0449\u0435\u0441\u0442\u0432\u0430 \u043E\u0431\u043D\u043E\u0432\u043B\u044F\u044E\u0442\u0441\u044F \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438 \u043F\u0440\u0438 \u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0438 \u0441\u043F\u0438\u0441\u043A\u0430. \u0418\u0437\u043C\u0435\u043D\u0451\u043D\u043D\u044B\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F \u043D\u0435 \u043F\u0435\u0440\u0435\u0437\u0430\u043F\u0438\u0441\u044B\u0432\u0430\u044E\u0442\u0441\u044F.",
+    communityActionsLanguage: "\u042F\u0437\u044B\u043A \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439 \u0441\u043E\u043E\u0431\u0449\u0435\u0441\u0442\u0432\u0430",
+    communityActionsLanguageDesc: "\u041F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F \u044F\u0437\u044B\u043A Obsidian.",
+    communityActionsSearch: "\u0424\u0438\u043B\u044C\u0442\u0440 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439 \u0441\u043E\u043E\u0431\u0449\u0435\u0441\u0442\u0432\u0430",
+    communityActionsSearchPlaceholder: "\u041F\u043E\u0438\u0441\u043A \u043F\u043E \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044E, \u043E\u043F\u0438\u0441\u0430\u043D\u0438\u044E, \u043F\u0440\u043E\u043C\u043F\u0442\u0443 \u0438\u043B\u0438 \u0441\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u043C\u0443 \u043F\u0440\u043E\u043C\u043F\u0442\u0443",
+    communityActionsScoreLabel: "\u0420\u0435\u0439\u0442\u0438\u043D\u0433",
+    communityActionsByAuthor: "\u043E\u0442 {{author}}",
+    communityActionsReplaceTag: "\u0417\u0430\u043C\u0435\u043D\u044F\u0435\u0442 \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u0438\u0435",
+    communityActionsBadge: "\u0421\u043E\u043E\u0431\u0449\u0435\u0441\u0442\u0432\u043E",
+    communityActionsInstalled: "\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u043E",
+    communityActionsModified: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u043E",
+    communityActionsInList: "\u0423\u0436\u0435 \u0432 \u0441\u043F\u0438\u0441\u043A\u0435",
+    communityActionsInstall: "\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C",
+    communityActionsReplace: "\u0417\u0430\u043C\u0435\u043D\u0438\u0442\u044C",
+    communityActionsUpdate: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C",
+    communityActionsRefresh: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C",
+    communityActionsLoading: "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439...",
+    communityActionsEmpty: "\u0414\u043B\u044F \u044D\u0442\u043E\u0433\u043E \u044F\u0437\u044B\u043A\u0430 \u043F\u043E\u043A\u0430 \u043D\u0435\u0442 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439.",
+    communityActionsSearchEmpty: "\u041D\u0435\u0442 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439, \u0441\u043E\u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044E\u0449\u0438\u0445 \u0437\u0430\u043F\u0440\u043E\u0441\u0443.",
+    communityActionsError: "\u041D\u0435 \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u0437\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F \u0441\u043E\u043E\u0431\u0449\u0435\u0441\u0442\u0432\u0430. \u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435 \u043F\u043E\u0437\u0436\u0435.",
+    communityActionsModifiedNote: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u043E \u043B\u043E\u043A\u0430\u043B\u044C\u043D\u043E. \u0410\u0432\u0442\u043E\u2011\u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044F \u043F\u0440\u0438\u043E\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u044B.",
+    communityActionsConflictNote: "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441 \u0442\u0430\u043A\u0438\u043C \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435\u043C \u0443\u0436\u0435 \u0435\u0441\u0442\u044C. \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u0437\u0430\u043C\u0435\u043D\u0438\u0442 \u0435\u0433\u043E.",
+    communityActionsSyncSummary: "\u041E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u043E: {{updated}}. \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E \u0438\u0437\u043C\u0435\u043D\u0451\u043D\u043D\u044B\u0445: {{skipped}}.",
+    communityActionsUpdated: "\u041E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u043E \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439 \u0441\u043E\u043E\u0431\u0449\u0435\u0441\u0442\u0432\u0430: {{count}}.",
+    communityActionsSkipped: "\u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E \u0438\u0437\u043C\u0435\u043D\u0451\u043D\u043D\u044B\u0445 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439 \u0441\u043E\u043E\u0431\u0449\u0435\u0441\u0442\u0432\u0430: {{count}}.",
     changeOrder: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u043F\u043E\u0440\u044F\u0434\u043E\u043A",
     done: "\u0413\u043E\u0442\u043E\u0432\u043E",
     advancedSettings: "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u043D\u044B\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438",
@@ -1229,7 +1519,7 @@ var zh_default = {
     actions: "\u64CD\u4F5C",
     quickAdd: "\u5FEB\u901F\u6DFB\u52A0",
     quickAddPlaceholder: "\u7C98\u8D34\u64CD\u4F5C",
-    quickAddDesc: '\u60A8\u53EF\u4EE5\u5206\u4EAB\u6700\u4F73\u7684\u63D0\u793A\u96C6\uFF0C\u6216\u4ECE<a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/2">\u793E\u533A</a>\u83B7\u53D6\u4E00\u4E2A\u3002<br/><strong>\u91CD\u8981\u63D0\u793A:</strong> \u5982\u679C\u60A8\u5DF2\u7ECF\u6709\u4E00\u4E2A\u540C\u540D\u64CD\u4F5C\uFF0C\u5B83\u5C06\u88AB\u8986\u76D6\u3002',
+    quickAddDesc: "\u7C98\u8D34\u5171\u4EAB\u7684\u64CD\u4F5C\u5373\u53EF\u5FEB\u901F\u6DFB\u52A0\u3002<br/><strong>\u91CD\u8981\u63D0\u793A:</strong> \u5982\u679C\u60A8\u5DF2\u7ECF\u6709\u4E00\u4E2A\u540C\u540D\u64CD\u4F5C\uFF0C\u5B83\u5C06\u88AB\u8986\u76D6\u3002",
     addNewManually: "\u624B\u52A8\u6DFB\u52A0",
     addAction: "\u6DFB\u52A0\u64CD\u4F5C",
     addSeparator: "\u6DFB\u52A0\u5206\u9694\u7EBF",
@@ -1249,6 +1539,35 @@ var zh_default = {
     save: "\u4FDD\u5B58",
     separator: "\u5206\u9694\u7EBF",
     actionsList: "\u64CD\u4F5C\u5217\u8868",
+    communityActions: "\u793E\u533A\u64CD\u4F5C",
+    communityActionsDesc: '\u4EE5\u4E0B\u662F\u4ECE GitHub Discussion \u6536\u96C6\u7684\u64CD\u4F5C\u3002\u70B9\u51FB\u201C\u5B89\u88C5\u201D\u5373\u53EF\u6DFB\u52A0\uFF0C\u6216<a href="https://github.com/pfrankov/obsidian-local-gpt/discussions/89">\u5206\u4EAB\u4F60\u7684\u64CD\u4F5C</a>\u3002',
+    communityActionsOpen: "\u6253\u5F00\u793E\u533A\u64CD\u4F5C",
+    communityActionsOpenDesc: "\u6D4F\u89C8\u5E76\u5B89\u88C5\u7531\u793E\u533A\u6210\u5458\u521B\u4F5C\u7684\u793E\u533A\u64CD\u4F5C\u3002",
+    communityActionsAutoUpdate: "\u5237\u65B0\u5217\u8868\u65F6\u4F1A\u81EA\u52A8\u66F4\u65B0\u793E\u533A\u64CD\u4F5C\uFF0C\u5DF2\u4FEE\u6539\u7684\u64CD\u4F5C\u4E0D\u4F1A\u88AB\u8986\u76D6\u3002",
+    communityActionsLanguage: "\u793E\u533A\u64CD\u4F5C\u8BED\u8A00",
+    communityActionsLanguageDesc: "\u9ED8\u8BA4\u4F7F\u7528 Obsidian \u7684\u8BED\u8A00\u3002",
+    communityActionsSearch: "\u7B5B\u9009\u793E\u533A\u64CD\u4F5C",
+    communityActionsSearchPlaceholder: "\u6309\u540D\u79F0\u3001\u63CF\u8FF0\u3001\u63D0\u793A\u8BCD\u6216\u7CFB\u7EDF\u63D0\u793A\u8BCD\u641C\u7D22",
+    communityActionsScoreLabel: "\u8BC4\u5206",
+    communityActionsByAuthor: "\u4F5C\u8005 {{author}}",
+    communityActionsReplaceTag: "\u66FF\u6362\u9009\u4E2D\u5185\u5BB9",
+    communityActionsBadge: "\u793E\u533A",
+    communityActionsInstalled: "\u5DF2\u5B89\u88C5",
+    communityActionsModified: "\u5DF2\u4FEE\u6539",
+    communityActionsInList: "\u5DF2\u5728\u5217\u8868\u4E2D",
+    communityActionsInstall: "\u5B89\u88C5",
+    communityActionsReplace: "\u66FF\u6362",
+    communityActionsUpdate: "\u66F4\u65B0",
+    communityActionsRefresh: "\u5237\u65B0",
+    communityActionsLoading: "\u6B63\u5728\u52A0\u8F7D\u64CD\u4F5C...",
+    communityActionsEmpty: "\u8BE5\u8BED\u8A00\u6682\u65E0\u64CD\u4F5C\u3002",
+    communityActionsSearchEmpty: "\u6CA1\u6709\u4E0E\u641C\u7D22\u5339\u914D\u7684\u64CD\u4F5C\u3002",
+    communityActionsError: "\u65E0\u6CD5\u52A0\u8F7D\u793E\u533A\u64CD\u4F5C\uFF0C\u8BF7\u7A0D\u540E\u518D\u8BD5\u3002",
+    communityActionsModifiedNote: "\u5DF2\u5728\u672C\u5730\u4FEE\u6539\uFF0C\u81EA\u52A8\u66F4\u65B0\u5DF2\u6682\u505C\u3002",
+    communityActionsConflictNote: "\u5DF2\u5B58\u5728\u540C\u540D\u64CD\u4F5C\uFF0C\u5B89\u88C5\u5C06\u8986\u76D6\u5B83\u3002",
+    communityActionsSyncSummary: "\u5DF2\u66F4\u65B0 {{updated}} \u4E2A\u64CD\u4F5C\uFF0C\u8DF3\u8FC7 {{skipped}} \u4E2A\u5DF2\u4FEE\u6539\u64CD\u4F5C\u3002",
+    communityActionsUpdated: "\u5DF2\u66F4\u65B0 {{count}} \u4E2A\u793E\u533A\u64CD\u4F5C\u3002",
+    communityActionsSkipped: "\u5DF2\u8DF3\u8FC7 {{count}} \u4E2A\u5DF2\u4FEE\u6539\u793E\u533A\u64CD\u4F5C\u3002",
     changeOrder: "\u66F4\u6539\u987A\u5E8F",
     done: "\u5B8C\u6210",
     advancedSettings: "\u9AD8\u7EA7\u8BBE\u7F6E",
@@ -3722,21 +4041,731 @@ var moveAction = (actions, fromIndex, toIndex) => {
   return updated;
 };
 
-// src/LocalGPTSettingTab.ts
+// src/languageDetection.ts
+var MAX_ANALYSIS_LENGTH = 1e3;
+var MIN_LATIN_LETTERS_THRESHOLD = 10;
+var SCRIPT_RANGES = {
+  ja: [
+    [12352, 12447],
+    // Hiragana
+    [12448, 12543],
+    // Katakana
+    [12784, 12799],
+    // Katakana Phonetic Extensions
+    [65381, 65439]
+    // Halfwidth Katakana
+  ],
+  zh: [
+    [13312, 19903],
+    // CJK Unified Ideographs Extension A
+    [19968, 40959]
+    // CJK Unified Ideographs
+  ],
+  ko: [
+    [4352, 4607],
+    // Hangul Jamo
+    [12592, 12687],
+    // Hangul Compatibility Jamo
+    [44032, 55215]
+    // Hangul Syllables
+  ],
+  ru: [
+    [1024, 1279],
+    // Cyrillic
+    [1280, 1327],
+    // Cyrillic Supplement
+    [11744, 11775],
+    // Cyrillic Extended-A
+    [42560, 42655]
+    // Cyrillic Extended-B
+  ],
+  ar: [
+    [1536, 1791],
+    // Arabic
+    [1872, 1919],
+    // Arabic Supplement
+    [2208, 2303]
+    // Arabic Extended-A
+  ],
+  he: [[1424, 1535]],
+  // Hebrew
+  el: [
+    [880, 1023],
+    // Greek and Coptic
+    [7936, 8191]
+    // Greek Extended
+  ],
+  hi: [[2304, 2431]]
+  // Devanagari
+};
+var LATIN_RANGES = [
+  [65, 90],
+  // Basic Latin uppercase
+  [97, 122],
+  // Basic Latin lowercase
+  [192, 591],
+  // Latin-1 Supplement + Extended-A/B
+  [7680, 7935]
+  // Latin Extended Additional
+];
+var SCRIPT_KEYS = [
+  "ja",
+  "zh",
+  "ko",
+  "ru",
+  "ar",
+  "he",
+  "el",
+  "hi"
+];
+var LATIN_KEYS = ["en", "de", "fr", "es", "pt", "id"];
+var WORD_WEIGHT = 2;
+var CHAR_WEIGHT = 3;
+var LATIN_LANGUAGE_PROFILES = {
+  en: {
+    words: [
+      "the",
+      "and",
+      "you",
+      "that",
+      "with",
+      "this",
+      "from",
+      "your",
+      "have",
+      "will",
+      "can",
+      "hello",
+      "world"
+    ],
+    chars: []
+  },
+  de: {
+    words: [
+      "der",
+      "die",
+      "das",
+      "und",
+      "ist",
+      "nicht",
+      "mit",
+      "auf",
+      "f\xFCr",
+      "eine",
+      "ein",
+      "ich",
+      "sie"
+    ],
+    chars: ["\xDF", "\xE4", "\xF6", "\xFC"]
+  },
+  fr: {
+    words: [
+      "le",
+      "la",
+      "les",
+      "des",
+      "est",
+      "une",
+      "un",
+      "pour",
+      "que",
+      "dans",
+      "avec",
+      "pas",
+      "vous",
+      "sur",
+      "ce"
+    ],
+    chars: [
+      "\u0153",
+      "\xE6",
+      "\xE7",
+      "\xE9",
+      "\xE8",
+      "\xEA",
+      "\xEB",
+      "\xE0",
+      "\xE2",
+      "\xEE",
+      "\xEF",
+      "\xF4",
+      "\xF9",
+      "\xFB",
+      "\xFC",
+      "\xFF"
+    ]
+  },
+  es: {
+    words: [
+      "el",
+      "la",
+      "los",
+      "las",
+      "que",
+      "para",
+      "con",
+      "una",
+      "un",
+      "por",
+      "pero",
+      "como",
+      "muy",
+      "estas",
+      "est\xE1s"
+    ],
+    chars: [
+      "\xF1",
+      "\xE1",
+      "\xE9",
+      "\xED",
+      "\xF3",
+      "\xFA",
+      "\xFC",
+      "\xBF",
+      "\xA1"
+    ]
+  },
+  pt: {
+    words: [
+      "o",
+      "a",
+      "os",
+      "as",
+      "que",
+      "para",
+      "com",
+      "uma",
+      "um",
+      "n\xE3o",
+      "por",
+      "mais",
+      "como",
+      "estou",
+      "est\xE1",
+      "de",
+      "e"
+    ],
+    chars: [
+      "\xE3",
+      "\xF5",
+      "\xE7",
+      "\xE1",
+      "\xE0",
+      "\xE2",
+      "\xEA",
+      "\xED",
+      "\xF3",
+      "\xF4",
+      "\xFA",
+      "\xFC"
+    ]
+  },
+  id: {
+    words: [
+      "yang",
+      "dan",
+      "tidak",
+      "saya",
+      "kamu",
+      "ini",
+      "itu",
+      "untuk",
+      "dengan",
+      "ada",
+      "dari",
+      "di",
+      "ke",
+      "apa",
+      "bagaimana",
+      "bisa",
+      "terjadi",
+      "tahu"
+    ],
+    chars: []
+  }
+};
+var LATIN_WORD_SETS = {
+  en: new Set(LATIN_LANGUAGE_PROFILES.en.words),
+  de: new Set(LATIN_LANGUAGE_PROFILES.de.words),
+  fr: new Set(LATIN_LANGUAGE_PROFILES.fr.words),
+  es: new Set(LATIN_LANGUAGE_PROFILES.es.words),
+  pt: new Set(LATIN_LANGUAGE_PROFILES.pt.words),
+  id: new Set(LATIN_LANGUAGE_PROFILES.id.words)
+};
+var LATIN_CHAR_SETS = {
+  en: new Set(LATIN_LANGUAGE_PROFILES.en.chars),
+  de: new Set(LATIN_LANGUAGE_PROFILES.de.chars),
+  fr: new Set(LATIN_LANGUAGE_PROFILES.fr.chars),
+  es: new Set(LATIN_LANGUAGE_PROFILES.es.chars),
+  pt: new Set(LATIN_LANGUAGE_PROFILES.pt.chars),
+  id: new Set(LATIN_LANGUAGE_PROFILES.id.chars)
+};
+var isCodeInRanges = (code, ranges) => {
+  for (const [start, end] of ranges) {
+    if (code >= start && code <= end) {
+      return true;
+    }
+  }
+  return false;
+};
+var detectScriptForCodePoint = (code) => {
+  for (const key of SCRIPT_KEYS) {
+    if (isCodeInRanges(code, SCRIPT_RANGES[key])) {
+      return key;
+    }
+  }
+  return null;
+};
+var isLatinCodePoint = (code) => isCodeInRanges(code, LATIN_RANGES);
+var mergeJapaneseHan = (counts) => {
+  if (counts.ja > 0 && counts.zh > 0) {
+    counts.ja += counts.zh;
+    counts.zh = 0;
+  }
+};
+var pickDominantLanguage = (counts, keys) => {
+  let topLanguage = "unknown";
+  let topCount = 0;
+  let isTie = false;
+  for (const key of keys) {
+    const count = counts[key];
+    if (count > topCount) {
+      topLanguage = key;
+      topCount = count;
+      isTie = false;
+    } else if (count === topCount && count > 0) {
+      isTie = true;
+    }
+  }
+  if (topCount === 0 || isTie) {
+    return "unknown";
+  }
+  return topLanguage;
+};
+var sumCounts = (counts) => Object.values(counts).reduce((total, value) => total + value, 0);
+var extractWords = (text2) => {
+  var _a2;
+  return (_a2 = text2.match(/\p{L}+/gu)) != null ? _a2 : [];
+};
+var countOccurrences = (values) => {
+  var _a2;
+  const counts = /* @__PURE__ */ new Map();
+  for (const value of values) {
+    counts.set(value, ((_a2 = counts.get(value)) != null ? _a2 : 0) + 1);
+  }
+  return counts;
+};
+var scoreLatinLanguages = (charCounts, wordCounts) => {
+  var _a2, _b;
+  const scores = {
+    en: 0,
+    de: 0,
+    fr: 0,
+    es: 0,
+    pt: 0,
+    id: 0
+  };
+  for (const language of LATIN_KEYS) {
+    const charSet = LATIN_CHAR_SETS[language];
+    for (const char of charSet) {
+      scores[language] += ((_a2 = charCounts.get(char)) != null ? _a2 : 0) * CHAR_WEIGHT;
+    }
+    const wordSet = LATIN_WORD_SETS[language];
+    for (const word of wordSet) {
+      scores[language] += ((_b = wordCounts.get(word)) != null ? _b : 0) * WORD_WEIGHT;
+    }
+  }
+  return scores;
+};
+var countScriptAndLatinLetters = (text2) => {
+  const scriptCounts = {
+    ja: 0,
+    zh: 0,
+    ko: 0,
+    ru: 0,
+    ar: 0,
+    he: 0,
+    el: 0,
+    hi: 0
+  };
+  let latinLetterCount = 0;
+  for (const char of text2) {
+    const code = char.codePointAt(0);
+    if (!code) {
+      continue;
+    }
+    const scriptLanguage = detectScriptForCodePoint(code);
+    if (scriptLanguage) {
+      scriptCounts[scriptLanguage] += 1;
+      continue;
+    }
+    if (isLatinCodePoint(code)) {
+      latinLetterCount += 1;
+    }
+  }
+  return { scriptCounts, latinLetterCount };
+};
+var detectDominantLanguage = (text2) => {
+  const truncated = text2.length > MAX_ANALYSIS_LENGTH ? text2.slice(0, MAX_ANALYSIS_LENGTH) : text2;
+  const normalized = truncated.normalize("NFC");
+  const { scriptCounts, latinLetterCount } = countScriptAndLatinLetters(normalized);
+  mergeJapaneseHan(scriptCounts);
+  const dominantScript = pickDominantLanguage(scriptCounts, SCRIPT_KEYS);
+  const scriptLetterCount = sumCounts(scriptCounts);
+  if (dominantScript !== "unknown" && scriptLetterCount >= latinLetterCount) {
+    return dominantScript;
+  }
+  const lowerText = normalized.toLowerCase();
+  const words = extractWords(lowerText);
+  const charCounts = countOccurrences(lowerText);
+  const wordCounts = countOccurrences(words);
+  const latinScores = scoreLatinLanguages(charCounts, wordCounts);
+  const dominantLatin = pickDominantLanguage(latinScores, LATIN_KEYS);
+  if (dominantLatin !== "unknown") {
+    return dominantLatin;
+  }
+  if (latinLetterCount >= MIN_LATIN_LETTERS_THRESHOLD) {
+    return "en";
+  }
+  return "unknown";
+};
+
+// src/CommunityActionsService.ts
+var import_obsidian = require("obsidian");
+var DISCUSSION_COMMENTS_URL = "https://api.github.com/repos/pfrankov/obsidian-local-gpt/discussions/89/comments";
+var PER_PAGE = 100;
 var SEPARATOR = "\u2702\uFE0F";
+var POSITIVE_REACTIONS = [
+  "+1",
+  "heart",
+  "hooray",
+  "rocket",
+  "eyes",
+  "laugh"
+];
+var NEGATIVE_REACTIONS = ["-1", "confused"];
+var FIELD_KEYS = ["name", "system", "prompt", "language", "replace"];
+var FIELD_REGEX = new RegExp(
+  `(?:^|\\n)\\s*(${FIELD_KEYS.join("|")}):\\s*([\\s\\S]*?)(?=\\n\\s*(?:${FIELD_KEYS.join(
+    "|"
+  )}):|$)`,
+  "gi"
+);
+var buildCommunityActionSignature = (action) => {
+  var _a2, _b;
+  return [(_a2 = action.system) != null ? _a2 : "", (_b = action.prompt) != null ? _b : "", action.replace ? "1" : "0"].join(
+    "\n---\n"
+  );
+};
+var buildCommunityActionKey = (language, name) => `${language.trim().toLowerCase()}::${name.trim().toLowerCase()}`;
+var CommunityActionsService = class {
+  static async getCommunityActions(options) {
+    var _a2;
+    const forceRefresh = (_a2 = options == null ? void 0 : options.forceRefresh) != null ? _a2 : false;
+    if (this.cache && !forceRefresh) {
+      return this.cache;
+    }
+    if (this.pendingRequest) {
+      return this.pendingRequest;
+    }
+    const fallback = this.cache;
+    this.pendingRequest = (async () => {
+      const { actions, failed } = await this.fetchCommunityActions();
+      if (failed) {
+        if (fallback) {
+          this.cache = fallback;
+          return fallback;
+        }
+        throw new Error("Failed to fetch community actions");
+      }
+      this.cache = actions;
+      return actions;
+    })().finally(() => {
+      this.pendingRequest = void 0;
+    });
+    return this.pendingRequest;
+  }
+  static clearCache() {
+    this.cache = null;
+    this.pendingRequest = void 0;
+  }
+  static async fetchCommunityActions() {
+    const actions = await this.collectActions(
+      1,
+      [],
+      /* @__PURE__ */ new Set(),
+      /* @__PURE__ */ new Map()
+    );
+    if (!actions) {
+      return { actions: [], failed: true };
+    }
+    const sorted = actions.sort((a, b) => {
+      if (a.score === b.score) {
+        return a.order - b.order;
+      }
+      return b.score - a.score;
+    }).map(({ order: _order2, ...action }) => action);
+    return { actions: sorted, failed: false };
+  }
+  static async collectActions(page, actions, uniqueKeys, uniqueContentKeys) {
+    var _a2;
+    const response = await this.requestPage(page);
+    if (!response) {
+      return page === 1 ? null : actions;
+    }
+    const comments = (_a2 = response.json) != null ? _a2 : [];
+    if (!comments.length) {
+      return actions;
+    }
+    this.appendActionsFromComments(
+      comments,
+      actions,
+      uniqueKeys,
+      uniqueContentKeys
+    );
+    if (comments.length < PER_PAGE) {
+      return actions;
+    }
+    return this.collectActions(
+      page + 1,
+      actions,
+      uniqueKeys,
+      uniqueContentKeys
+    );
+  }
+  static async requestPage(page) {
+    try {
+      const response = await (0, import_obsidian.requestUrl)({
+        url: `${DISCUSSION_COMMENTS_URL}?per_page=${PER_PAGE}&page=${page}&sort=created&direction=asc`,
+        headers: {
+          Accept: "application/vnd.github+json"
+        },
+        throw: false
+      });
+      if (response.status !== 200) {
+        console.error(
+          `GitHub API responded with ${response.status} on page ${page}`
+        );
+        return null;
+      }
+      return response;
+    } catch (error) {
+      console.error("Failed to fetch community actions", error);
+      return null;
+    }
+  }
+  static appendActionsFromComments(comments, actions, uniqueKeys, uniqueContentKeys) {
+    var _a2, _b, _c;
+    for (const comment of comments) {
+      const parsedAction = this.extractActionFromBody(comment.body || "");
+      if (!parsedAction) {
+        continue;
+      }
+      const languageKey = parsedAction.language.trim().toLowerCase();
+      const normalizedKey = buildCommunityActionKey(
+        languageKey,
+        parsedAction.name
+      );
+      if (uniqueKeys.has(normalizedKey)) {
+        continue;
+      }
+      const signatureKey = this.buildSimilaritySignature(parsedAction);
+      const languageSignatures = (_a2 = uniqueContentKeys.get(languageKey)) != null ? _a2 : /* @__PURE__ */ new Set();
+      if (languageSignatures.has(signatureKey)) {
+        continue;
+      }
+      uniqueKeys.add(normalizedKey);
+      languageSignatures.add(signatureKey);
+      uniqueContentKeys.set(languageKey, languageSignatures);
+      const score = this.getReactionScore(comment.reactions);
+      actions.push({
+        id: `${comment.id}`,
+        name: parsedAction.name,
+        language: parsedAction.language,
+        description: parsedAction.description,
+        prompt: parsedAction.prompt,
+        system: parsedAction.system,
+        replace: parsedAction.replace,
+        author: ((_b = comment.user) == null ? void 0 : _b.login) || "unknown",
+        authorUrl: (_c = comment.user) == null ? void 0 : _c.html_url,
+        commentUrl: comment.html_url,
+        score,
+        createdAt: comment.created_at,
+        updatedAt: comment.updated_at,
+        order: actions.length
+      });
+    }
+  }
+  static normalizeFieldValue(value) {
+    if (!value) {
+      return void 0;
+    }
+    const cleaned = value.trim();
+    if (!cleaned) {
+      return void 0;
+    }
+    return cleaned;
+  }
+  static normalizeSingleLine(value) {
+    if (!value) {
+      return void 0;
+    }
+    const firstLine = value.split("\n")[0].trim();
+    if (!firstLine) {
+      return void 0;
+    }
+    return firstLine;
+  }
+  static extractActionFromBody(body) {
+    if (!body) {
+      return null;
+    }
+    const normalizedBody = this.normalizeBody(body);
+    if (!normalizedBody.trim()) {
+      return null;
+    }
+    const splitBody = this.splitBodyByDescriptionSeparator(normalizedBody);
+    if (!splitBody) {
+      return null;
+    }
+    const fields = this.extractFields(splitBody.fieldsBody);
+    return this.buildActionFromFields(fields, splitBody.description);
+  }
+  static normalizeBody(body) {
+    return this.sanitizePlainText(body).split(SEPARATOR).join("\n").replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+  }
+  static splitBodyByDescriptionSeparator(normalizedBody) {
+    const separatorRegex = /^\s*---\s*$/m;
+    const match = separatorRegex.exec(normalizedBody);
+    if (!match || typeof match.index !== "number") {
+      return null;
+    }
+    const descriptionBody = normalizedBody.slice(0, match.index).trim();
+    const fieldsBody = normalizedBody.slice(match.index + match[0].length).trim();
+    return {
+      description: this.normalizeFieldValue(descriptionBody),
+      fieldsBody
+    };
+  }
+  static extractFields(fieldsBody) {
+    const fields = {};
+    let fieldMatch;
+    FIELD_REGEX.lastIndex = 0;
+    while ((fieldMatch = FIELD_REGEX.exec(fieldsBody)) !== null) {
+      const key = fieldMatch[1].toLowerCase();
+      if (!FIELD_KEYS.includes(key) || fields[key]) {
+        continue;
+      }
+      const value = this.normalizeFieldValue(fieldMatch[2]);
+      if (!value) {
+        continue;
+      }
+      fields[key] = value;
+    }
+    return fields;
+  }
+  static buildActionFromFields(fields, description) {
+    var _a2;
+    const name = this.normalizeSingleLine(fields.name);
+    const language = (_a2 = this.normalizeSingleLine(
+      fields.language
+    )) == null ? void 0 : _a2.toLowerCase();
+    const system = fields.system;
+    const prompt = fields.prompt;
+    const replace = fields.replace ? fields.replace.toLowerCase() === "true" : void 0;
+    if (!name || !language) {
+      return null;
+    }
+    if (!system && !prompt) {
+      return null;
+    }
+    return {
+      name,
+      language,
+      description: description || void 0,
+      system: system || void 0,
+      prompt: prompt || void 0,
+      replace
+    };
+  }
+  static getReactionScore(reactions) {
+    if (!reactions) {
+      return 0;
+    }
+    const positive = POSITIVE_REACTIONS.reduce((total, key) => {
+      var _a2;
+      return total + ((_a2 = reactions[key]) != null ? _a2 : 0);
+    }, 0);
+    const negative = NEGATIVE_REACTIONS.reduce((total, key) => {
+      var _a2;
+      return total + ((_a2 = reactions[key]) != null ? _a2 : 0);
+    }, 0);
+    return positive - negative;
+  }
+  static sanitizePlainText(value) {
+    const withoutTags = value.replace(this.HTML_TAG_REGEX, "").replace(/[<>]/g, "");
+    const output = [];
+    for (let index2 = 0; index2 < withoutTags.length; index2 += 1) {
+      const code = withoutTags.charCodeAt(index2);
+      if (code === 9 || code === 10 || code === 13) {
+        output.push(withoutTags[index2]);
+        continue;
+      }
+      if (code < 32 || code === 127) {
+        continue;
+      }
+      output.push(withoutTags[index2]);
+    }
+    return output.join("");
+  }
+  static buildSimilaritySignature(action) {
+    const system = this.normalizeForSimilarity(action.system);
+    const prompt = this.normalizeForSimilarity(action.prompt);
+    const replace = action.replace ? "1" : "0";
+    return `${system}
+---
+${prompt}
+---
+${replace}`;
+  }
+  static normalizeForSimilarity(value) {
+    if (!value) {
+      return "";
+    }
+    const cleaned = this.sanitizePlainText(value);
+    return cleaned.normalize("NFKD").replace(/\p{M}/gu, "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").replace(/\s+/g, " ").trim();
+  }
+};
+CommunityActionsService.cache = null;
+CommunityActionsService.HTML_TAG_REGEX = /<[^>]*>/g;
+
+// src/LocalGPTSettingTab.ts
+var SEPARATOR2 = "\u2702\uFE0F";
+var normalizeLanguageCode = (value) => {
+  if (!value) {
+    return "en";
+  }
+  const trimmed = value.trim().toLowerCase();
+  if (!trimmed) {
+    return "en";
+  }
+  return trimmed.split(/[-_]/)[0] || "en";
+};
 function escapeTitle(title) {
   if (!title) {
     return "";
   }
   return title.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
 }
-var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
+var LocalGPTSettingTab = class extends import_obsidian2.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.editEnabled = false;
     this.modelsOptions = {};
     // Controls visibility of the Advanced settings section
     this.isAdvancedMode = false;
+    this.communityActionsStatusMessage = "";
+    this.communityActionsRenderId = 0;
     // Guard to require a second click before destructive reset
     this.isConfirmingReset = false;
     this.plugin = plugin;
@@ -3756,7 +4785,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
           "": ""
         }
       );
-      new import_obsidian.Setting(containerEl).setHeading().setName(I18n.t("settings.mainProvider")).setClass("ai-providers-select").addDropdown(
+      new import_obsidian2.Setting(containerEl).setHeading().setName(I18n.t("settings.mainProvider")).setClass("local-gpt-ai-providers-select").addDropdown(
         (dropdown) => dropdown.addOptions(providers).setValue(String(this.plugin.settings.aiProviders.main)).onChange(async (value) => {
           this.plugin.settings.aiProviders.main = value;
           this.plugin.actionPaletteProviderId = value;
@@ -3764,7 +4793,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
           await this.display();
         })
       );
-      new import_obsidian.Setting(containerEl).setName(I18n.t("settings.embeddingProvider")).setDesc(I18n.t("settings.embeddingProviderDesc")).setClass("ai-providers-select").addDropdown(
+      new import_obsidian2.Setting(containerEl).setName(I18n.t("settings.embeddingProvider")).setDesc(I18n.t("settings.embeddingProviderDesc")).setClass("local-gpt-ai-providers-select").addDropdown(
         (dropdown) => dropdown.addOptions(providers).setValue(
           String(this.plugin.settings.aiProviders.embedding)
         ).onChange(async (value) => {
@@ -3773,7 +4802,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
           await this.display();
         })
       );
-      new import_obsidian.Setting(containerEl).setName(I18n.t("settings.visionProvider")).setClass("ai-providers-select").setDesc(I18n.t("settings.visionProviderDesc")).addDropdown(
+      new import_obsidian2.Setting(containerEl).setName(I18n.t("settings.visionProvider")).setClass("local-gpt-ai-providers-select").setDesc(I18n.t("settings.visionProviderDesc")).addDropdown(
         (dropdown) => dropdown.addOptions(providers).setValue(
           String(this.plugin.settings.aiProviders.vision)
         ).onChange(async (value) => {
@@ -3782,7 +4811,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
           await this.display();
         })
       );
-      new import_obsidian.Setting(containerEl).setName(I18n.t("settings.creativity")).setDesc("").addDropdown((dropdown) => {
+      new import_obsidian2.Setting(containerEl).setName(I18n.t("settings.creativity")).setDesc("").addDropdown((dropdown) => {
         dropdown.addOption("", I18n.t("settings.creativityNone")).addOptions({
           low: I18n.t("settings.creativityLow"),
           medium: I18n.t("settings.creativityMedium"),
@@ -3805,15 +4834,52 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
       system: "",
       replace: false
     };
-    const sharingActionsMapping = {
+    const sharingFieldLabels = {
       name: "Name: ",
       system: "System: ",
       prompt: "Prompt: ",
       replace: "Replace: ",
-      model: "Model: "
+      language: "Language: "
     };
+    const sharingFieldOrder = [
+      "name",
+      "system",
+      "prompt",
+      "replace",
+      "language"
+    ];
+    const sharingEntries = sharingFieldOrder.map(
+      (key) => [key, sharingFieldLabels[key]]
+    );
+    const quickAddHandlers = {
+      name: (value, action) => {
+        action.name = value;
+      },
+      system: (value, action) => {
+        action.system = value;
+      },
+      prompt: (value, action) => {
+        action.prompt = value;
+      },
+      replace: (value, action) => {
+        action.replace = value.trim().toLowerCase() === "true";
+      }
+    };
+    const defaultCommunityActionsLanguage = normalizeLanguageCode(
+      window.localStorage.getItem("language")
+    );
     const isEditingExisting = Boolean(this.editExistingAction);
     const isEditingNew = this.editEnabled && !isEditingExisting;
+    const dropCommunityLinkIfModified = (action) => {
+      var _a2;
+      if (!((_a2 = action.community) == null ? void 0 : _a2.hash)) {
+        return;
+      }
+      const localSignature = buildCommunityActionSignature(action);
+      if (localSignature !== action.community.hash) {
+        delete action.community;
+      }
+    };
     const closeActionEditor = (scrollAction) => {
       this.editEnabled = false;
       this.editExistingAction = void 0;
@@ -3825,7 +4891,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
       this.display();
     };
     const renderActionEditor = (container, actionToEdit, isExistingAction) => {
-      new import_obsidian.Setting(container).setName(I18n.t("settings.actionName")).addText((text2) => {
+      new import_obsidian2.Setting(container).setName(I18n.t("settings.actionName")).addText((text2) => {
         text2.inputEl.classList.add("local-gpt-action-input");
         (actionToEdit == null ? void 0 : actionToEdit.name) && text2.setValue(actionToEdit.name);
         text2.setPlaceholder(
@@ -3835,7 +4901,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
           actionToEdit.name = value;
         });
       });
-      new import_obsidian.Setting(container).setName(I18n.t("settings.systemPrompt")).setDesc(I18n.t("settings.systemPromptDesc")).addTextArea((text2) => {
+      new import_obsidian2.Setting(container).setName(I18n.t("settings.systemPrompt")).setDesc(I18n.t("settings.systemPromptDesc")).addTextArea((text2) => {
         text2.inputEl.classList.add("local-gpt-action-textarea");
         (actionToEdit == null ? void 0 : actionToEdit.system) && text2.setValue(actionToEdit.system);
         text2.setPlaceholder(
@@ -3845,7 +4911,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
           actionToEdit.system = value;
         });
       });
-      const promptSetting = new import_obsidian.Setting(container).setName(I18n.t("settings.prompt")).setDesc("").addTextArea((text2) => {
+      const promptSetting = new import_obsidian2.Setting(container).setName(I18n.t("settings.prompt")).setDesc("").addTextArea((text2) => {
         text2.inputEl.classList.add("local-gpt-action-textarea");
         (actionToEdit == null ? void 0 : actionToEdit.prompt) && text2.setValue(actionToEdit.prompt);
         text2.setPlaceholder("");
@@ -3854,13 +4920,13 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
         });
       });
       promptSetting.descEl.innerHTML = I18n.t("settings.promptDesc");
-      new import_obsidian.Setting(container).setName(I18n.t("settings.replaceSelected")).setDesc(I18n.t("settings.replaceSelectedDesc")).addToggle((component) => {
+      new import_obsidian2.Setting(container).setName(I18n.t("settings.replaceSelected")).setDesc(I18n.t("settings.replaceSelectedDesc")).addToggle((component) => {
         (actionToEdit == null ? void 0 : actionToEdit.replace) && component.setValue(actionToEdit.replace);
         component.onChange(async (value) => {
           actionToEdit.replace = value;
         });
       });
-      const actionButtonsRow = new import_obsidian.Setting(container).setName("");
+      const actionButtonsRow = new import_obsidian2.Setting(container).setName("");
       if (isExistingAction) {
         actionButtonsRow.addButton((button) => {
           button.setClass("local-gpt-action-remove");
@@ -3886,7 +4952,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
       }).addButton(
         (button) => button.setCta().setButtonText(I18n.t("settings.save")).onClick(async () => {
           if (!actionToEdit.name) {
-            new import_obsidian.Notice(
+            new import_obsidian2.Notice(
               I18n.t("notices.actionNameRequired")
             );
             return;
@@ -3895,7 +4961,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
             if (this.plugin.settings.actions.find(
               (action) => action.name === actionToEdit.name
             )) {
-              new import_obsidian.Notice(
+              new import_obsidian2.Notice(
                 I18n.t("notices.actionNameExists", {
                   name: actionToEdit.name
                 })
@@ -3907,13 +4973,14 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
             if (this.plugin.settings.actions.filter(
               (action) => action.name === actionToEdit.name
             ).length > 1) {
-              new import_obsidian.Notice(
+              new import_obsidian2.Notice(
                 I18n.t("notices.actionNameExists", {
                   name: actionToEdit.name
                 })
               );
               return;
             }
+            dropCommunityLinkIfModified(actionToEdit);
             const index2 = this.plugin.settings.actions.findIndex(
               (innerAction) => innerAction === actionToEdit
             );
@@ -3929,26 +4996,33 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
     containerEl.createEl("div", { cls: "local-gpt-settings-separator" });
     containerEl.createEl("h3", { text: I18n.t("settings.actions") });
     if (!isEditingNew) {
-      const quickAdd = new import_obsidian.Setting(containerEl).setName(I18n.t("settings.quickAdd")).setDesc("").addText((text2) => {
+      const quickAdd = new import_obsidian2.Setting(containerEl).setName(I18n.t("settings.quickAdd")).setDesc("").addText((text2) => {
         text2.inputEl.classList.add("local-gpt-action-input");
         text2.setPlaceholder(I18n.t("settings.quickAddPlaceholder"));
         text2.onChange(async (value) => {
-          const quickAddAction = value.split(SEPARATOR).map((part) => part.trim()).reduce((acc, part) => {
-            const foundMatchKey = Object.keys(
-              sharingActionsMapping
-            ).find((key) => {
-              return part.startsWith(
-                sharingActionsMapping[key]
-              );
-            });
-            if (foundMatchKey) {
-              acc[foundMatchKey] = part.substring(
-                sharingActionsMapping[foundMatchKey].length,
-                part.length
-              );
+          const parts = value.split(SEPARATOR2).map((part) => part.trim()).filter(Boolean);
+          if (!parts.length) {
+            return;
+          }
+          const quickAddAction = {
+            name: "",
+            prompt: ""
+          };
+          for (const part of parts) {
+            const entry = sharingEntries.find(
+              ([, label2]) => part.startsWith(label2)
+            );
+            const key = entry == null ? void 0 : entry[0];
+            const label = entry == null ? void 0 : entry[1];
+            const rawValue = label ? part.slice(label.length).trim() : "";
+            if (!key || !rawValue) {
+              continue;
             }
-            return acc;
-          }, {});
+            const handler = quickAddHandlers[key];
+            if (handler) {
+              handler(rawValue, quickAddAction);
+            }
+          }
           if (quickAddAction.name) {
             await this.addNewAction(quickAddAction);
             text2.setValue("");
@@ -3957,7 +5031,10 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
         });
       });
       quickAdd.descEl.innerHTML = I18n.t("settings.quickAddDesc");
-      const addActionsRow = new import_obsidian.Setting(containerEl).setName(I18n.t("settings.addNewManually")).setClass("local-gpt-add-actions");
+      new import_obsidian2.Setting(containerEl).setName(I18n.t("settings.communityActions")).setDesc(I18n.t("settings.communityActionsOpenDesc")).addButton((button) => {
+        button.setButtonText(I18n.t("settings.communityActionsOpen")).setCta().onClick(() => openCommunityActionsModal());
+      });
+      const addActionsRow = new import_obsidian2.Setting(containerEl).setName(I18n.t("settings.addNewManually")).setClass("local-gpt-add-actions");
       addActionsRow.addButton(
         (button) => button.setCta().setButtonText(I18n.t("settings.addAction")).onClick(async () => {
           this.editEnabled = true;
@@ -3978,7 +5055,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
     const actionsContainer = containerEl.createDiv(
       "local-gpt-actions-container"
     );
-    const isMobile = import_obsidian.Platform.isMobile || import_obsidian.Platform.isMobileApp;
+    const isMobile = import_obsidian2.Platform.isMobile || import_obsidian2.Platform.isMobileApp;
     const updateOrder = async (fromIndex, toIndex) => {
       const updatedActions = moveAction(
         this.plugin.settings.actions,
@@ -4100,21 +5177,37 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
       });
       this.pendingScroll = void 0;
     };
-    const buildSharingString = (action) => [
-      action.name && `${sharingActionsMapping.name}${action.name}`,
-      action.system && `${sharingActionsMapping.system}${action.system}`,
-      action.prompt && `${sharingActionsMapping.prompt}${action.prompt}`,
-      action.replace && `${sharingActionsMapping.replace}${action.replace}`
-    ].filter(Boolean).join(` ${SEPARATOR}
+    const buildSharingString = (action) => {
+      const detectedLanguage = detectDominantLanguage(
+        [action.name, action.system, action.prompt].filter((value) => Boolean(value)).join("\n")
+      );
+      const resolvedLanguage = normalizeLanguageCode(
+        detectedLanguage === "unknown" ? defaultCommunityActionsLanguage : detectedLanguage
+      );
+      const replaceValue = action.replace ? `${sharingFieldLabels.replace}${action.replace}` : "";
+      return [
+        action.name && `${sharingFieldLabels.name}${action.name}`,
+        action.system && `${sharingFieldLabels.system}${action.system}`,
+        action.prompt && `${sharingFieldLabels.prompt}${action.prompt}`,
+        replaceValue,
+        `${sharingFieldLabels.language}${resolvedLanguage}`
+      ].filter(Boolean).join(` ${SEPARATOR2}
 `);
+    };
     const buildActionDescription = (action) => {
+      var _a2, _b;
       const systemTitle = escapeTitle(action.system);
       const promptTitle = escapeTitle(action.prompt);
+      const communityDescription = (_b = (_a2 = action.community) == null ? void 0 : _a2.description) == null ? void 0 : _b.trim();
+      if (communityDescription) {
+        const escaped = escapeTitle(communityDescription);
+        return `<div class="local-gpt-action-community-description" title="${escaped}">${escaped}</div>`;
+      }
       return [
         action.system ? `<div title="${systemTitle}" style="text-overflow: ellipsis; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-						<b>${sharingActionsMapping.system}</b>${action.system}</div>` : "",
+						<b>${sharingFieldLabels.system}</b>${action.system}</div>` : "",
         action.prompt ? `<div title="${promptTitle}" style="text-overflow: ellipsis; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-						<b>${sharingActionsMapping.prompt}</b>${action.prompt}
+						<b>${sharingFieldLabels.prompt}</b>${action.prompt}
 					</div>` : ""
       ].filter(Boolean).join("<br/>\n");
     };
@@ -4141,7 +5234,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
       });
     };
     const renderSeparatorActionRow = (action, actionIndex) => {
-      const actionRow = new import_obsidian.Setting(actionsContainer).setName("").setDesc("");
+      const actionRow = new import_obsidian2.Setting(actionsContainer).setName("").setDesc("");
       actionRow.settingEl.addClass("local-gpt-action-row");
       actionRow.settingEl.addClass("local-gpt-action-separator");
       actionRow.settingEl.setAttribute(
@@ -4151,7 +5244,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
       const handle = actionRow.settingEl.createDiv(
         "local-gpt-drag-handle"
       );
-      (0, import_obsidian.setIcon)(handle, "grip-vertical");
+      (0, import_obsidian2.setIcon)(handle, "grip-vertical");
       actionRow.settingEl.prepend(handle);
       addMobileMoveButtons(actionRow, actionIndex);
       actionRow.infoEl.empty();
@@ -4171,9 +5264,9 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
       );
     };
     const renderActionRow = (action, actionIndex) => {
-      var _a2;
+      var _a2, _b;
       const isEditingRow = this.editExistingAction === action;
-      const actionRow = new import_obsidian.Setting(actionsContainer);
+      const actionRow = new import_obsidian2.Setting(actionsContainer);
       actionRow.settingEl.addClass("local-gpt-action-row");
       if (isEditingRow) {
         actionRow.controlEl.remove();
@@ -4190,17 +5283,30 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
         return;
       }
       actionRow.setName(action.name).setDesc("");
+      if (action.community && actionRow.nameEl) {
+        const nameEl = actionRow.nameEl;
+        const nameText = (_b = nameEl.textContent) != null ? _b : "";
+        nameEl.empty();
+        nameEl.createSpan({
+          cls: "local-gpt-action-name-label",
+          text: nameText
+        });
+        nameEl.createSpan({
+          cls: "local-gpt-community-actions-status local-gpt-action-community-status local-gpt-is-installed",
+          text: I18n.t("settings.communityActionsBadge")
+        });
+      }
       const handle = actionRow.settingEl.createDiv(
         "local-gpt-drag-handle"
       );
-      (0, import_obsidian.setIcon)(handle, "grip-vertical");
+      (0, import_obsidian2.setIcon)(handle, "grip-vertical");
       actionRow.settingEl.prepend(handle);
       addMobileMoveButtons(actionRow, actionIndex);
       const sharingString = buildSharingString(action);
       actionRow.addButton(
         (button) => button.setIcon("copy").onClick(async () => {
           navigator.clipboard.writeText(sharingString);
-          new import_obsidian.Notice(I18n.t("notices.copied"));
+          new import_obsidian2.Notice(I18n.t("notices.copied"));
         })
       ).addButton(
         (button) => button.setButtonText("Edit").onClick(async () => {
@@ -4226,7 +5332,10 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
     });
     restoreScrollPosition(actionsContainer);
     this.pendingScroll = void 0;
-    if (this.plugin.settings.actions.length > 1) {
+    const setupActionsSortable = () => {
+      if (this.plugin.settings.actions.length <= 1) {
+        return;
+      }
       let autoScrollFrame = null;
       let autoScrollDelta = 0;
       let scrollEl2 = null;
@@ -4348,8 +5457,640 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
           }
         }
       });
-    }
-    new import_obsidian.Setting(containerEl).setHeading().setName(I18n.t("settings.advancedSettings")).setDesc(I18n.t("settings.advancedSettingsDesc")).setClass("local-gpt-advanced-toggle").addToggle(
+    };
+    setupActionsSortable();
+    const openCommunityActionsModal = () => {
+      const modal = new import_obsidian2.Modal(this.app);
+      modal.modalEl.addClass("local-gpt-community-actions-modal");
+      modal.titleEl.setText(I18n.t("settings.communityActions"));
+      const modalContent = modal.contentEl;
+      const communityActionsRenderId = Date.now();
+      this.communityActionsRenderId = communityActionsRenderId;
+      const communityActionsSection = modalContent.createDiv(
+        "local-gpt-community-actions"
+      );
+      const communityActionsDescription = communityActionsSection.createDiv("setting-item-description");
+      communityActionsDescription.innerHTML = I18n.t(
+        "settings.communityActionsDesc"
+      );
+      const communityActionsHint = communityActionsSection.createDiv(
+        "local-gpt-community-actions-hint"
+      );
+      communityActionsHint.setText(
+        I18n.t("settings.communityActionsAutoUpdate")
+      );
+      const communityActionsStatus = communityActionsSection.createDiv(
+        "local-gpt-community-actions-status-line"
+      );
+      communityActionsStatus.setText(
+        this.communityActionsStatusMessage || ""
+      );
+      communityActionsStatus.toggleClass(
+        "local-gpt-is-hidden",
+        !this.communityActionsStatusMessage
+      );
+      this.communityActionsLanguage = normalizeLanguageCode(
+        this.communityActionsLanguage || defaultCommunityActionsLanguage
+      );
+      let communityActions = [];
+      let communityActionsLoaded = false;
+      let languageDropdown = null;
+      let refreshButton = null;
+      let communityActionsSearchQuery = "";
+      const communityActionsList = communityActionsSection.createDiv(
+        "local-gpt-community-actions-list"
+      );
+      const renderCommunityActionsMessage = (message, className) => {
+        communityActionsList.empty();
+        const messageEl = communityActionsList.createDiv(className);
+        messageEl.setText(message);
+      };
+      const normalizeActionName = (name) => name.trim().toLowerCase();
+      const normalizeSearchValue = (value) => value.toLowerCase().replace(/\s+/g, " ").trim();
+      const fuzzyMatch2 = (target, query) => {
+        if (!query) {
+          return true;
+        }
+        let ti = 0;
+        for (const qc of query) {
+          ti = target.indexOf(qc, ti);
+          if (ti === -1) {
+            return false;
+          }
+          ti++;
+        }
+        return true;
+      };
+      const buildCommunityActionsLookup = (actions) => {
+        const byId = /* @__PURE__ */ new Map();
+        const byKey = /* @__PURE__ */ new Map();
+        const byName = /* @__PURE__ */ new Map();
+        actions.forEach((action) => {
+          var _a2, _b, _c;
+          byName.set(normalizeActionName(action.name), action);
+          if ((_a2 = action.community) == null ? void 0 : _a2.id) {
+            byId.set(action.community.id, action);
+          }
+          if (((_b = action.community) == null ? void 0 : _b.language) && ((_c = action.community) == null ? void 0 : _c.name)) {
+            byKey.set(
+              buildCommunityActionKey(
+                action.community.language,
+                action.community.name
+              ),
+              action
+            );
+          }
+        });
+        return { byId, byKey, byName };
+      };
+      const findCommunityActionLink = (action, lookup) => lookup.byId.get(action.id) || lookup.byKey.get(
+        buildCommunityActionKey(action.language, action.name)
+      );
+      const getCommunityActionSearchRank = (action, query) => {
+        const fields = [
+          action.name,
+          action.description,
+          action.prompt,
+          action.system
+        ];
+        for (let i = 0; i < fields.length; i++) {
+          const value = fields[i];
+          if (!value) {
+            continue;
+          }
+          const normalized = normalizeSearchValue(value);
+          if (normalized && fuzzyMatch2(normalized, query)) {
+            return i;
+          }
+        }
+        return null;
+      };
+      const resolveCommunityActionState = (action, lookup) => {
+        var _a2;
+        const linkedAction = findCommunityActionLink(action, lookup);
+        if (linkedAction) {
+          const localSignature = buildCommunityActionSignature(linkedAction);
+          const storedHash = (_a2 = linkedAction.community) == null ? void 0 : _a2.hash;
+          if (storedHash && localSignature !== storedHash) {
+            return { type: "modified", localAction: linkedAction };
+          }
+          return { type: "installed", localAction: linkedAction };
+        }
+        const nameMatch = lookup.byName.get(
+          normalizeActionName(action.name)
+        );
+        if (nameMatch) {
+          return { type: "conflict", localAction: nameMatch };
+        }
+        return { type: "available" };
+      };
+      const buildCommunityActionRef = (action) => {
+        var _a2, _b;
+        return {
+          id: action.id,
+          language: action.language,
+          name: action.name,
+          hash: buildCommunityActionSignature(action),
+          updatedAt: (_a2 = action.updatedAt) != null ? _a2 : action.createdAt,
+          description: ((_b = action.description) == null ? void 0 : _b.trim()) || void 0
+        };
+      };
+      const setCommunityActionsStatusMessage = (message) => {
+        this.communityActionsStatusMessage = message;
+        if (!message) {
+          communityActionsStatus.setText("");
+          communityActionsStatus.addClass("local-gpt-is-hidden");
+          return;
+        }
+        communityActionsStatus.setText(message);
+        communityActionsStatus.removeClass("local-gpt-is-hidden");
+      };
+      const addPreviewLine = (preview, label, value) => {
+        if (!value) {
+          return;
+        }
+        const line = preview.createDiv(
+          "local-gpt-community-actions-preview-line"
+        );
+        line.createSpan({
+          text: `${label}: `,
+          cls: "local-gpt-community-actions-preview-label"
+        });
+        line.createSpan({ text: value });
+      };
+      let refreshCommunityActionsList = () => {
+        renderCommunityActionsMessage(
+          I18n.t("settings.communityActionsLoading"),
+          "local-gpt-community-actions-loading"
+        );
+      };
+      const installCommunityAction = async (action, existingAction) => {
+        var _a2, _b;
+        const localAction = existingAction ? { ...existingAction } : {
+          name: action.name,
+          prompt: ""
+        };
+        localAction.name = action.name;
+        localAction.prompt = (_a2 = action.prompt) != null ? _a2 : "";
+        localAction.replace = (_b = action.replace) != null ? _b : false;
+        if (action.system) {
+          localAction.system = action.system;
+        } else {
+          delete localAction.system;
+        }
+        localAction.community = buildCommunityActionRef(action);
+        captureScrollPosition(containerEl);
+        await this.addNewAction(localAction);
+        refreshCommunityActionsList();
+        this.pendingScroll = {
+          action: localAction,
+          align: "center",
+          target: "row"
+        };
+        this.display();
+      };
+      const getCommunityActionStatusPill = (state) => {
+        if (state.type === "installed") {
+          return {
+            label: I18n.t("settings.communityActionsInstalled"),
+            variant: "installed"
+          };
+        }
+        if (state.type === "modified") {
+          return {
+            label: I18n.t("settings.communityActionsModified"),
+            variant: "modified"
+          };
+        }
+        if (state.type === "conflict") {
+          return {
+            label: I18n.t("settings.communityActionsInList"),
+            variant: "conflict"
+          };
+        }
+        return null;
+      };
+      const getCommunityActionNote = (state) => {
+        if (state.type === "modified") {
+          return I18n.t("settings.communityActionsModifiedNote");
+        }
+        if (state.type === "conflict") {
+          return I18n.t("settings.communityActionsConflictNote");
+        }
+        return null;
+      };
+      const configureCommunityActionButton = (button, action, state) => {
+        if (state.type === "installed") {
+          button.setButtonText(
+            I18n.t("settings.communityActionsInstalled")
+          ).setDisabled(true);
+          button.buttonEl.addClass(
+            "local-gpt-community-actions-installed-button"
+          );
+          return;
+        }
+        if (state.type === "modified") {
+          button.setButtonText(
+            I18n.t("settings.communityActionsUpdate")
+          ).setClass("mod-warning").onClick(
+            async () => installCommunityAction(action, state.localAction)
+          );
+          return;
+        }
+        if (state.type === "conflict") {
+          button.setButtonText(
+            I18n.t("settings.communityActionsReplace")
+          ).setClass("mod-warning").onClick(
+            async () => installCommunityAction(action, state.localAction)
+          );
+          return;
+        }
+        button.setCta().setButtonText(I18n.t("settings.communityActionsInstall")).onClick(async () => installCommunityAction(action));
+        button.buttonEl.addClass(
+          "local-gpt-community-actions-install-button"
+        );
+        const icon = button.buttonEl.createSpan(
+          "local-gpt-community-actions-install-icon"
+        );
+        (0, import_obsidian2.setIcon)(icon, "plus");
+        button.buttonEl.prepend(icon);
+      };
+      const renderCommunityActionRow = (action, state) => {
+        var _a2;
+        const actionRow = communityActionsList.createDiv(
+          "local-gpt-community-actions-row"
+        );
+        if (state.type === "installed") {
+          actionRow.addClass("local-gpt-is-installed");
+        }
+        const infoEl = actionRow.createDiv(
+          "local-gpt-community-actions-info"
+        );
+        const content = infoEl.createDiv(
+          "local-gpt-community-actions-content"
+        );
+        const header = content.createDiv(
+          "local-gpt-community-actions-header"
+        );
+        header.createSpan({
+          text: action.name,
+          cls: "local-gpt-community-actions-title"
+        });
+        const statusPill = getCommunityActionStatusPill(state);
+        if (statusPill) {
+          const pill = header.createSpan(
+            "local-gpt-community-actions-status"
+          );
+          pill.setText(statusPill.label);
+          pill.addClass(`local-gpt-is-${statusPill.variant}`);
+        }
+        const score = header.createSpan(
+          "local-gpt-community-actions-score"
+        );
+        score.setText(String(action.score));
+        score.setAttr(
+          "aria-label",
+          `${I18n.t("settings.communityActionsScoreLabel")} ${action.score}`
+        );
+        const metaRow = content.createDiv(
+          "local-gpt-community-actions-meta"
+        );
+        if (action.author) {
+          const author = metaRow.createSpan(
+            "local-gpt-community-actions-meta-item"
+          );
+          author.setText(
+            I18n.t("settings.communityActionsByAuthor", {
+              author: `@${action.author}`
+            })
+          );
+          author.addClass("local-gpt-community-actions-author");
+        }
+        if (action.replace) {
+          const replaceTag = metaRow.createSpan(
+            "local-gpt-community-actions-meta-pill"
+          );
+          replaceTag.setText(
+            I18n.t("settings.communityActionsReplaceTag")
+          );
+        }
+        const footer = content.createDiv(
+          "local-gpt-community-actions-footer"
+        );
+        const preview = footer.createDiv(
+          "local-gpt-community-actions-preview"
+        );
+        const description = (_a2 = action.description) == null ? void 0 : _a2.trim();
+        if (description) {
+          const descriptionLine = preview.createDiv(
+            "local-gpt-community-actions-description"
+          );
+          descriptionLine.setText(description);
+          descriptionLine.setAttr("title", description);
+        } else {
+          addPreviewLine(
+            preview,
+            I18n.t("settings.systemPrompt"),
+            action.system
+          );
+          addPreviewLine(
+            preview,
+            I18n.t("settings.prompt"),
+            action.prompt
+          );
+        }
+        const noteText = getCommunityActionNote(state);
+        if (noteText) {
+          const note = content.createDiv(
+            "local-gpt-community-actions-note"
+          );
+          note.setText(noteText);
+        }
+        const actions = footer.createDiv(
+          "local-gpt-community-actions-actions"
+        );
+        const controlEl = actions.createDiv(
+          "local-gpt-community-actions-control"
+        );
+        const button = new import_obsidian2.ButtonComponent(controlEl);
+        configureCommunityActionButton(button, action, state);
+      };
+      const renderCommunityActionsList = (actions) => {
+        if (!communityActionsLoaded) {
+          renderCommunityActionsMessage(
+            I18n.t("settings.communityActionsLoading"),
+            "local-gpt-community-actions-loading"
+          );
+          return;
+        }
+        const selectedLanguage = normalizeLanguageCode(
+          this.communityActionsLanguage || defaultCommunityActionsLanguage
+        );
+        const languageFiltered = actions.filter(
+          (action) => normalizeLanguageCode(action.language) === selectedLanguage
+        );
+        if (!languageFiltered.length) {
+          renderCommunityActionsMessage(
+            I18n.t("settings.communityActionsEmpty"),
+            "local-gpt-community-actions-empty"
+          );
+          return;
+        }
+        const query = normalizeSearchValue(communityActionsSearchQuery);
+        let filtered = languageFiltered;
+        if (query) {
+          const matches2 = languageFiltered.map((action, index2) => {
+            const rank = getCommunityActionSearchRank(
+              action,
+              query
+            );
+            if (rank === null) {
+              return null;
+            }
+            return { action, rank, index: index2 };
+          }).filter(
+            (match) => Boolean(match)
+          ).sort((a, b) => {
+            if (a.rank !== b.rank) {
+              return a.rank - b.rank;
+            }
+            return a.index - b.index;
+          });
+          if (!matches2.length) {
+            renderCommunityActionsMessage(
+              I18n.t("settings.communityActionsSearchEmpty"),
+              "local-gpt-community-actions-empty"
+            );
+            return;
+          }
+          filtered = matches2.map((match) => match.action);
+        }
+        communityActionsList.empty();
+        const lookup = buildCommunityActionsLookup(
+          this.plugin.settings.actions
+        );
+        filtered.forEach(
+          (action) => renderCommunityActionRow(
+            action,
+            resolveCommunityActionState(action, lookup)
+          )
+        );
+      };
+      refreshCommunityActionsList = () => renderCommunityActionsList(communityActions);
+      const updateCommunityActionsLanguageOptions = (actions) => {
+        if (!languageDropdown) {
+          return;
+        }
+        const languages = new Set(
+          actions.map(
+            (action) => normalizeLanguageCode(action.language)
+          )
+        );
+        if (this.communityActionsLanguage) {
+          languages.add(
+            normalizeLanguageCode(this.communityActionsLanguage)
+          );
+        }
+        languages.add(defaultCommunityActionsLanguage);
+        const options = Array.from(languages).sort(
+          (a, b) => a.localeCompare(b)
+        );
+        languageDropdown.selectEl.options.length = 0;
+        options.forEach((language) => {
+          languageDropdown == null ? void 0 : languageDropdown.addOption(language, language);
+        });
+        languageDropdown.setValue(
+          normalizeLanguageCode(
+            this.communityActionsLanguage || defaultCommunityActionsLanguage
+          )
+        );
+      };
+      const syncCommunityActions = async (actions) => {
+        const lookup = buildCommunityActionsLookup(
+          this.plugin.settings.actions
+        );
+        let updated = 0;
+        let skipped = 0;
+        const applyCommunityActionUpdate = (localAction, action) => {
+          var _a2, _b;
+          localAction.prompt = (_a2 = action.prompt) != null ? _a2 : "";
+          localAction.replace = (_b = action.replace) != null ? _b : false;
+          if (action.system) {
+            localAction.system = action.system;
+          } else {
+            delete localAction.system;
+          }
+          localAction.community = buildCommunityActionRef(action);
+        };
+        const isCommunityActionModified = (localAction, localSignature) => {
+          var _a2;
+          const storedHash = (_a2 = localAction.community) == null ? void 0 : _a2.hash;
+          return Boolean(storedHash && localSignature !== storedHash);
+        };
+        const shouldUpdateCommunityAction = (localAction, localSignature, remoteSignature, action) => {
+          var _a2, _b, _c, _d, _e;
+          return localSignature !== remoteSignature || ((_a2 = localAction.community) == null ? void 0 : _a2.hash) !== remoteSignature || ((_b = localAction.community) == null ? void 0 : _b.id) !== action.id || ((_d = (_c = localAction.community) == null ? void 0 : _c.description) == null ? void 0 : _d.trim()) !== (((_e = action.description) == null ? void 0 : _e.trim()) || void 0);
+        };
+        const tryAdoptCommunityAction = (action, lookup2) => {
+          const nameMatch = lookup2.byName.get(
+            normalizeActionName(action.name)
+          );
+          if (!nameMatch) {
+            return { updated: 0, skipped: 0 };
+          }
+          const localSignature = buildCommunityActionSignature(nameMatch);
+          const remoteSignature = buildCommunityActionSignature(action);
+          if (localSignature !== remoteSignature) {
+            return { updated: 0, skipped: 0 };
+          }
+          nameMatch.community = buildCommunityActionRef(action);
+          return { updated: 1, skipped: 0 };
+        };
+        const syncCommunityAction = (action, lookup2) => {
+          const localAction = findCommunityActionLink(action, lookup2);
+          if (!localAction) {
+            return tryAdoptCommunityAction(action, lookup2);
+          }
+          const localSignature = buildCommunityActionSignature(localAction);
+          const remoteSignature = buildCommunityActionSignature(action);
+          if (isCommunityActionModified(localAction, localSignature)) {
+            return { updated: 0, skipped: 1 };
+          }
+          if (!shouldUpdateCommunityAction(
+            localAction,
+            localSignature,
+            remoteSignature,
+            action
+          )) {
+            return { updated: 0, skipped: 0 };
+          }
+          applyCommunityActionUpdate(localAction, action);
+          return { updated: 1, skipped: 0 };
+        };
+        actions.forEach((action) => {
+          const result = syncCommunityAction(action, lookup);
+          updated += result.updated;
+          skipped += result.skipped;
+        });
+        if (updated > 0) {
+          await this.plugin.saveSettings();
+        }
+        return { updated, skipped };
+      };
+      const buildCommunityActionsSyncMessage = (result) => {
+        if (result.updated > 0 && result.skipped > 0) {
+          return I18n.t("settings.communityActionsSyncSummary", {
+            updated: String(result.updated),
+            skipped: String(result.skipped)
+          });
+        }
+        if (result.updated > 0) {
+          return I18n.t("settings.communityActionsUpdated", {
+            count: String(result.updated)
+          });
+        }
+        if (result.skipped > 0) {
+          return I18n.t("settings.communityActionsSkipped", {
+            count: String(result.skipped)
+          });
+        }
+        return "";
+      };
+      const finishCommunityActionsLoad = (actions) => {
+        communityActionsLoaded = true;
+        updateCommunityActionsLanguageOptions(actions);
+        renderCommunityActionsList(actions);
+      };
+      const handleCommunityActions = async (actions) => {
+        if (this.communityActionsRenderId !== communityActionsRenderId) {
+          return true;
+        }
+        communityActions = actions;
+        const syncResult = await syncCommunityActions(actions);
+        const syncMessage = buildCommunityActionsSyncMessage(syncResult);
+        setCommunityActionsStatusMessage(syncMessage);
+        if (syncResult.updated > 0) {
+          this.display();
+          return true;
+        }
+        finishCommunityActionsLoad(actions);
+        return false;
+      };
+      const handleCommunityActionsError = (error) => {
+        if (this.communityActionsRenderId !== communityActionsRenderId) {
+          return;
+        }
+        console.error("Failed to load community actions", error);
+        communityActionsLoaded = true;
+        setCommunityActionsStatusMessage("");
+        renderCommunityActionsMessage(
+          I18n.t("settings.communityActionsError"),
+          "local-gpt-community-actions-error"
+        );
+      };
+      const loadCommunityActions = async (forceRefresh = false) => {
+        communityActionsLoaded = false;
+        renderCommunityActionsMessage(
+          I18n.t("settings.communityActionsLoading"),
+          "local-gpt-community-actions-loading"
+        );
+        refreshButton == null ? void 0 : refreshButton.setDisabled(true);
+        try {
+          const actions = await CommunityActionsService.getCommunityActions({
+            forceRefresh
+          });
+          await handleCommunityActions(actions);
+        } catch (error) {
+          handleCommunityActionsError(error);
+        } finally {
+          refreshButton == null ? void 0 : refreshButton.setDisabled(false);
+        }
+      };
+      const languageSetting = new import_obsidian2.Setting(communityActionsSection).setName(I18n.t("settings.communityActionsLanguage")).setDesc(I18n.t("settings.communityActionsLanguageDesc")).addDropdown((dropdown) => {
+        languageDropdown = dropdown;
+        const initialLanguage = normalizeLanguageCode(
+          this.communityActionsLanguage || defaultCommunityActionsLanguage
+        );
+        dropdown.addOption(initialLanguage, initialLanguage);
+        dropdown.setValue(initialLanguage);
+        dropdown.onChange((value) => {
+          this.communityActionsLanguage = normalizeLanguageCode(value);
+          renderCommunityActionsList(communityActions);
+        });
+      }).addButton((button) => {
+        refreshButton = button;
+        button.setButtonText(
+          I18n.t("settings.communityActionsRefresh")
+        ).onClick(async () => {
+          CommunityActionsService.clearCache();
+          await loadCommunityActions(true);
+        });
+      });
+      communityActionsSection.insertBefore(
+        languageSetting.settingEl,
+        communityActionsList
+      );
+      const searchSetting = new import_obsidian2.Setting(communityActionsSection).setName(I18n.t("settings.communityActionsSearch")).setDesc("").setClass("local-gpt-community-actions-search").addText((text2) => {
+        text2.setPlaceholder(
+          I18n.t("settings.communityActionsSearchPlaceholder")
+        );
+        text2.onChange((value) => {
+          communityActionsSearchQuery = value;
+          renderCommunityActionsList(communityActions);
+        });
+      });
+      communityActionsSection.insertBefore(
+        searchSetting.settingEl,
+        communityActionsList
+      );
+      modal.onClose = () => {
+        this.communityActionsRenderId = 0;
+        modal.contentEl.empty();
+      };
+      modal.open();
+      loadCommunityActions();
+    };
+    new import_obsidian2.Setting(containerEl).setHeading().setName(I18n.t("settings.advancedSettings")).setDesc(I18n.t("settings.advancedSettingsDesc")).setClass("local-gpt-advanced-toggle").addToggle(
       (toggle) => toggle.setValue(this.isAdvancedMode).onChange((value) => {
         this.isAdvancedMode = value;
         this.display();
@@ -4362,7 +6103,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
       enhancedSection.createEl("h4", {
         text: I18n.t("settings.enhancedActions")
       });
-      new import_obsidian.Setting(enhancedSection).setName(I18n.t("settings.enhancedActionsLabel")).setDesc(I18n.t("settings.enhancedActionsDesc")).setClass("ai-providers-select").addDropdown((dropdown) => {
+      new import_obsidian2.Setting(enhancedSection).setName(I18n.t("settings.enhancedActionsLabel")).setDesc(I18n.t("settings.enhancedActionsDesc")).setClass("local-gpt-ai-providers-select").addDropdown((dropdown) => {
         dropdown.addOptions({
           local: I18n.t("settings.contextLimitLocal"),
           cloud: I18n.t("settings.contextLimitCloud"),
@@ -4383,7 +6124,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
       dangerSection.createEl("h4", {
         text: I18n.t("settings.dangerZone")
       });
-      new import_obsidian.Setting(dangerSection).setName(I18n.t("settings.resetActions")).setDesc(I18n.t("settings.resetActionsDesc")).addButton(
+      new import_obsidian2.Setting(dangerSection).setName(I18n.t("settings.resetActions")).setDesc(I18n.t("settings.resetActionsDesc")).addButton(
         (button) => button.setClass("mod-warning").setButtonText(I18n.t("settings.reset")).onClick(async () => {
           if (!this.isConfirmingReset) {
             this.isConfirmingReset = true;
@@ -4395,7 +6136,9 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
           button.setDisabled(true);
           button.buttonEl.setAttribute("disabled", "true");
           button.buttonEl.classList.remove("mod-warning");
-          this.plugin.settings.actions = DEFAULT_SETTINGS.actions;
+          this.plugin.settings.actions = DEFAULT_SETTINGS.actions.map((action) => ({
+            ...action
+          }));
           await this.plugin.saveSettings();
           this.isConfirmingReset = false;
           this.display();
@@ -4409,7 +6152,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
     );
     if (alreadyExistingActionIndex >= 0) {
       this.plugin.settings.actions[alreadyExistingActionIndex] = editingAction;
-      new import_obsidian.Notice(
+      new import_obsidian2.Notice(
         I18n.t("notices.actionRewritten", { name: editingAction.name })
       );
     } else {
@@ -4417,7 +6160,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
         editingAction,
         ...this.plugin.settings.actions
       ];
-      new import_obsidian.Notice(
+      new import_obsidian2.Notice(
         I18n.t("notices.actionAdded", { name: editingAction.name })
       );
     }
@@ -4440,7 +6183,7 @@ var LocalGPTSettingTab = class extends import_obsidian.PluginSettingTab {
 // src/spinnerPlugin.ts
 var import_state = require("@codemirror/state");
 var import_view = require("@codemirror/view");
-var import_obsidian2 = require("obsidian");
+var import_obsidian3 = require("obsidian");
 var THINKING_ICON_CANDIDATES = [
   "atom",
   "beaker",
@@ -4469,15 +6212,15 @@ var resolveThinkingIconPool = () => {
   }
   let pool = [];
   try {
-    if (typeof import_obsidian2.getIconIds === "function") {
-      const available = new Set((0, import_obsidian2.getIconIds)());
+    if (typeof import_obsidian3.getIconIds === "function") {
+      const available = new Set((0, import_obsidian3.getIconIds)());
       pool = THINKING_ICON_CANDIDATES.filter(
         (icon) => available.has(icon)
       );
     }
-    if (typeof import_obsidian2.getIcon === "function") {
+    if (typeof import_obsidian3.getIcon === "function") {
       const candidates = pool.length ? pool : THINKING_ICON_CANDIDATES;
-      pool = candidates.filter((icon) => Boolean((0, import_obsidian2.getIcon)(icon)));
+      pool = candidates.filter((icon) => Boolean((0, import_obsidian3.getIcon)(icon)));
     }
   } catch (e) {
     pool = [];
@@ -4554,7 +6297,7 @@ var ThinkingStreamWidget = class extends import_view.WidgetType {
       const iconPrimary = document.createElement("span");
       iconPrimary.addClasses([
         "local-gpt-thinking-icon-svg",
-        "is-active"
+        "local-gpt-is-active"
       ]);
       const iconSecondary = document.createElement("span");
       iconSecondary.addClass("local-gpt-thinking-icon-svg");
@@ -4595,7 +6338,7 @@ var ThinkingStreamWidget = class extends import_view.WidgetType {
   }
   updateHeader() {
     var _a2;
-    (_a2 = this.detailsEl) == null ? void 0 : _a2.toggleClass("is-hidden", !this.isThinking);
+    (_a2 = this.detailsEl) == null ? void 0 : _a2.toggleClass("local-gpt-is-hidden", !this.isThinking);
     if (this.isThinking) {
       this.startIconCycle();
     } else {
@@ -4608,7 +6351,7 @@ var ThinkingStreamWidget = class extends import_view.WidgetType {
     }
     if (this.answerEl) {
       const hasAnswer = Boolean(this.answerText.trim());
-      this.answerEl.toggleClass("is-hidden", !hasAnswer);
+      this.answerEl.toggleClass("local-gpt-is-hidden", !hasAnswer);
       if (hasAnswer) {
         this.updateStreamingText(this.answerEl, this.answerText, false);
       }
@@ -4654,7 +6397,10 @@ var ThinkingStreamWidget = class extends import_view.WidgetType {
       }
       const maxScrollTop = this.thinkingEl.scrollHeight - this.thinkingEl.clientHeight;
       const isOverflowing = maxScrollTop > 1;
-      this.thinkingEl.toggleClass("is-overflowing", isOverflowing);
+      this.thinkingEl.toggleClass(
+        "local-gpt-is-overflowing",
+        isOverflowing
+      );
       if (!isOverflowing) {
         this.thinkingEl.scrollTop = 0;
         return;
@@ -4669,10 +6415,10 @@ var ThinkingStreamWidget = class extends import_view.WidgetType {
     if (!this.currentIcon) {
       const nextIcon = this.getNextIcon();
       if (!nextIcon) {
-        this.iconWrap.classList.add("is-hidden");
+        this.iconWrap.classList.add("local-gpt-is-hidden");
         return;
       }
-      this.iconWrap.classList.remove("is-hidden");
+      this.iconWrap.classList.remove("local-gpt-is-hidden");
       this.applyIcon(nextIcon);
     }
     if (this.iconTimer !== null) {
@@ -4684,7 +6430,7 @@ var ThinkingStreamWidget = class extends import_view.WidgetType {
     var _a2;
     this.clearIconTimers();
     this.iconQueue = [];
-    (_a2 = this.iconWrap) == null ? void 0 : _a2.classList.remove("is-glint");
+    (_a2 = this.iconWrap) == null ? void 0 : _a2.classList.remove("local-gpt-is-glint");
   }
   clearIconTimers() {
     if (this.iconTimer !== null) {
@@ -4744,11 +6490,11 @@ var ThinkingStreamWidget = class extends import_view.WidgetType {
     const incoming = this.iconSecondary;
     const outgoing = this.iconPrimary;
     incoming.textContent = "";
-    (0, import_obsidian2.setIcon)(incoming, nextIcon);
+    (0, import_obsidian3.setIcon)(incoming, nextIcon);
     this.iconCrossfadeRaf = requestAnimationFrame(() => {
       this.iconCrossfadeRaf = null;
-      outgoing.classList.remove("is-active");
-      incoming.classList.add("is-active");
+      outgoing.classList.remove("local-gpt-is-active");
+      incoming.classList.add("local-gpt-is-active");
       const glintDelay = Math.max(0, Math.round(ICON_CROSSFADE_MS * 0.1));
       this.scheduleGlint(glintDelay);
     });
@@ -4767,9 +6513,9 @@ var ThinkingStreamWidget = class extends import_view.WidgetType {
       return;
     }
     this.iconPrimary.textContent = "";
-    (0, import_obsidian2.setIcon)(this.iconPrimary, iconId);
-    this.iconPrimary.classList.add("is-active");
-    this.iconSecondary.classList.remove("is-active");
+    (0, import_obsidian3.setIcon)(this.iconPrimary, iconId);
+    this.iconPrimary.classList.add("local-gpt-is-active");
+    this.iconSecondary.classList.remove("local-gpt-is-active");
     this.iconSecondary.textContent = "";
     this.currentIcon = iconId;
   }
@@ -4784,13 +6530,13 @@ var ThinkingStreamWidget = class extends import_view.WidgetType {
       window.clearTimeout(this.iconGlintEndTimeout);
       this.iconGlintEndTimeout = null;
     }
-    this.iconWrap.classList.remove("is-glint");
+    this.iconWrap.classList.remove("local-gpt-is-glint");
     void this.iconWrap.offsetWidth;
-    this.iconWrap.classList.add("is-glint");
+    this.iconWrap.classList.add("local-gpt-is-glint");
     this.iconGlintEndTimeout = window.setTimeout(() => {
       var _a2;
       this.iconGlintEndTimeout = null;
-      (_a2 = this.iconWrap) == null ? void 0 : _a2.classList.remove("is-glint");
+      (_a2 = this.iconWrap) == null ? void 0 : _a2.classList.remove("local-gpt-is-glint");
     }, ICON_GLINT_DURATION_MS);
   }
   scheduleGlint(delayMs) {
@@ -4805,7 +6551,7 @@ var ThinkingStreamWidget = class extends import_view.WidgetType {
       window.clearTimeout(this.iconGlintEndTimeout);
       this.iconGlintEndTimeout = null;
     }
-    this.iconWrap.classList.remove("is-glint");
+    this.iconWrap.classList.remove("local-gpt-is-glint");
     if (delayMs <= 0) {
       this.triggerGlint();
       return;
@@ -8862,7 +10608,7 @@ var populateActionContextMenu = (menu, actions, onAction) => {
 };
 
 // src/rag.ts
-var import_obsidian3 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 
 // node_modules/pdfjs-dist/build/pdf.mjs
 var __webpack_require__ = {};
@@ -29915,7 +31661,7 @@ function getLinkedFiles(content, vault, metadataCache, currentFilePath) {
     );
     return linkPath ? vault.getAbstractFileByPath(linkPath.path) : null;
   }).filter(
-    (file) => file instanceof import_obsidian3.TFile && (file.extension === "md" || file.extension === "pdf")
+    (file) => file instanceof import_obsidian4.TFile && (file.extension === "md" || file.extension === "pdf")
   );
 }
 function getBacklinkFiles(file, context, processedDocs) {
@@ -30084,7 +31830,7 @@ function removeThinkingTags(text2) {
 }
 var MIN_BASE_SPEED = 0.02 / 16;
 var MAX_BASE_SPEED = 3 / 16;
-var LocalGPT = class extends import_obsidian4.Plugin {
+var LocalGPT = class extends import_obsidian5.Plugin {
   constructor() {
     super(...arguments);
     this.actionPaletteProviderId = null;
@@ -30216,7 +31962,7 @@ var LocalGPT = class extends import_obsidian4.Plugin {
         const editorView = editor.cm;
         const cursorPositionFrom = editor.getCursor("from");
         const cursorPositionTo = editor.getCursor("to");
-        const contextMenu = new import_obsidian4.Menu();
+        const contextMenu = new import_obsidian5.Menu();
         populateActionContextMenu(
           contextMenu,
           this.settings.actions,
@@ -30602,7 +32348,7 @@ var LocalGPT = class extends import_obsidian4.Plugin {
       });
     } catch (error) {
       if (!abortController.signal.aborted) {
-        new import_obsidian4.Notice(
+        new import_obsidian5.Notice(
           I18n.t("notices.errorGenerating", {
             message: error.message
           })
@@ -30685,7 +32431,7 @@ var LocalGPT = class extends import_obsidian4.Plugin {
     const additionalFiles = (selectedFiles == null ? void 0 : selectedFiles.map(
       (filePath) => this.app.vault.getAbstractFileByPath(filePath)
     ).filter(
-      (file) => file !== null && file instanceof import_obsidian4.TFile && (file.extension === "md" || file.extension === "pdf")
+      (file) => file !== null && file instanceof import_obsidian5.TFile && (file.extension === "md" || file.extension === "pdf")
     )) || [];
     return [...linkedFiles, ...additionalFiles];
   }
@@ -30711,7 +32457,7 @@ var LocalGPT = class extends import_obsidian4.Plugin {
     this.hideStatusBar();
     if (!(abortController == null ? void 0 : abortController.signal.aborted)) {
       console.error("Error processing RAG:", error);
-      new import_obsidian4.Notice(
+      new import_obsidian5.Notice(
         I18n.t("notices.errorProcessingRag", {
           message: error.message
         })
@@ -30807,7 +32553,7 @@ var LocalGPT = class extends import_obsidian4.Plugin {
     }
     settings._version = 5;
     setTimeout(() => {
-      new import_obsidian4.Notice(
+      new import_obsidian5.Notice(
         `\u{1F389} LocalGPT can finally use
 context from links!
 Check the Settings!`,
@@ -30840,7 +32586,7 @@ Check the Settings!`,
     if (settings._version && settings._version >= 7) {
       return false;
     }
-    new import_obsidian4.Notice(I18n.t("notices.importantUpdate"), 0);
+    new import_obsidian5.Notice(I18n.t("notices.importantUpdate"), 0);
     const aiRequestWaiter = await (0, import_sdk2.waitForAI)();
     const aiProviders = await aiRequestWaiter.promise;
     settings.aiProviders = {
@@ -30925,7 +32671,7 @@ Check the Settings!`,
   }
   async checkUpdates() {
     try {
-      const { json: response } = await (0, import_obsidian4.requestUrl)({
+      const { json: response } = await (0, import_obsidian5.requestUrl)({
         url: "https://api.github.com/repos/pfrankov/obsidian-local-gpt/releases/latest",
         method: "GET",
         headers: {
@@ -30934,7 +32680,7 @@ Check the Settings!`,
         contentType: "application/json"
       });
       if (response.tag_name !== this.manifest.version) {
-        new import_obsidian4.Notice(I18n.t("notices.newVersion"));
+        new import_obsidian5.Notice(I18n.t("notices.newVersion"));
       }
     } catch (error) {
       console.error("Error checking for updates:", error);

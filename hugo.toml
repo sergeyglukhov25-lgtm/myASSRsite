@@ -1,11 +1,15 @@
 baseURL = 'http://localhost:1313/'
-languageCode = 'ru-ru'
-title = 'Ассоциация Шесть Сигм'
-theme = 'blowfish'
+languageCode = "ru-ru"
+title = "Ассоциация Шесть Сигм"
+theme = "blowfish"
 
+capitalizeListTitles = true
+pluralizeListTitles = true
+
+# ← Языковая секция — только необходимые параметры языка
 [languages.ru]
-  languageCode = 'ru-ru'
-  languageName = 'Русский'
+  languageCode = "ru-ru"
+  languageName = "russian"          # ← строго lowercase, без пробелов!
   weight = 1
 
 [taxonomies]
@@ -17,11 +21,12 @@ theme = 'blowfish'
   # Основные настройки BlowFish
   colorScheme = "auto"
   displayMode = "auto"
-  
-  # Изображения
-  logo = "logo.svg"
-  favicon = "favicon.ico"
-  
+
+  #images  
+  logo = "logo-dark.svg"
+  secondaryLogo = "logo.svg"
+  flavicon = "flavicon.svg"
+
   # Мета-настройки
   defaultImage = "cover.jpg"
   image = "cover.jpg"
@@ -46,22 +51,18 @@ theme = 'blowfish'
   name = "Главная"
   pageRef = "/"
   weight = 1
-
 [[menu.main]]
   name = "Обучение"
   pageRef = "/courses"
   weight = 2
-
 [[menu.main]]
   name = "О сайте"
   pageRef = "/about"
   weight = 3
-
 [[menu.main]]
   name = "Проекты"
   pageRef = "/projects"
   weight = 4
-
 [[menu.main]]
   name = "Контакты"
   pageRef = "/contact"
@@ -79,34 +80,29 @@ theme = 'blowfish'
 # Настройки нижнего колонтитула
 [params.footer]
   showCopyright = true
-  showThemeAttribution = true
+  showThemeAttribution = false          # ← можно поставить false, если не хочешь "Powered by Blowfish"
   showAppearanceSwitcher = true
 
 # ОБНОВЛЕННЫЕ НАСТРОЙКИ ГЛАВНОЙ СТРАНИЦЫ
 [params.homepage]
-  layout = "custom"  # Используем кастомный layout для главной страницы
-  title = "Ассоциация Шесть Сигм"  # Заголовок на главной странице
-  subtitle = "Повышение качества через статистическое управление процессами"  # Подзаголовок
+  layout = "custom"
+  title = "Ассоциация Шесть Сигм"
+  subtitle = "Повышение качества через статистическое управление процессами"
   
-  # Фон главной страницы
-  backgroundImage = "background.jpg"  # Фоновое изображение
+  backgroundImage = "background.jpg"
+  backgroundDarken = 0.5
+  backgroundSize = "cover"
+  backgroundPosition = "center"
   
-  # Стилизация фона
-  backgroundDarken = 0.5  # Затемнение фона (0-1, где 1 - максимальное затемнение)
-  backgroundSize = "cover"  # cover, contain, auto
-  backgroundPosition = "center"  # center, top, bottom, left, right
+  logo = "logo.svg"
+  logoWidth = 200
+  logoHeight = 200
   
-  # Логотип на главной странице
-  logo = "logo.svg"  # Логотип (можно использовать другой, чем в основном заголовке)
-  logoWidth = 200  # Ширина логотипа в пикселях
-  logoHeight = 200  # Высота логотипа в пикселях
-
-  # Кнопки на главной странице
   [[params.homepage.buttons]]
     text = "Вступить в ассоциацию"
     url = "/join"
     icon = "fas fa-user-plus"
-    type = "primary"  # primary, secondary, outline
+    type = "primary"
   
   [[params.homepage.buttons]]
     text = "Наши проекты"
@@ -120,7 +116,6 @@ theme = 'blowfish'
     icon = "fas fa-envelope"
     type = "outline"
   
-  # Особенности/преимущества (отображаются под заголовком)
   [[params.homepage.features]]
     title = "Экспертиза"
     description = "Ведущие специалисты в области Six Sigma"
@@ -136,7 +131,6 @@ theme = 'blowfish'
     description = "Профессиональное сообщество практиков"
     icon = "fas fa-users"
   
-  # Блок с последними статьями (опционально)
   showRecent = true
   recentTitle = "Последние публикации"
   recentCount = 3
