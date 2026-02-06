@@ -2,20 +2,20 @@
 
 [[main]]
   name   = "Главная"          # или убери name, если только иконка
-  pageRef = "/"               # ссылка на главную
+  pageRef = "main"               # ссылка на главную
   weight = 10
   pre    = "sigma-icon"            # иконка домика перед текстом
 
 [[main]]
  name   = "Обучение"
- pageRef = "obuchenye"
+ pageRef = "training"
  weight = 20
  pre    = "list"        # иконка газеты/статей
 
 [[main]]
  name   = "Курсы"
  parent = "Обучение"
- url  = "/tags/training/"
+ pageRef = "training"
  weight = 10
  pre    = "list"        # иконка газеты/статей
 
@@ -35,7 +35,7 @@
 
 [[main]]
   name = "Сертификация"  # ОБЯЗАТЕЛЬНО укажи identifier, если нет name!
-  url        = "https://github.com/твой-ник"
+  pageRef = "certificates"
   weight     = 40
   pre        = "graduation-cap"       # иконка GitHub
 
@@ -46,16 +46,9 @@
   weight = 100
 
 [[subnavigation]]
-  name   = "Обучение"
-  url  = "/tags/training/"
-  weight = 10
-  pre    = "graduation-cap"       # иконка GitHub
-
-[[subnavigation]]
-  name   = "Консалтинг"
+  name   = "Публикации"
   pageRef = "posts"
-  weight = 20
-  pre    = "mug-hot"             # иконка человека
-
+  weight = 10
+  pre    = "stack-overflow"       # иконка GitHub
 
 

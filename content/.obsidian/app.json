@@ -15,7 +15,7 @@
   "showUnsupportedFiles": true,
   "strictLineBreaks": false,
   "livePreview": false,
-  "propertiesInDocument": "hidden",
+  "propertiesInDocument": "source",
   "autoConvertHtml": false,
   "spellcheckDictionary": [
     "промпта",
@@ -33,5 +33,9 @@
     "Сэлмэг"
   ],
   "readableLineLength": false,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "showIndentGuide": false,
+  "smartIndentList": false,
+  "useTab": false,
+  "foldIndent": false
 }

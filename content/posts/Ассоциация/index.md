@@ -3,12 +3,7 @@ title: Лин Шесть сигм в государственном сектор
 date: 2026-01-29
 showHero: true
 heroStyle: big
-tags:
-  - Association
-  - Lean Six Sigma
-  - Black Belt
-  - Green Belt Upgrade
-  - training
+tags: ["training", "Lean Six Sigma"]
 description: Краткая история Ассоциации Шесть сигм России
 ---
 

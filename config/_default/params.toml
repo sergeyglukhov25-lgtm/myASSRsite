@@ -1,3 +1,6 @@
+# Глобальные параметры (вне секций)
+defaultBackgroundImage = "High_Night_Moscow.jpeg"   # ← относительный путь от assets/ (без 
+
 [homepage]
   layout = "background"                  # ← это правильно
   homepageImage = "High_Night_Moscow.jpeg"   # ← относительный путь ОТ assets/
@@ -9,15 +12,14 @@
   cardView = true
   cardViewScreenWidth = true
 
-[params]
-  logo = "logo.svg"        
-  secondaryLogo = "logo-dark.svg"         
-  disableTextInHeader = false   # ← если true — текст скрыт, логотип может остаться один, но иногда и он пропадает
-
 [article]
   showTableOfContents = true
-  smartTOC = true
-  smartTOCHideUnfocusedChildren = true
+  smartTOC = true                     # включает подсветку текущего раздела
+  smartTOCHideUnfocusedChildren = true # скрывает вложенные пункты, если они не в фокусе
+  showHero = true               # ← обязательно! Включает hero-блок вверху каждой статьи
+  heroStyle = "background"       # ← ключевой параметр: фон на всю ширину
+  layoutBackgroundBlur = true         # ← опционально: красивое размытие при скролле 
+  layoutBackgroundHeaderSpace = true  # ← добавляет отступ сверху, чтобы меню не 
 
 [params.footer]
   showCopyright       = true      # ← оставь true, чтобы копирайт показывался
@@ -26,3 +28,13 @@
 
 [params.header]
   layout = "basic"                 # простой хедер с логотипом слева
+
+[list]
+  cardView = true
+  showCards = false
+  showSummary = true         # оставь, если хочешь краткое описание под заголовком
+  groupByYear = false        # уже отключено у тебя
+  showHero    = true         # обязательно! Включает hero-блок сверху на всех list-страницах
+  heroStyle      = "background"       # ← ключ: фон на всю ширину (как в статьях)
+  layoutBackgroundBlur = true         # ← размытие при скролле (красиво с ночным Москвой)
+  layoutBackgroundHeaderSpace = false  # ← отступ сверху, чтобы меню не перекрывало

@@ -9,7 +9,7 @@ pluralizeListTitles = true
 # ← Языковая секция — только необходимые параметры языка
 [languages.ru]
   languageCode = "ru-ru"
-  languageName = "russian"          # ← строго lowercase, без пробелов!
+  languageName = "Русский"          # ← строго lowercase, без пробелов!
   weight = 1
 
 [taxonomies]
@@ -25,12 +25,11 @@ pluralizeListTitles = true
   #images  
   logo = "logo-dark.svg"
   secondaryLogo = "logo.svg"
-  flavicon = "flavicon.svg"
+  favicon = "favicon.svg"
 
   # Мета-настройки
   defaultImage = "cover.jpg"
-  image = "cover.jpg"
-  
+    
   # Настройки статей
   showReadingTime = true
   showWordCount = true
@@ -97,39 +96,6 @@ pluralizeListTitles = true
   logo = "logo.svg"
   logoWidth = 200
   logoHeight = 200
-  
-  [[params.homepage.buttons]]
-    text = "Вступить в ассоциацию"
-    url = "/join"
-    icon = "fas fa-user-plus"
-    type = "primary"
-  
-  [[params.homepage.buttons]]
-    text = "Наши проекты"
-    url = "/projects"
-    icon = "fas fa-project-diagram"
-    type = "secondary"
-  
-  [[params.homepage.buttons]]
-    text = "Контакты"
-    url = "/contact"
-    icon = "fas fa-envelope"
-    type = "outline"
-  
-  [[params.homepage.features]]
-    title = "Экспертиза"
-    description = "Ведущие специалисты в области Six Sigma"
-    icon = "fas fa-graduation-cap"
-  
-  [[params.homepage.features]]
-    title = "Сертификация"
-    description = "Международные программы сертификации"
-    icon = "fas fa-certificate"
-  
-  [[params.homepage.features]]
-    title = "Сообщество"
-    description = "Профессиональное сообщество практиков"
-    icon = "fas fa-users"
   
   showRecent = true
   recentTitle = "Последние публикации"
