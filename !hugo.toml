@@ -1,0 +1,109 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'ru-ru'
+defaultContentLanguage = 'ru'          # ← добавлено для monolingual сайта
+title = 'Ассоциация Шесть Сигм'
+theme = 'blowfish'
+
+capitalizeListTitles = true
+pluralizeListTitles = true
+
+# Разрешаем сырой HTML (чтобы не было другого предупреждения)
+[markup.goldmark.renderer]
+  unsafe = true
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'   # если используешь категории
+
+# Языки — только если планируешь мультиязычность в будущем
+# Для monolingual сайта эту секцию можно вообще удалить
+[languages]
+  [languages.ru]
+    languageCode = 'ru-ru'
+    languageName = 'Русский'
+    weight = 1
+    # contentDir = 'content/ru'   # ← если контент в отдельной папке
+
+[params]
+  description = 'Официальный сайт Ассоциации Шесть Сигм'
+  
+  colorScheme = 'auto'
+  displayMode = 'auto'
+  
+  logo = '/images/logo-dark.svg'
+  secondaryLogo = '/images/logo.svg'
+  favicon = '/images/favicon.svg'
+  defaultImage = '/images/cover.jpg'
+  
+  showReadingTime = true
+  showWordCount = true
+  showTableOfContents = true
+  showBreadcrumbs = true
+  showSummary = true
+  showArticleNumbers = false
+  showEdit = false
+  showDate = true
+  showAuthor = true
+  showHeadingAnchors = true
+  showCodeCopyButtons = true
+
+[params.list]
+  orderByWeight = true
+  groupByYear = false
+
+[[menu.main]]
+  name = 'Главная'
+  pageRef = '/'
+  weight = 1
+
+[[menu.main]]
+  name = 'Обучение'
+  pageRef = '/courses'
+  weight = 2
+
+[[menu.main]]
+  name = 'О сайте'
+  pageRef = '/about'
+  weight = 3
+
+[[menu.main]]
+  name = 'Проекты'
+  pageRef = '/projects'
+  weight = 4
+
+[[menu.main]]
+  name = 'Контакты'
+  pageRef = '/contact'
+  weight = 5
+
+[services.search]
+  type = 'fusejs'
+
+[params.article]
+  showNavigation = true
+  showRelated = true
+
+[params.footer]
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+
+[params.homepage]
+  layout = 'custom'
+  title = 'Ассоциация Шесть Сигм'
+  subtitle = 'Повышение качества через статистическое управление процессами'
+  
+  backgroundImage = '/images/background.jpg'
+  backgroundDarken = 0.5
+  backgroundSize = 'cover'
+  backgroundPosition = 'center'
+  
+  logo = '/images/logo.svg'
+  logoWidth = 200
+  logoHeight = 200
+  
+  showRecent = true
+  recentTitle = 'Последние публикации'
+  recentCount = 3
+  showMoreLink = true
+  moreLinkText = 'Все статьи →'

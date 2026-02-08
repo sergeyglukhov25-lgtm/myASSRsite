@@ -5,17 +5,21 @@ showHero: true
 heroStyle: background
 showDate: false
 showDateUpdated: false
-coursePrice: 45900
-weight: 200
+showReadingTime: false
+showWordCount:   false
+coursePrice: 140 000
+weight: 10
+menu:
+  main:
+    name: Зеленый пояс
+    weight: 10
+    parent: Обучение
+    pre: graduation-cap
 tags:
   - Курсы
   - Lean Six Sigma
   - training
 ---
-{{< badge>}}
-120 тыс. рублей за человека
-{{< /badge >}}
-
 {{< lead >}}
 **Очный интенсивный тренинг «Зелёный пояс Lean Six Sigma»**  
 5 дней полного погружения + 6 месяцев сопровождения проектов + сертификация  

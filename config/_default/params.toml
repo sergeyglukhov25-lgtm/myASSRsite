@@ -1,6 +1,15 @@
 # Глобальные параметры (вне секций)
 defaultBackgroundImage = "High_Night_Moscow.jpeg"   # ← относительный путь от assets/ (без 
 
+# ... другие параметры выше ...
+
+defaultAppearance = "dark"
+
+enableSearch = true                     # ← поиск по сайту
+enableStructuredBreadcrumbs = true      # ← хлебные крошки в JSON-LD для SEO
+
+# ... остальные параметры ниже ...
+
 [homepage]
   layout = "background"                  # ← это правильно
   homepageImage = "High_Night_Moscow.jpeg"   # ← относительный путь ОТ assets/

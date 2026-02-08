@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "_index 1",
+      "path": "specialTraining/_index 1.md"
+    },
+    {
+      "basename": "_index",
+      "path": "training/_index.md"
+    },
+    {
       "basename": "index",
-      "path": "training/АпгрейдЧП/index.md"
+      "path": "specialTraining/GBOill/index.md"
+    },
+    {
+      "basename": "featured",
+      "path": "specialTraining/GBOill/featured.jpg"
+    },
+    {
+      "basename": "index",
+      "path": "specialTraining/GBRetail/index.md"
+    },
+    {
+      "basename": "Зеленый пояс Лин Шесть Сигм Real Estate",
+      "path": "posts/Зеленый пояс Лин Шесть Сигм Real Estate.md"
+    },
+    {
+      "basename": "Зеленый пояс для нефтянки",
+      "path": "posts/Зеленый пояс для нефтянки.md"
     },
     {
       "basename": "index",
@@ -10,19 +34,59 @@
     },
     {
       "basename": "index",
+      "path": "training/Кайдзен/index.md"
+    },
+    {
+      "basename": "index",
       "path": "training/Черный пояс/index.md"
     },
     {
-      "basename": "_index",
-      "path": "training/_index.md"
+      "basename": "index",
+      "path": "training/Линсэнсэй/index.md"
     },
     {
-      "basename": "_index",
-      "path": "_index.md"
+      "basename": "index",
+      "path": "training/Желтыйпояс/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "training/BlueSky/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "training/Minitab/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "training/АпгрейдЧП/index.md"
+    },
+    {
+      "basename": "ObsidianASSR",
+      "path": "ObsidianASSR.base"
+    },
+    {
+      "basename": "featured",
+      "path": "posts/Роль консультанта/featured.png"
+    },
+    {
+      "basename": "Training courses database",
+      "path": "TaskNotes/Training courses database.md"
     },
     {
       "basename": "NewGBCertificateTemplate2025",
       "path": "training/Черный пояс/NewGBCertificateTemplate2025.png"
+    },
+    {
+      "basename": "_index",
+      "path": "main/_index.md"
+    },
+    {
+      "basename": "_index",
+      "path": "categories/_index.md"
+    },
+    {
+      "basename": "_index",
+      "path": "certificates/_index.md"
     },
     {
       "basename": "featured",
@@ -35,14 +99,6 @@
     {
       "basename": "deepseek",
       "path": "training/Черный пояс/deepseek.svg"
-    },
-    {
-      "basename": "Зеленый пояс Лин Шесть Сигм Real Estate",
-      "path": "posts/Зеленый пояс Лин Шесть Сигм Real Estate.md"
-    },
-    {
-      "basename": "Зеленый пояс для нефтянки",
-      "path": "posts/Зеленый пояс для нефтянки.md"
     },
     {
       "basename": "index",
@@ -63,10 +119,6 @@
     {
       "basename": "GUULogo3",
       "path": "main/partners/GUUniversity/GUULogo3.svg"
-    },
-    {
-      "basename": "_index",
-      "path": "certificates/_index.md"
     },
     {
       "basename": "Сертификация",
@@ -91,10 +143,6 @@
     {
       "basename": "index",
       "path": "posts/Ассоциация/index.md"
-    },
-    {
-      "basename": "featured",
-      "path": "posts/Роль консультанта/featured.png"
     },
     {
       "basename": "projects",
@@ -145,52 +193,12 @@
       "path": "posts/Роль консультанта.md"
     },
     {
-      "basename": "_index",
-      "path": "categories/_index.md"
-    },
-    {
       "basename": "Инструкция по созданию сайта на Blowfish",
       "path": "Clippings/Инструкция по созданию сайта на Blowfish.md"
     },
     {
       "basename": "Hugo Site Grock",
       "path": "Hugo Site Grock.md"
-    },
-    {
-      "basename": "Шаблоны страниц в Hugo",
-      "path": "Шаблоны страниц в Hugo.md"
-    },
-    {
-      "basename": "Включить yaml в Obsidian",
-      "path": "Включить yaml в Obsidian.md"
-    },
-    {
-      "basename": "Hugo site building",
-      "path": "Clippings/Hugo site building.md"
-    },
-    {
-      "basename": "Hugo сайты",
-      "path": "Hugo сайты.md"
-    },
-    {
-      "basename": "index-79",
-      "path": "index-79.md"
-    },
-    {
-      "basename": "Quartz + Obsidian Site",
-      "path": "Quartz + Obsidian Site.md"
-    },
-    {
-      "basename": "index-73",
-      "path": "index-73.md"
-    },
-    {
-      "basename": "index-76",
-      "path": "index-76.md"
-    },
-    {
-      "basename": "index-80",
-      "path": "index-80.md"
     }
   ],
   "omittedPaths": [],

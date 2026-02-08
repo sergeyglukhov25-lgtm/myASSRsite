@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8a26bc03979dd079",
+            "id": "3ea33a0e1f7f9074",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Роль консультанта/index.md",
+                "file": "training/Черный пояс/index.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -32,36 +32,12 @@
             }
           },
           {
-            "id": "e1f9c2ba896c8b10",
+            "id": "e5b72694e4713efd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "training/Зеленый пояс Лин Шесть Сигм.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Зеленый пояс Лин Шесть Сигм"
-            }
-          },
-          {
-            "id": "750f890abcac8c2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "main/_index.md",
+                "file": "training/_index.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -80,12 +56,12 @@
             }
           },
           {
-            "id": "14956a1f4017f9f4",
+            "id": "e2b93c54dc294ce2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "certificates/_index.md",
+                "file": "specialTraining/_index.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -101,34 +77,10 @@
               },
               "icon": "lucide-file",
               "title": "_index"
-            }
-          },
-          {
-            "id": "e81e30067687ec06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "training/АпгрейдЧП/index.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "index"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -147,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": ".base",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -164,8 +116,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           },
           {
@@ -196,7 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.50649642944336
+    "width": 299.50649642944336
   },
   "right": {
     "id": "769626807010ce6a",
@@ -304,8 +256,8 @@
             "state": {
               "type": "khoj-chat-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "khoj-chat-view"
+              "icon": "message-circle",
+              "title": "Khoj Chat"
             }
           },
           {
@@ -324,11 +276,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 248.5,
+    "width": 459.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -377,54 +329,54 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "e81e30067687ec06",
+  "active": "e2b93c54dc294ce2",
   "lastOpenFiles": [
-    "training/ЗПочный/index.md",
-    "training/Черный пояс/index.md",
-    "main/_index.md",
-    "main/_index — копия.md",
+    "specialTraining/GBRetail/featured.jpg",
+    "specialTraining/GBRetail/featured.jpg.crdownload",
     "training/_index.md",
-    "_index.md",
-    "training/Черный пояс/NewGBCertificateTemplate2025.png",
-    "training/ЗПочный/NewGBCertificateTemplate2025.png",
-    "training/Зеленый пояс Лин Шесть Сигм.md",
-    "training/АпгрейдЧП/index.md",
-    "training/Черный пояс/featured.svg",
-    "training/Черный пояс/testfeatured.png",
-    "training/Черный пояс/deepseek.svg",
-    "posts/Зеленый пояс Лин Шесть Сигм Real Estate.md",
+    "specialTraining/_index.md",
+    "specialTraining/GBOill/index.md",
+    "specialTraining/GBOill/featured.jpg",
+    "specialTraining/GBRetail/index.md",
     "posts/Зеленый пояс для нефтянки.md",
-    "main/partners/RGO/index.md",
-    "main/partners/GUULogo.png",
-    "main/partners/MOGBI/index.md",
-    "main/partners/MOGBI/featured.png",
-    "main/partners/MOGBI/featured.vff",
-    "main/partners/GUUniversity/!featured.svg",
-    "main/partners/GUUniversity/featured.png",
-    "main/partners/GUUniversity/featured.png.crdownload",
-    "main/partners/MOGBI/featured.jpg",
-    "main/partners/MOGBI/featured.jpg.crdownload",
-    "main/partners/MOGBI",
-    "main/partners/Новая папка",
-    "main/partners/GUUniversity/index.md",
-    "main/partners/RGO/featured.png.crdownload",
-    "main/partners/RGO",
-    "main/partners/GUULogo3.vff",
+    "posts/Зеленый пояс Лин Шесть Сигм Real Estate.md",
+    "training/ЗПочный/index.md",
+    "training/Кайдзен/index.md",
+    "training/Черный пояс/index.md",
+    "training/Линсэнсэй/index.md",
+    "training/Желтыйпояс/index.md",
+    "training/Кайдзен",
+    "training/Новая папка",
+    "training/Желтыйпояс",
+    "training/BlueSky/index.md",
+    "training/BlueSky/BlueSkyLSS.png",
+    "training/BlueSky/featured.png",
+    "training/BlueSky/featured.jpg",
+    "training/BlueSky/featured.jpg.crdownload",
+    "training/Minitab/index.md",
+    "training/BlueSky",
+    "training/Minitab/featured.png",
+    "training/Minitab/featured_Images/featured_ImgID1.png",
+    "training/Minitab/featured_Images",
+    "training/Minitab/featured.svg",
+    "training/Minitab",
+    "training/Линсэнсэй/LeanSensey.svg",
+    "training/Линсэнсэй/featured.svg",
+    "training/АпгрейдЧП/index.md",
+    "ObsidianASSR.base",
+    "training/Без названия.md",
+    "posts/Роль консультанта/featured.png",
+    "TaskNotes/Training courses database.md",
+    "training/Линсэнсэй",
+    "!_index.md",
+    "main/_index.md",
+    "categories/_index.md",
     "certificates/_index.md",
-    "training/Черный пояс/deepseek_svg_20260201_fa7d32.svg.crdownload",
-    "certificates/Сертификация.md",
-    "certificates",
-    "main/partners/Государственный университет управления (ГУУ).md",
-    "main/partners/GUUniversity/Государственный университет управления (ГУУ).md",
-    "main/partners/_index.md",
-    "main/partners/index.md",
-    "main/Партнеры/index.md",
-    "posts/Роль консультанта/index.md",
-    "main/История.md",
-    "main/Партнеры.md",
-    "posts/Ассоциация/index.md",
-    "posts/АпгрейдЧП/index.md",
-    "posts/projects.md",
+    "main/_index — копия.md",
+    "_index.md",
+    "training/Зеленый пояс Лин Шесть Сигм.md",
+    "main/partners/RGO/index.md",
+    "main/partners/MOGBI/index.md",
     "Без названия.canvas",
     "Без названия 2.canvas",
     "Без названия 1.canvas",

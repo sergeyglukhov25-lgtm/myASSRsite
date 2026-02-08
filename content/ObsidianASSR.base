@@ -1,0 +1,21 @@
+views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - file.inFolder("training")
+    order:
+      - file.name
+      - title
+      - weight
+      - coursePrice
+      - menu
+    sort:
+      - property: title
+        direction: DESC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 175
+      note.title: 374
+      note.weight: 66

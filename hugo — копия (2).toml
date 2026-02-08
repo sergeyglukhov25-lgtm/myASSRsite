@@ -1,0 +1,104 @@
+baseURL = 'http://localhost:1313/'
+languageCode = "ru-ru"
+title = "Ассоциация Шесть Сигм"
+theme = "blowfish"
+
+capitalizeListTitles = true
+pluralizeListTitles = true
+
+# ← Языковая секция — только необходимые параметры языка
+[languages.ru]
+  languageCode = "ru-ru"
+  languageName = "Русский"          # ← строго lowercase, без пробелов!
+  weight = 1
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  description = 'Официальный сайт Ассоциации Шесть Сигм'
+  
+  # Основные настройки BlowFish
+  colorScheme = "auto"
+  displayMode = "auto"
+
+  #images  
+  logo = "logo-dark.svg"
+  secondaryLogo = "logo.svg"
+  favicon = "favicon.svg"
+
+  # Мета-настройки
+  defaultImage = "cover.jpg"
+    
+  # Настройки статей
+  showReadingTime = true
+  showWordCount = true
+  showTableOfContents = true
+  
+  # Настройки блога
+  showBreadcrumbs = true
+  showSummary = true
+  showArticleNumbers = false
+  showEdit = false
+  showDate = true
+  showAuthor = true
+  showHeadingAnchors = true
+  showCodeCopyButtons = true
+
+# Настройки меню
+[[menu.main]]
+  name = "Главная"
+  pageRef = "/"
+  weight = 1
+[[menu.main]]
+  name = "Обучение"
+  pageRef = "/courses"
+  weight = 2
+[[menu.main]]
+  name = "О сайте"
+  pageRef = "/about"
+  weight = 3
+[[menu.main]]
+  name = "Проекты"
+  pageRef = "/projects"
+  weight = 4
+[[menu.main]]
+  name = "Контакты"
+  pageRef = "/contact"
+  weight = 5
+
+# Настройки поиска
+[services.search]
+  type = "fusejs"
+
+# Настройки статей
+[params.article]
+  showNavigation = true
+  showRelated = true
+
+# Настройки нижнего колонтитула
+[params.footer]
+  showCopyright = true
+  showThemeAttribution = false          # ← можно поставить false, если не хочешь "Powered by Blowfish"
+  showAppearanceSwitcher = true
+
+# ОБНОВЛЕННЫЕ НАСТРОЙКИ ГЛАВНОЙ СТРАНИЦЫ
+[params.homepage]
+  layout = "custom"
+  title = "Ассоциация Шесть Сигм"
+  subtitle = "Повышение качества через статистическое управление процессами"
+  
+  backgroundImage = "background.jpg"
+  backgroundDarken = 0.5
+  backgroundSize = "cover"
+  backgroundPosition = "center"
+  
+  logo = "logo.svg"
+  logoWidth = 200
+  logoHeight = 200
+  
+  showRecent = true
+  recentTitle = "Последние публикации"
+  recentCount = 3
+  showMoreLink = true
+  moreLinkText = "Все статьи →"

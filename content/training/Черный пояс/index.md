@@ -6,7 +6,13 @@ showDate: false
 showDateUpdated: false
 heroStyle: background
 coursePrice: 140 000
-weight: 100
+weight: 20
+menu:
+  main:
+    name: Черный пояс
+    weight: 20
+    parent: Обучение
+    pre: graduation-cap
 tags:
   - Курсы
   - Lean Six Sigma
@@ -27,9 +33,6 @@ tags:
 две очные сессии по 5 дней + самостоятельная реализация учебного проекта + менторская поддержка 2–4 месяца
 {{< /typeit >}}
 >
-
-
-
 
 ### Целевая аудитория
 

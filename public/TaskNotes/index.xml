@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TaskNotes on Ассоциация Шесть Сигм</title>
+    <link>http://localhost:1313/tasknotes/</link>
+    <description>Recent content in TaskNotes on Ассоциация Шесть Сигм</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>  © 2026 Ассоциация Шесть Сигм  
+  Москва, проспект Мира 124, корпус 15  
+  Все права защищены.
+  </copyright>
+    <atom:link href="http://localhost:1313/tasknotes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/tasknotes/training-courses-database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tasknotes/training-courses-database/</guid>
+      <description>&lt;div class=&#34;highlight-wrapper&#34;&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-yaml:dbfolder&#34; data-lang=&#34;yaml:dbfolder&#34;&gt;name: new database&#xA;description: new description&#xA;columns:&#xA;  __file__:&#xA;    key: __file__&#xA;    id: __file__&#xA;    input: markdown&#xA;    label: File&#xA;    accessorKey: __file__&#xA;    isMetadata: true&#xA;    skipPersist: false&#xA;    isDragDisabled: false&#xA;    csvCandidate: true&#xA;    width: 78&#xA;    position: 0&#xA;    isHidden: false&#xA;    sortIndex: -1&#xA;    config:&#xA;      enable_media_view: true&#xA;      link_alias_enabled: true&#xA;      media_width: 100&#xA;      media_height: 100&#xA;      isInline: true&#xA;      task_hide_completed: true&#xA;      footer_type: none&#xA;      persist_changes: false&#xA;  title:&#xA;    input: text&#xA;    accessorKey: title&#xA;    key: title&#xA;    id: title&#xA;    label: title&#xA;    position: 100&#xA;    skipPersist: false&#xA;    isHidden: false&#xA;    sortIndex: -1&#xA;    width: 215&#xA;    config:&#xA;      enable_media_view: true&#xA;      link_alias_enabled: true&#xA;      media_width: 100&#xA;      media_height: 100&#xA;      isInline: false&#xA;      task_hide_completed: true&#xA;      footer_type: none&#xA;      persist_changes: false&#xA;      wrap_content: true&#xA;      content_alignment: text-align-left&#xA;  coursePrice:&#xA;    input: text&#xA;    accessorKey: coursePrice&#xA;    key: coursePrice&#xA;    id: coursePrice&#xA;    label: coursePrice&#xA;    position: 100&#xA;    skipPersist: false&#xA;    isHidden: false&#xA;    sortIndex: -1&#xA;    config:&#xA;      enable_media_view: true&#xA;      link_alias_enabled: true&#xA;      media_width: 100&#xA;      media_height: 100&#xA;      isInline: false&#xA;      task_hide_completed: true&#xA;      footer_type: none&#xA;      persist_changes: false&#xA;  weight:&#xA;    input: text&#xA;    accessorKey: weight&#xA;    key: weight&#xA;    id: weight&#xA;    label: weight&#xA;    position: 100&#xA;    skipPersist: false&#xA;    isHidden: false&#xA;    sortIndex: -1&#xA;    config:&#xA;      enable_media_view: true&#xA;      link_alias_enabled: true&#xA;      media_width: 100&#xA;      media_height: 100&#xA;      isInline: false&#xA;      task_hide_completed: true&#xA;      footer_type: none&#xA;      persist_changes: false&#xA;config:&#xA;  remove_field_when_delete_column: false&#xA;  cell_size: normal&#xA;  sticky_first_column: false&#xA;  group_folder_column: &#xA;  remove_empty_folders: false&#xA;  automatically_group_files: false&#xA;  hoist_files_with_empty_attributes: true&#xA;  show_metadata_created: false&#xA;  show_metadata_modified: false&#xA;  show_metadata_tasks: false&#xA;  show_metadata_inlinks: false&#xA;  show_metadata_outlinks: false&#xA;  show_metadata_tags: false&#xA;  source_data: current_folder&#xA;  source_form_result: &#xA;  source_destination_path: /&#xA;  row_templates_folder: /&#xA;  current_row_template: &#xA;  pagination_size: 10&#xA;  font_size: 16&#xA;  enable_js_formulas: false&#xA;  formula_folder_path: /&#xA;  inline_default: false&#xA;  inline_new_position: last_field&#xA;  date_format: yyyy-MM-dd&#xA;  datetime_format: &amp;#34;yyyy-MM-dd HH:mm:ss&amp;#34;&#xA;  metadata_date_format: &amp;#34;yyyy-MM-dd HH:mm:ss&amp;#34;&#xA;  enable_footer: false&#xA;  implementation: default&#xA;filters:&#xA;  enabled: false&#xA;  conditions:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
