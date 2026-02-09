@@ -1,24 +1,104 @@
 {
   "recentFiles": [
     {
-      "basename": "_index 1",
-      "path": "specialTraining/_index 1.md"
+      "basename": "index",
+      "path": "certificates/CertMBB/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "training/ЗПочный/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "certificates/CertGB/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "certificates/CertBB/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "training/Черный пояс/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "training/ЗПТурбо/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "main/partners/GUUniversity/index.md"
     },
     {
       "basename": "_index",
-      "path": "training/_index.md"
+      "path": "certificates/_index.md"
+    },
+    {
+      "basename": "История",
+      "path": "main/История.md"
+    },
+    {
+      "basename": "_index",
+      "path": "main/partners/_index.md"
+    },
+    {
+      "basename": "index",
+      "path": "main/partners/MOGBI/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "main/partners/RGO/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "training/АпгрейдЧП/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "training/Желтыйпояс/index.md"
+    },
+    {
+      "basename": "featured",
+      "path": "training/ЗПочный/featured.svg"
+    },
+    {
+      "basename": "index",
+      "path": "specialTraining/GBRetail/index.md"
     },
     {
       "basename": "index",
       "path": "specialTraining/GBOill/index.md"
     },
     {
-      "basename": "featured",
-      "path": "specialTraining/GBOill/featured.jpg"
+      "basename": "index",
+      "path": "training/Линсэнсэй/index.md"
     },
     {
       "basename": "index",
-      "path": "specialTraining/GBRetail/index.md"
+      "path": "training/BlueSky/index.md"
+    },
+    {
+      "basename": "_index",
+      "path": "training/_index.md"
+    },
+    {
+      "basename": "featured",
+      "path": "training/Черный пояс/featured.svg"
+    },
+    {
+      "basename": "index",
+      "path": "training/Minitab/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "training/Кайдзен/index.md"
+    },
+    {
+      "basename": "_index",
+      "path": "specialTraining/_index.md"
+    },
+    {
+      "basename": "featured",
+      "path": "specialTraining/GBOill/featured.jpg"
     },
     {
       "basename": "Зеленый пояс Лин Шесть Сигм Real Estate",
@@ -27,38 +107,6 @@
     {
       "basename": "Зеленый пояс для нефтянки",
       "path": "posts/Зеленый пояс для нефтянки.md"
-    },
-    {
-      "basename": "index",
-      "path": "training/ЗПочный/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "training/Кайдзен/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "training/Черный пояс/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "training/Линсэнсэй/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "training/Желтыйпояс/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "training/BlueSky/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "training/Minitab/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "training/АпгрейдЧП/index.md"
     },
     {
       "basename": "ObsidianASSR",
@@ -85,14 +133,6 @@
       "path": "categories/_index.md"
     },
     {
-      "basename": "_index",
-      "path": "certificates/_index.md"
-    },
-    {
-      "basename": "featured",
-      "path": "training/Черный пояс/featured.svg"
-    },
-    {
       "basename": "testfeatured",
       "path": "training/Черный пояс/testfeatured.png"
     },
@@ -101,40 +141,12 @@
       "path": "training/Черный пояс/deepseek.svg"
     },
     {
-      "basename": "index",
-      "path": "main/partners/RGO/index.md"
-    },
-    {
       "basename": "GUULogo",
       "path": "main/partners/GUULogo.png"
     },
     {
       "basename": "index",
-      "path": "main/partners/MOGBI/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "main/partners/GUUniversity/index.md"
-    },
-    {
-      "basename": "GUULogo3",
-      "path": "main/partners/GUUniversity/GUULogo3.svg"
-    },
-    {
-      "basename": "Сертификация",
-      "path": "certificates/Сертификация.md"
-    },
-    {
-      "basename": "_index",
-      "path": "main/partners/_index.md"
-    },
-    {
-      "basename": "index",
       "path": "posts/Роль консультанта/index.md"
-    },
-    {
-      "basename": "История",
-      "path": "main/История.md"
     },
     {
       "basename": "index",
@@ -143,10 +155,6 @@
     {
       "basename": "index",
       "path": "posts/Ассоциация/index.md"
-    },
-    {
-      "basename": "projects",
-      "path": "posts/projects.md"
     },
     {
       "basename": "Зеленый пояс Лин Шесть Сигм",
@@ -191,14 +199,6 @@
     {
       "basename": "Роль консультанта",
       "path": "posts/Роль консультанта.md"
-    },
-    {
-      "basename": "Инструкция по созданию сайта на Blowfish",
-      "path": "Clippings/Инструкция по созданию сайта на Blowfish.md"
-    },
-    {
-      "basename": "Hugo Site Grock",
-      "path": "Hugo Site Grock.md"
     }
   ],
   "omittedPaths": [],

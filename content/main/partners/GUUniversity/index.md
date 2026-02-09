@@ -3,6 +3,9 @@ title: Государственный университет управлени�
 date: 2026-01-31
 showHero: true
 heroStyle: background
+showDate: false
+showDateUpdated: false
+weight: 10
 tags:
   - Ассоциация
   - Lean Six Sigma

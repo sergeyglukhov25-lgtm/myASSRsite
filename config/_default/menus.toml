@@ -22,7 +22,7 @@
   name = "Сертификация"  # ОБЯЗАТЕЛЬНО укажи identifier, если нет name!
   pageRef = "certificates"
   weight     = 40
-  pre        = "graduation-cap"       # иконка GitHub
+  pre        = "shield"       # иконка GitHub
 
 [[main]]
   name   = "Контакты"

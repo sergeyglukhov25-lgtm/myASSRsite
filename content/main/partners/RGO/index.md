@@ -3,6 +3,9 @@ title: Российское газовое общество (РГО)
 date: 2026-01-31
 showHero: true
 heroStyle: background
+showDate: false
+showDateUpdated: false
+weight: 30
 tags:
   - Ассоциация
   - Lean Six Sigma

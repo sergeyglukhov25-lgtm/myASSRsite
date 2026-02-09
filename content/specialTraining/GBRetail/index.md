@@ -107,19 +107,11 @@ tags:
 - Сохранение достигнутых улучшений
 
 
-### Сертификат
+### Сертификация
 
-![Сертификат Lean Six Sigma для недвижимости](certificate-real-estate-lean-six-sigma.png)
-
-{{< alert type="success" icon="star" >}}
-**Сертификация**  
 По итогам обучения и защиты мини-проекта вы получаете именной сертификат **«Green Belt Lean Six Sigma — специализация Управление недвижимостью»** (или подтверждение прохождения программы — в зависимости от формата).
-{{< /alert >}}
 
-{{< button href="tel:+79775175857" class="block w-full mb-4" >}}
-  {{< icon phone >}} Записаться по телефону: +7 (977) 517-58-57
-{{< /button >}}
-
-{{< button href="mailto:info@ваш-сайт.ru?subject=Запись на курс Lean Six Sigma для недвижимости" class="block w-full" >}}
-  {{< icon envelope >}} Написать на email
-{{< /button >}}
+{{< lead >}}
+  {{< icon phone >}} Запись по телефону: +7 (977) 517-58-57    
+  Написать на email g_buzov@mail.ru
+{{< /lead >}}

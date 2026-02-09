@@ -10,14 +10,15 @@ enableStructuredBreadcrumbs = true      # ← хлебные крошки в JSO
 
 # ... остальные параметры ниже ...
 
+mainSections = ["adverts"]          # ← только adverts будут считаться "основными"
+
 [homepage]
-  layout = "background"                  # ← это правильно
-  homepageImage = "High_Night_Moscow.jpeg"   # ← относительный путь ОТ assets/
-  # или homepageImage = "img/High_Night_Moscow.jpeg" если в assets/img/
+  layout = "background"             # или profile, hero и т.д. — как у вас
+  homepageImage = "High_Night_Moscow.jpeg"
   showRecent = true
-  showRecentItems = 6
-  showMoreLink = true
-  showMoreLinkDest = "/posts"
+  showRecentItems = 12              # сколько показывать (можно больше 6)
+  showMoreLink = false
+  showMoreLinkDest = "/adverts"     # ссылка "Ещё" → на /adverts/
   cardView = true
   cardViewScreenWidth = true
 

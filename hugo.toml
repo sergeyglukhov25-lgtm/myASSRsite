@@ -22,7 +22,7 @@ enableRobotsTXT = true
   displayMode = "auto"
 
   #images  
-  logo = "logo-dark.svg"
+  logo = "logo.svg"
   secondaryLogo = "logo.svg"
   flavicon = "flavicon.svg"
 
@@ -138,3 +138,6 @@ enableRobotsTXT = true
 
   [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+  [markup.goldmark.renderer]
+  unsafe = true

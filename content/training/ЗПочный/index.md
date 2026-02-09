@@ -6,7 +6,7 @@ heroStyle: background
 showDate: false
 showDateUpdated: false
 showReadingTime: false
-showWordCount:   false
+showWordCount: false
 coursePrice: 140 000
 weight: 10
 menu:

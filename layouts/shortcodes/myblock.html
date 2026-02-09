@@ -1,0 +1,4 @@
+<div class="custom-block {{ .Get "class" }}" style="background-color: {{ .Get "bgcolor" | default "#ffffff" }};">
+  <h3>{{ .Get "title" | default "Заголовок блока" }}</h3>
+  {{ .Inner | markdownify }}
+</div>

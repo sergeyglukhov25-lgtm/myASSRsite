@@ -100,7 +100,7 @@ coursePrice: 120 000
 
 ### Ваш сертификат Lean Six Sigma Black Belt
 
-![Сертификат Lean Six Sigma Black Belt](certificate-black-belt.png)
+![Сертификат Lean Six Sigma Black Belt](NewBlaclBeltCertificateTemplate.png)
 
 > [!SUCCESS] **Сертификат Черного пояса Lean Six Sigma**
 >   
@@ -110,14 +110,7 @@ coursePrice: 120 000
 
 ### Готовы стать Black Belt и вести компанию к прорывным результатам?
 
-Места в группе ограничены — запишитесь сейчас!
-
-- {{< button href="tel:+79775175857" class="block w-full mb-4" >}}
-{{< icon phone >}} Позвонить и обсудить апгрейд до Black Belt
-{{< /button >}}
-
-
-- {{< button href="mailto:info@ваш-сайт.ru?subject=Апгрейд Green Belt → Black Belt" class="block w-full mb-4" >}}
-{{< icon envelope >}} Написать и получить детали программы
-{{< /button >}}
-
+{{< lead >}}
+  {{< icon phone >}} Запись по телефону: +7 (977) 517-58-57    
+  Написать на email g_buzov@mail.ru
+{{< /lead >}}

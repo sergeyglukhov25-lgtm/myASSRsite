@@ -3,6 +3,9 @@ title: Московский институт нефтегазового бизн
 date: 2026-01-31
 showHero: true
 heroStyle: background
+showDate: false
+showDateUpdated: false
+weight: 20
 tags:
   - Ассоциация
   - Lean Six Sigma
