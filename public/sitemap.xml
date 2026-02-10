@@ -31,6 +31,10 @@
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/adverts/%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D0%BF%D0%BE%D1%8F%D1%81/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/training/%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D0%BF%D0%BE%D1%8F%D1%81/</loc>
     <lastmod>2026-01-22T00:00:00+00:00</lastmod>
   </url>
@@ -39,8 +43,20 @@
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/consulting/implementation/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/training/%D0%B0%D0%BF%D0%B3%D1%80%D0%B5%D0%B9%D0%B4%D1%87%D0%BF/</loc>
     <lastmod>2026-01-25T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/consulting/%D1%80%D0%BE%D0%BB%D1%8C-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D0%BD%D1%82%D0%B0/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/adverts/%D0%BB%D0%B8%D0%BD%D1%81%D1%8D%D0%BD%D1%81%D1%8D%D0%B9/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/training/%D0%BB%D0%B8%D0%BD%D1%81%D1%8D%D0%BD%D1%81%D1%8D%D0%B9/</loc>
@@ -68,14 +84,30 @@
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-07T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/adverts/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/home/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/adverts/projects/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/home/projects/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/training/</loc>
     <lastmod>2026-02-07T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/main/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F/</loc>
+    <loc>http://localhost:1313/main/history/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url>
   <url>
@@ -91,11 +123,7 @@
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/%D0%B0%D1%81%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D1%86%D0%B8%D1%8F/</loc>
+    <loc>http://localhost:1313/consulting/</loc>
     <lastmod>2026-01-29T00:00:00+00:00</lastmod>
   </url>
   <url>
@@ -107,7 +135,7 @@
     <lastmod>2026-01-21T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/adverts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-01-19T00:00:00+00:00</lastmod>
   </url>
   <url>
@@ -119,15 +147,7 @@
     <lastmod>2026-01-19T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/adverts/projects/</loc>
-    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/%D1%80%D0%BE%D0%BB%D1%8C-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D0%BD%D1%82%D0%B0/</loc>
-    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/_index/</loc>
+    <loc>http://localhost:1313/x_index_copy/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url>
   <url>
@@ -135,6 +155,9 @@
   </url>
   <url>
     <loc>http://localhost:1313/tasknotes/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/x_index--%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/</loc>
   </url>
   <url>
     <loc>http://localhost:1313/categories/</loc>

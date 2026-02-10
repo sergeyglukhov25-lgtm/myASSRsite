@@ -1,0 +1,24 @@
+<h2 class="title is-3 has-text-centered">Самые популярные услуги</h2>
+{{ $pages := where site.RegularPages "Section" "adverts" }}
+{{ $pages = sort $pages "Date" "desc" | first .Site.Params.homepage.showRecentItems }}
+
+{{ if $pages }}
+  <section class="section recent">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Самые популярные услуги</h2>
+      <div class="columns is-multiline is-variable is-3-desktop is-2-tablet">
+        {{ range $pages }}
+          {{ partial "card.html" . }}
+        {{ end }}
+      </div>
+      <!-- кнопка Ещё -->
+      {{ if .Site.Params.homepage.showMoreLink }}
+        <div class="has-text-centered mt-6">
+          <a href="{{ .Site.Params.homepage.showMoreLinkDest | relURL }}" class="button is-primary is-medium">
+            Ещё услуги
+          </a>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

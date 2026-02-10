@@ -1,0 +1,6 @@
+{{ define "main" }}
+  <meta http-equiv="refresh" content="0; url={{ "/adverts/" | relURL }}">
+  <link rel="canonical" href="{{ "/adverts/" | absURL }}">
+  <script>window.location.replace("{{ "/adverts/" | absURL }}");</script>
+  <p>Перенаправление на <a href="{{ "/adverts/" | relURL }}">объявления</a>...</p>
+{{ end }}

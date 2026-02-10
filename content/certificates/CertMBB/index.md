@@ -18,7 +18,6 @@ tags:
   - training
   - Lean Six Sigma
 description: ASSR Master Black Belt (MBB) — высшая квалификация в области непрерывного совершенствования. Признание выдающегося опыта и вклада в развитие организаций.
-coursePrice: 90 000
 draft: false
 ---
 

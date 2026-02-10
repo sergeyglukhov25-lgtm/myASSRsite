@@ -14,7 +14,7 @@
 
 [[main]]
   name   = "Консалтинг"
-  pageRef = "posts"
+  pageRef = "consulting"
   weight = 30
   pre    = "mug-hot"             # иконка человека
 

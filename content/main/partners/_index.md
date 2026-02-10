@@ -1,6 +1,7 @@
 ---
 title: Партнеры
 description: Действующие партнеры ассоциации
+featureimage: "/assets/logo-colored.svg"   # абсолютный путь 
 layout: list
 cascade:
   showDate: false

@@ -1,12 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "_index",
+      "path": "main/partners/_index.md"
+    },
+    {
       "basename": "index",
-      "path": "certificates/CertMBB/index.md"
+      "path": "consulting/Implementation/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "consulting/Роль консультанта/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "training/АпгрейдЧП/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "training/ЗПТурбо/index.md"
+    },
+    {
+      "basename": "featured",
+      "path": "training/ЗПТурбо/featured.svg"
+    },
+    {
+      "basename": "_index",
+      "path": "consulting/_index.md"
+    },
+    {
+      "basename": "index",
+      "path": "adverts/Черный пояс/index.md"
     },
     {
       "basename": "index",
       "path": "training/ЗПочный/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "adverts/Линсэнсэй/index.md"
+    },
+    {
+      "basename": "_index",
+      "path": "adverts/_index.md"
+    },
+    {
+      "basename": "index",
+      "path": "certificates/CertMBB/index.md"
     },
     {
       "basename": "index",
@@ -22,23 +62,11 @@
     },
     {
       "basename": "index",
-      "path": "training/ЗПТурбо/index.md"
-    },
-    {
-      "basename": "index",
       "path": "main/partners/GUUniversity/index.md"
     },
     {
       "basename": "_index",
       "path": "certificates/_index.md"
-    },
-    {
-      "basename": "История",
-      "path": "main/История.md"
-    },
-    {
-      "basename": "_index",
-      "path": "main/partners/_index.md"
     },
     {
       "basename": "index",
@@ -47,10 +75,6 @@
     {
       "basename": "index",
       "path": "main/partners/RGO/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "training/АпгрейдЧП/index.md"
     },
     {
       "basename": "index",
@@ -113,10 +137,6 @@
       "path": "ObsidianASSR.base"
     },
     {
-      "basename": "featured",
-      "path": "posts/Роль консультанта/featured.png"
-    },
-    {
       "basename": "Training courses database",
       "path": "TaskNotes/Training courses database.md"
     },
@@ -146,15 +166,7 @@
     },
     {
       "basename": "index",
-      "path": "posts/Роль консультанта/index.md"
-    },
-    {
-      "basename": "index",
       "path": "posts/АпгрейдЧП/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "posts/Ассоциация/index.md"
     },
     {
       "basename": "Зеленый пояс Лин Шесть Сигм",
@@ -183,22 +195,6 @@
     {
       "basename": "Course",
       "path": "templates/Course.md"
-    },
-    {
-      "basename": "contacts",
-      "path": "posts/contacts.md"
-    },
-    {
-      "basename": "about",
-      "path": "posts/about.md"
-    },
-    {
-      "basename": "first",
-      "path": "posts/first.md"
-    },
-    {
-      "basename": "Роль консультанта",
-      "path": "posts/Роль консультанта.md"
     }
   ],
   "omittedPaths": [],

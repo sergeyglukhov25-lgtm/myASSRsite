@@ -1,0 +1,70 @@
+{{ $section := site.GetPage "section" "adverts" }}
+
+<!-- Выводим .Content из content/adverts/_index.md -->
+<div class="prose prose-lg dark:prose-invert max-w-prose mx-auto mb-12">
+  {{ $section.Content }}
+</div>
+
+<!-- Здесь твой список объявлений (как раньше, но можно упростить) -->
+<div class="mt-10">
+  <h2 class="text-3xl font-bold tracking-tight mb-10 text-center md:text-left">
+    Объявления
+  </h2>
+
+  <div class="space-y-6 md:space-y-8">
+    {{ range first 12 $section.Pages.ByDate.Reverse }}
+      <!-- featured image логика Blowfish-style -->
+      {{ $featured := .Resources.GetMatch "{*feature*,*cover*,*thumbnail*}" }}
+      {{ if not $featured }}{{ with .Params.featureimage }}{{ $featured = resources.GetRemote . }}{{ end }}{{ end }}
+      {{ if not $featured }}{{ with .Params.images }}{{ $featured = .Resources.GetMatch (index . 0) }}{{ end }}{{ end }}
+
+      <a href="{{ .RelPermalink }}"
+         class="group block rounded-2xl overflow-hidden border border-neutral-200/70 dark:border-neutral-700/60 bg-white dark:bg-neutral-800/80 hover:border-primary-400 dark:hover:border-primary-500/70 transition-all duration-250 hover:shadow-md hover:shadow-primary-500/10">
+
+        <div class="flex flex-col sm:flex-row">
+          <!-- Картинка слева (как карточка) -->
+          <div class="relative w-full sm:w-56 md:w-64 lg:w-72 flex-shrink-0 aspect-[4/3] sm:aspect-auto sm:h-48 md:h-56 overflow-hidden">
+            {{ if $featured }}
+              {{ with $featured.Fill "640x480 Center webp q80" }}
+                <img src="{{ .RelPermalink }}"
+                     alt="{{ $.Title | plainify }}"
+                     width="{{ .Width }}" height="{{ .Height }}"
+                     class="absolute inset-0 h-full w-full object-cover transition-transform duration-400 group-hover:scale-105"
+                     loading="lazy">
+              {{ end }}
+            {{ else }}
+              <div class="absolute inset-0 bg-gradient-to-br from-neutral-100 to-neutral-200 dark:from-neutral-800 dark:to-neutral-900 flex items-center justify-center text-neutral-400 dark:text-neutral-500 text-sm">
+                Нет изображения
+              </div>
+            {{ end }}
+          </div>
+
+          <!-- Заголовок + описание справа -->
+          <div class="flex-1 p-6 md:p-7 flex flex-col">
+            <h3 class="text-xl md:text-2xl font-semibold leading-tight mb-3 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+              {{ .Title }}
+            </h3>
+            <p class="text-neutral-600 dark:text-neutral-300 line-clamp-3 md:line-clamp-4 text-base leading-relaxed">
+              {{ if .Description }}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify | truncate 180 }}{{ end }}
+            </p>
+            {{ if .Date }}
+              <div class="mt-auto pt-5 text-sm text-neutral-500 dark:text-neutral-400">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 января 2006" }}</time>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </a>
+    {{ end }}
+  </div>
+
+  <!-- Ссылка "Все объявления" -->
+  {{ if gt (len $section.Pages) 12 }}
+    <div class="mt-12 text-center">
+      <a href="{{ $section.RelPermalink }}"
+         class="inline-flex items-center gap-2 px-7 py-3.5 text-base font-medium rounded-xl bg-primary-600 hover:bg-primary-700 dark:bg-primary-700 dark:hover:bg-primary-600 text-white shadow-sm hover:shadow transition-all duration-200">
+        Показать все объявления ({{ len $section.Pages }}) →
+      </a>
+    </div>
+  {{ end }}
+</div>

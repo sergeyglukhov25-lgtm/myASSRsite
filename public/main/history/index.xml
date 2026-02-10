@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>История Ассоциации on Ассоциация Шесть Сигм</title>
+    <link>http://localhost:1313/main/history/</link>
+    <description>Recent content in История Ассоциации on Ассоциация Шесть Сигм</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>  © 2026 Ассоциация Шесть Сигм  
+  Москва, проспект Мира 124, корпус 15  
+  Все права защищены.
+  </copyright>
+    <lastBuildDate></lastBuildDate><atom:link href="http://localhost:1313/main/history/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

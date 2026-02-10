@@ -10,17 +10,18 @@ enableStructuredBreadcrumbs = true      # ← хлебные крошки в JSO
 
 # ... остальные параметры ниже ...
 
-mainSections = ["adverts"]          # ← только adverts будут считаться "основными"
 
 [homepage]
-  layout = "background"             # или profile, hero и т.д. — как у вас
+  layout = "custom"
   homepageImage = "High_Night_Moscow.jpeg"
   showRecent = true
   showRecentItems = 12              # сколько показывать (можно больше 6)
-  showMoreLink = false
-  showMoreLinkDest = "/adverts"     # ссылка "Ещё" → на /adverts/
+  showMoreLink = true
+  showMoreLinkDest = "/adverts/"     # ссылка "Ещё" → на /adverts/
   cardView = true
   cardViewScreenWidth = true
+
+mainSections = ["adverts"]       #  самое важное
 
 [article]
   showTableOfContents = true
@@ -30,6 +31,7 @@ mainSections = ["adverts"]          # ← только adverts будут счи
   heroStyle = "background"       # ← ключевой параметр: фон на всю ширину
   layoutBackgroundBlur = true         # ← опционально: красивое размытие при скролле 
   layoutBackgroundHeaderSpace = true  # ← добавляет отступ сверху, чтобы меню не 
+  showPagination = true
 
 [params.footer]
   showCopyright       = true      # ← оставь true, чтобы копирайт показывался

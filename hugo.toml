@@ -84,18 +84,8 @@ enableRobotsTXT = true
 
 # ОБНОВЛЕННЫЕ НАСТРОЙКИ ГЛАВНОЙ СТРАНИЦЫ
 [params.homepage]
-  layout = "custom"
-  title = "Ассоциация Шесть Сигм"
-  subtitle = "Повышение качества через статистическое управление процессами"
+  layout = "background"
   
-  backgroundImage = "background.jpg"
-  backgroundDarken = 0.5
-  backgroundSize = "cover"
-  backgroundPosition = "center"
-  
-  logo = "logo.svg"
-  logoWidth = 200
-  logoHeight = 200
   
   [[params.homepage.buttons]]
     text = "Вступить в ассоциацию"
