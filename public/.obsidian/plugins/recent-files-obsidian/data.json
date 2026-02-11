@@ -6,11 +6,7 @@
     },
     {
       "basename": "index",
-      "path": "consulting/Implementation/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "consulting/Роль консультанта/index.md"
+      "path": "consulting/checkup/index.md"
     },
     {
       "basename": "index",
@@ -18,7 +14,47 @@
     },
     {
       "basename": "index",
+      "path": "consulting/Роль консультанта/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "consulting/Implementation/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "training/Желтыйпояс/index.md"
+    },
+    {
+      "basename": "index",
       "path": "training/ЗПТурбо/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "main/partners/GUUniversity/index.md"
+    },
+    {
+      "basename": "featured",
+      "path": "training/АпгрейдЧП/featured.svg"
+    },
+    {
+      "basename": "index",
+      "path": "main/history/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "main/partners/MOGBI/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "main/clients/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "certificates/CertMBB/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "certificates/CertGB/index.md"
     },
     {
       "basename": "featured",
@@ -46,14 +82,6 @@
     },
     {
       "basename": "index",
-      "path": "certificates/CertMBB/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "certificates/CertGB/index.md"
-    },
-    {
-      "basename": "index",
       "path": "certificates/CertBB/index.md"
     },
     {
@@ -61,24 +89,12 @@
       "path": "training/Черный пояс/index.md"
     },
     {
-      "basename": "index",
-      "path": "main/partners/GUUniversity/index.md"
-    },
-    {
       "basename": "_index",
       "path": "certificates/_index.md"
     },
     {
       "basename": "index",
-      "path": "main/partners/MOGBI/index.md"
-    },
-    {
-      "basename": "index",
       "path": "main/partners/RGO/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "training/Желтыйпояс/index.md"
     },
     {
       "basename": "featured",
@@ -161,10 +177,6 @@
       "path": "training/Черный пояс/deepseek.svg"
     },
     {
-      "basename": "GUULogo",
-      "path": "main/partners/GUULogo.png"
-    },
-    {
       "basename": "index",
       "path": "posts/АпгрейдЧП/index.md"
     },
@@ -183,18 +195,6 @@
     {
       "basename": "index",
       "path": "posts/Черный пояс/index.md"
-    },
-    {
-      "basename": "NewGBCertificateTemplate2025",
-      "path": "posts/Черный пояс/NewGBCertificateTemplate2025.png"
-    },
-    {
-      "basename": "Green Belts",
-      "path": "courses/Green Belts.md"
-    },
-    {
-      "basename": "Course",
-      "path": "templates/Course.md"
     }
   ],
   "omittedPaths": [],

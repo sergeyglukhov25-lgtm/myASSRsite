@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e2b93c54dc294ce2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "certificates/CertBB/index.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
             "id": "69c6b22461cba950",
             "type": "leaf",
             "state": {
@@ -61,6 +37,54 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "certificates/CertGB/index.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "223153037f67e4a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "training/АпгрейдЧП/index.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "0fad49f28f70d46d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "main/partners/_index.md",
                 "mode": "source",
                 "source": true,
@@ -80,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -329,53 +353,53 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "d15514a2846b42e4",
+  "active": "0fad49f28f70d46d",
   "lastOpenFiles": [
+    "consulting/checkup/index.md",
+    "main/partners/GUULogo.png",
+    "main/partners/featured.jpg",
+    "main/partners/featured.jpg.crdownload",
+    "main/partners/featured.png",
+    "training/АпгрейдЧП/index.md",
+    "consulting/Роль консультанта/index.md",
+    "consulting/checkup/featured.png",
     "consulting/Implementation/index.md",
+    "training/Желтыйпояс/index.md",
+    "training/ЗПТурбо/index.md",
+    "main/partners/_index.md",
+    "main/partners/GUUniversity/index.md",
+    "consulting/checkup",
+    "consulting/Новая папка",
+    "training/АпгрейдЧП/featured.svg",
+    "main/history/index.md",
+    "main/partners/MOGBI/index.md",
+    "main/clients/index.md",
+    "main/clients/featured.png",
+    "certificates/CertMBB/index.md",
+    "certificates/CertGB/index.md",
     "main/clients",
     "main/Новая папка",
-    "main/history/_index.md",
-    "main/history/index.md",
     "main/history/История.md",
     "main/history",
     "consulting/Implementation/featured.jpeg",
     "consulting/Implementation/featured.jpeg.crdownload",
-    "consulting/Роль консультанта/index.md",
     "consulting/Роль консультанта/featured.jpg",
     "consulting/Роль консультанта/1200px-Creation_of_Adam_Michelangelo.jpg",
     "consulting/Роль консультанта/1200px-Creation_of_Adam_Michelangelo.jpg.crdownload",
-    "training/АпгрейдЧП/index.md",
-    "training/ЗПТурбо/index.md",
     "training/ЗПТурбо/featured.svg",
     "consulting/_index.md",
     "adverts/Черный пояс/index.md",
-    "consulting/Роль консультанта/featured.png",
     "consulting/Роль консультанта",
-    "consulting/Implementation/featured.png",
     "consulting/Implementation",
-    "consulting",
-    "Новая папка",
     "training/ЗПочный/index.md",
     "adverts/Линсэнсэй/index.md",
     "adverts/_index.md",
-    "certificates/CertMBB/index.md",
     "_index — копия2.md",
     "_index — копия.md",
     "_index.md",
     "!_index_copy.md",
     "~$_index.md",
     "~$index — копия.md",
-    "!_index.md",
-    "projects.md",
-    "adverts/projects.md",
-    "!_index — копия.md",
-    "certificates/CertGB/index.md",
-    "certificates/CertBB/index.md",
-    "certificates/CertMBB",
-    "certificates/CertBB/featured.png",
-    "certificates/CertBB/NewBlaclBeltCertificateTemplate.png",
-    "certificates/CertGB/featured.png",
-    "certificates/CertGB/NewGBCertificateTemplate2025.png",
     "Без названия.canvas",
     "Без названия 2.canvas",
     "Без названия 1.canvas",

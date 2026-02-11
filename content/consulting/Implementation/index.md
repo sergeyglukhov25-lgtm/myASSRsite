@@ -5,7 +5,7 @@ showHero: true
 heroStyle: background
 showDate: false
 showDateUpdated: false
-weight: 30
+weight: 50
 tags:
   - Lean Six Sigma
   - бережливое производство
