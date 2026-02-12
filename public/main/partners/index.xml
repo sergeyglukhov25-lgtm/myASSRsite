@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Партнеры on Ассоциация Шесть Сигм</title>
-    <link>http://localhost:1313/main/partners/</link>
+    <link>http://localhost:52266/main/partners/</link>
     <description>Recent content in Партнеры on Ассоциация Шесть Сигм</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
@@ -10,36 +10,36 @@
   Москва, проспект Мира 124, корпус 15  
   Все права защищены.
   </copyright>
-    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/main/partners/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:52266/main/partners/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Государственный университет управления (ГУУ)</title>
-      <link>http://localhost:1313/main/partners/guuniversity/</link>
+      <link>http://localhost:52266/main/partners/guuniversity/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/main/partners/guuniversity/</guid>
+      <guid>http://localhost:52266/main/partners/guuniversity/</guid>
       <description>&lt;p&gt;Государственный университет управления является лидером в управленческом образовании России. Сформированный многоуровневый научно-учебный комплекс, в который входят 7 учебных институтов и более 40 кафедр и научно-исследовательских подразделений. Здесь обучается более 10 тысяч студентов по различным направлениям бакалаврской и магистерской подготовки. Университет также проводит переподготовку и повышение квалификации для специалистов и руководителей предприятий. Благодаря своему опыту и качественному образованию, университет за годы своего существования подготовил более 100 тысяч квалифицированных управленцев для различных отраслей экономики.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/main/partners/guuniversity/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:52266/main/partners/guuniversity/featured.png" />
     </item>
     
     <item>
       <title>Московский институт нефтегазового бизнеса</title>
-      <link>http://localhost:1313/main/partners/mogbi/</link>
+      <link>http://localhost:52266/main/partners/mogbi/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/main/partners/mogbi/</guid>
+      <guid>http://localhost:52266/main/partners/mogbi/</guid>
       <description>&lt;p&gt;Московский институт нефтегазового бизнеса — одно из ведущих образовательных учреждений дополнительного профессионального образования в России. Основан в 1999 году как кафедра «Нефтегазовый бизнес» при Академии народного хозяйства при Правительстве Российской Федерации. Свыше 15 тысяч выпускников, проведение образовательных проектов для крупных компаний в нефтегазовой отрасли, практическая направленность обучения, международное присутствие и широкий спектр обучающих программ делают институт привлекательным для специалистов в этой области. Большое количество высокопрофессиональных преподавателей из различных стран позволяет обеспечить высокий уровень образовательного процесса.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/main/partners/mogbi/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:52266/main/partners/mogbi/featured.png" />
     </item>
     
     <item>
       <title>Российское газовое общество (РГО)</title>
-      <link>http://localhost:1313/main/partners/rgo/</link>
+      <link>http://localhost:52266/main/partners/rgo/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/main/partners/rgo/</guid>
+      <guid>http://localhost:52266/main/partners/rgo/</guid>
       <description>&lt;p&gt;«Российское газовое общество» – это союз организаций нефтегазовой отрасли, основанный в 2001 году с целью консолидации компаний, представляющих отрасль, и способствующих развитию нефтегазовой индустрии в России. Оно работает над разработкой эффективных законов, представляет российский энергетический рынок за рубежом, организует экспертизу и аналитику по актуальным вопросам отрасли, проводит дискуссии и мероприятия, а также издает журналы, посвященные газовому бизнесу и научным исследованиям в области углеводородов. Участники РГО получают преимущества при участии в мероприятиях и публикациях организации.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/main/partners/rgo/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:52266/main/partners/rgo/featured.png" />
     </item>
     
   </channel>

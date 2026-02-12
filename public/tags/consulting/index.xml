@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Consulting on Ассоциация Шесть Сигм</title>
-    <link>http://localhost:1313/tags/consulting/</link>
+    <link>http://localhost:52266/tags/consulting/</link>
     <description>Recent content in Consulting on Ассоциация Шесть Сигм</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
@@ -10,16 +10,16 @@
   Москва, проспект Мира 124, корпус 15  
   Все права защищены.
   </copyright>
-    <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/consulting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:52266/tags/consulting/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Почему одного обучения недостаточно при внедрении Lean Six Sigma?</title>
-      <link>http://localhost:1313/consulting/%D1%80%D0%BE%D0%BB%D1%8C-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D0%BD%D1%82%D0%B0/</link>
+      <link>http://localhost:52266/consulting/%D1%80%D0%BE%D0%BB%D1%8C-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D0%BD%D1%82%D0%B0/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/consulting/%D1%80%D0%BE%D0%BB%D1%8C-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D0%BD%D1%82%D0%B0/</guid>
+      <guid>http://localhost:52266/consulting/%D1%80%D0%BE%D0%BB%D1%8C-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D0%BD%D1%82%D0%B0/</guid>
       <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xD;&#xA;  Исследования психологов показывают: человек способен по-настоящему понять и усвоить новую идею только тогда, когда уже знает &lt;strong&gt;около 80%&lt;/strong&gt; относящейся к ней информации.&lt;br&gt;&#xA;Именно поэтому даже после качественного курса Lean Six Sigma многие ключевые «секреты» опытных специалистов &lt;strong&gt;физически не могут быть переданы&lt;/strong&gt; новичкам за ограниченное время обучения. Эти секреты существуют — но свежеподготовленные Belt-специалисты часто проходят мимо них, не осознавая их решающей роли в успешных проектах совершенствования.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Ниже — самые важные из этих скрытых аспектов, которые отличают настоящих Black Belt от тех, кто просто прошёл курс.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/consulting/%D1%80%D0%BE%D0%BB%D1%8C-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D0%BD%D1%82%D0%B0/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:52266/consulting/%D1%80%D0%BE%D0%BB%D1%8C-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D0%BD%D1%82%D0%B0/featured.jpg" />
     </item>
     
   </channel>
