@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "main/partners/_index.md",
+                "file": "adverts/ExpressGreenBelt/index.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "index"
             }
           }
         ],
@@ -355,18 +355,22 @@
   },
   "active": "0fad49f28f70d46d",
   "lastOpenFiles": [
+    "adverts/YourCertificate/index.md",
+    "adverts/ExpressGreenBelt/index.md",
+    "adverts/YourCertificate/featured.svg",
+    "training/АпгрейдЧП/index.md",
+    "adverts/ExpressGreenBelt/testfeatured.png",
+    "training/ЗПТурбо/index.md",
+    "main/partners/_index.md",
     "consulting/checkup/index.md",
     "main/partners/GUULogo.png",
     "main/partners/featured.jpg",
     "main/partners/featured.jpg.crdownload",
     "main/partners/featured.png",
-    "training/АпгрейдЧП/index.md",
     "consulting/Роль консультанта/index.md",
     "consulting/checkup/featured.png",
     "consulting/Implementation/index.md",
     "training/Желтыйпояс/index.md",
-    "training/ЗПТурбо/index.md",
-    "main/partners/_index.md",
     "main/partners/GUUniversity/index.md",
     "consulting/checkup",
     "consulting/Новая папка",
@@ -384,15 +388,11 @@
     "consulting/Implementation/featured.jpeg",
     "consulting/Implementation/featured.jpeg.crdownload",
     "consulting/Роль консультанта/featured.jpg",
-    "consulting/Роль консультанта/1200px-Creation_of_Adam_Michelangelo.jpg",
     "consulting/Роль консультанта/1200px-Creation_of_Adam_Michelangelo.jpg.crdownload",
-    "training/ЗПТурбо/featured.svg",
     "consulting/_index.md",
-    "adverts/Черный пояс/index.md",
     "consulting/Роль консультанта",
     "consulting/Implementation",
     "training/ЗПочный/index.md",
-    "adverts/Линсэнсэй/index.md",
     "adverts/_index.md",
     "_index — копия2.md",
     "_index — копия.md",

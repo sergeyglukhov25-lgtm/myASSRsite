@@ -68,6 +68,37 @@
     "debugMode": false
   },
   "cachedCounts": {
+    "_index.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 10,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.03333333333333333,
+      "characterCount": 80,
+      "nonWhitespaceCharacterCount": 67,
+      "newlineCount": 5,
+      "readingTimeInMinutes": 0.03773584905660377,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1770675811951,
+      "modifiedDate": 1770713397293,
+      "sizeInBytes": 226,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.03333333333333333,
+        "wordCount": 10,
+        "characterCount": 80,
+        "nonWhitespaceCharacterCount": 67,
+        "newlineCount": 5
+      },
+      "frontmatter": {
+        "title": "Моя главная",
+        "description": "Короткое описание"
+      }
+    },
     "X_index_copy.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -98,37 +129,6 @@
         "title": "Ассоциация Шесть Сигм",
         "description": "Официальный сайт Ассоциации Шесть Сигм",
         "date": "2024-01-01"
-      }
-    },
-    "_index.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 10,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.03333333333333333,
-      "characterCount": 80,
-      "nonWhitespaceCharacterCount": 67,
-      "newlineCount": 5,
-      "readingTimeInMinutes": 0.03773584905660377,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1770675811951,
-      "modifiedDate": 1770713397293,
-      "sizeInBytes": 226,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.03333333333333333,
-        "wordCount": 10,
-        "characterCount": 80,
-        "nonWhitespaceCharacterCount": 67,
-        "newlineCount": 5
-      },
-      "frontmatter": {
-        "title": "Моя главная",
-        "description": "Короткое описание"
       }
     },
     "X_index — копия.md": {
@@ -162,6 +162,33 @@
         "description": "Самые популярные услуги",
         "layout": "home",
         "paginate": false
+      }
+    },
+    "ObsidianASSR.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770411403023,
+      "modifiedDate": 1770450276401,
+      "sizeInBytes": 389,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       }
     },
     "training/_index.md": {
@@ -207,218 +234,6 @@
         "showBreadcrumbs": true
       }
     },
-    "training/Черный пояс/NewGBCertificateTemplate2025.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1769621571372,
-      "modifiedDate": 1769621571373,
-      "sizeInBytes": 2542186,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "training/Черный пояс/testfeatured.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1769621571377,
-      "modifiedDate": 1769621571377,
-      "sizeInBytes": 105044,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "training/Черный пояс/NewBlaclBeltCertificateTemplate.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770574432421,
-      "modifiedDate": 1770574433641,
-      "sizeInBytes": 678502,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "training/Черный пояс/index.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 466,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 1.5533333333333332,
-      "characterCount": 4240,
-      "nonWhitespaceCharacterCount": 3558,
-      "newlineCount": 114,
-      "readingTimeInMinutes": 1.758490566037736,
-      "linkCount": 0,
-      "embedCount": 1,
-      "aliases": null,
-      "createdDate": 1769621571375,
-      "modifiedDate": 1770574534219,
-      "sizeInBytes": 7556,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 1.5533333333333332,
-        "wordCount": 466,
-        "characterCount": 4240,
-        "nonWhitespaceCharacterCount": 3558,
-        "newlineCount": 114
-      },
-      "frontmatter": {
-        "title": "Курс «Чёрный пояс Lean Six Sigma» — стандартный тренинг 5+5 дней",
-        "date": "2026-01-22",
-        "showHero": true,
-        "showDate": false,
-        "showDateUpdated": false,
-        "heroStyle": "background",
-        "coursePrice": "140 000",
-        "weight": 20,
-        "menu": {
-          "main": {
-            "name": "Черный пояс",
-            "weight": 20,
-            "parent": "Обучение",
-            "pre": "graduation-cap"
-          }
-        },
-        "tags": [
-          "Курсы",
-          "Lean Six Sigma",
-          "training"
-        ]
-      }
-    },
-    "training/Черный пояс/featured.svg": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1769621571374,
-      "modifiedDate": 1769621571375,
-      "sizeInBytes": 9554,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "training/Черный пояс/deepseek.svg": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1769981417584,
-      "modifiedDate": 1769981417843,
-      "sizeInBytes": 3528,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "training/Линсэнсэй/LeanSensey.svg": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770451889283,
-      "modifiedDate": 1770451889301,
-      "sizeInBytes": 13251,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "training/Линсэнсэй/NewLeanCertificateTemplate2026.png": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -454,16 +269,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.4666666666666666,
-      "characterCount": 4057,
-      "nonWhitespaceCharacterCount": 3468,
+      "characterCount": 4076,
+      "nonWhitespaceCharacterCount": 3487,
       "newlineCount": 51,
       "readingTimeInMinutes": 1.6603773584905661,
       "linkCount": 0,
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1770447644503,
-      "modifiedDate": 1770552580208,
-      "sizeInBytes": 7469,
+      "modifiedDate": 1770886449995,
+      "sizeInBytes": 7497,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.4666666666666666,
@@ -496,6 +311,33 @@
         ]
       }
     },
+    "training/Линсэнсэй/LeanSensey.svg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770451889283,
+      "modifiedDate": 1770451889301,
+      "sizeInBytes": 13251,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "training/Линсэнсэй/featured.svg": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -514,6 +356,33 @@
       "createdDate": 1770451441758,
       "modifiedDate": 1770480420225,
       "sizeInBytes": 12635,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "training/Кайдзен/KAICertificate.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770575684681,
+      "modifiedDate": 1770575687467,
+      "sizeInBytes": 6441854,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -581,33 +450,6 @@
         "description": "Станьте **Кайдзен-менеджером** за 5 дней: освойте философию **Kaizen**, инструменты **Lean** и метод A3. Научитесь вести проекты непрерывных улучшений и добиваться реального экономического эффекта в своей компании."
       }
     },
-    "training/Кайдзен/KAICertificate.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770575684681,
-      "modifiedDate": 1770575687467,
-      "sizeInBytes": 6441854,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "training/Кайдзен/featured.svg": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -626,6 +468,191 @@
       "createdDate": 1770564256646,
       "modifiedDate": 1770564262303,
       "sizeInBytes": 14176,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "training/Черный пояс/testfeatured.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1769621571377,
+      "modifiedDate": 1769621571377,
+      "sizeInBytes": 105044,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "training/Черный пояс/NewGBCertificateTemplate2025.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1769621571372,
+      "modifiedDate": 1769621571373,
+      "sizeInBytes": 2542186,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "training/Черный пояс/NewBlaclBeltCertificateTemplate.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770574432421,
+      "modifiedDate": 1770574433641,
+      "sizeInBytes": 678502,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "training/Черный пояс/index.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 466,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.5533333333333332,
+      "characterCount": 4263,
+      "nonWhitespaceCharacterCount": 3581,
+      "newlineCount": 114,
+      "readingTimeInMinutes": 1.758490566037736,
+      "linkCount": 0,
+      "embedCount": 1,
+      "aliases": null,
+      "createdDate": 1769621571375,
+      "modifiedDate": 1770882842461,
+      "sizeInBytes": 7589,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 1.5533333333333332,
+        "wordCount": 466,
+        "characterCount": 4240,
+        "nonWhitespaceCharacterCount": 3558,
+        "newlineCount": 114
+      },
+      "frontmatter": {
+        "title": "Курс «Чёрный пояс Lean Six Sigma» — стандартный тренинг 5+5 дней",
+        "date": "2026-01-22",
+        "showHero": true,
+        "showDate": false,
+        "showDateUpdated": false,
+        "heroStyle": "background",
+        "coursePrice": "140 000",
+        "weight": 20,
+        "menu": {
+          "main": {
+            "name": "Черный пояс",
+            "weight": 20,
+            "parent": "Обучение",
+            "pre": "graduation-cap"
+          }
+        },
+        "tags": [
+          "Курсы",
+          "Lean Six Sigma",
+          "training"
+        ]
+      }
+    },
+    "training/Черный пояс/deepseek.svg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1769981417584,
+      "modifiedDate": 1769981417843,
+      "sizeInBytes": 3528,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "training/Черный пояс/featured.svg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1769621571374,
+      "modifiedDate": 1769621571375,
+      "sizeInBytes": 9554,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -741,6 +768,33 @@
         "newlineCount": 0
       }
     },
+    "training/ЗПочный/NewGBCertificateTemplate2025.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770324174112,
+      "modifiedDate": 1769621571373,
+      "sizeInBytes": 2542186,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "training/ЗПочный/index.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -811,33 +865,6 @@
       "createdDate": 1769621571342,
       "modifiedDate": 1769621571343,
       "sizeInBytes": 8618,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "training/ЗПочный/NewGBCertificateTemplate2025.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770324174112,
-      "modifiedDate": 1769621571373,
-      "sizeInBytes": 2542186,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -1092,6 +1119,33 @@
         "newlineCount": 0
       }
     },
+    "training/АпгрейдЧП/NewBlaclBeltCertificateTemplate.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770574807739,
+      "modifiedDate": 1770574433641,
+      "sizeInBytes": 678502,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "training/АпгрейдЧП/index.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -1140,33 +1194,6 @@
         ],
         "description": "Быстрый апгрейд от Green Belt до Black Belt: освойте лидерство, сложный статистический анализ, QFD, управление изменениями и инновационные решения. Получите сертификат Черного пояса и станьте лидером трансформаций в компании.",
         "coursePrice": "120 000"
-      }
-    },
-    "training/АпгрейдЧП/NewBlaclBeltCertificateTemplate.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770574807739,
-      "modifiedDate": 1770574433641,
-      "sizeInBytes": 678502,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
       }
     },
     "training/АпгрейдЧП/featured.svg": {
@@ -1305,33 +1332,6 @@
         "newlineCount": 0
       }
     },
-    "training/BlueSky/featured.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770498217322,
-      "modifiedDate": 1770498497352,
-      "sizeInBytes": 768070,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "training/BlueSky/index.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -1386,6 +1386,33 @@
           "Six Sigma"
         ],
         "description": "Освойте BlueSky Statistics — мощную R-based альтернативу Minitab для проектов **Lean Six Sigma**. За 3 дня научитесь проводить анализ данных по DMAIC и добиваться реальных улучшений процессов."
+      }
+    },
+    "training/BlueSky/featured.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770498217322,
+      "modifiedDate": 1770498497352,
+      "sizeInBytes": 768070,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       }
     },
     "training/BlueSky/BlueSkyLSS.png": {
@@ -1526,33 +1553,6 @@
         "newlineCount": 0
       }
     },
-    "TaskNotes/Views/calendar-default.base": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1769621571331,
-      "modifiedDate": 1769621571331,
-      "sizeInBytes": 6930,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "TaskNotes/Views/kanban-default.base": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -1571,6 +1571,33 @@
       "createdDate": 1769621571331,
       "modifiedDate": 1769621571332,
       "sizeInBytes": 6708,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "TaskNotes/Views/calendar-default.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1769621571331,
+      "modifiedDate": 1769621571331,
+      "sizeInBytes": 6930,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -1791,33 +1818,6 @@
         "newlineCount": 0
       }
     },
-    "ObsidianASSR.base": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770411403023,
-      "modifiedDate": 1770450276401,
-      "sizeInBytes": 389,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "posts/first.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -1952,76 +1952,6 @@
         }
       }
     },
-    "main/clients/index.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 286,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.9533333333333334,
-      "characterCount": 2783,
-      "nonWhitespaceCharacterCount": 2321,
-      "newlineCount": 85,
-      "readingTimeInMinutes": 1.079245283018868,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1770754798444,
-      "modifiedDate": 1770760810378,
-      "sizeInBytes": 5784,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.9533333333333334,
-        "wordCount": 286,
-        "characterCount": 2783,
-        "nonWhitespaceCharacterCount": 2321,
-        "newlineCount": 85
-      },
-      "frontmatter": {
-        "title": "Клиенты Ассоциации «Шесть сигм»",
-        "date": "2026-01-31",
-        "showHero": true,
-        "heroStyle": "background",
-        "showDate": false,
-        "showDateUpdated": false,
-        "showReadingTime": false,
-        "showWordCount": false,
-        "weight": 50,
-        "tags": [
-          "training",
-          "Lean Six Sigma"
-        ],
-        "description": "Клиенты - ЦБ РФ, Минпромторг, Газпром, Лукойл, Газпром нефть, Сбербанк, Альфа банк, Русал, ОАК, УМПО, Роскосмос, Гражданские самолёты Сухого, Вертолеты России, МИГ, Холдинг «Высокоточные комплексы», Уралмашзавод, Мегафон, МТС, Билайн, John Deer, Nissan, Schlumberger, Johnson & Johnson, Mars, MWV, Audatex, Boeing, Hundai, Metalfrio, Тиги Кнауф, Legrand, Ledvance, Аком, Акрихин, Профотек, Акзо Нобель, Хоум Кредит, Алтын Банк, Промсвязьбанк"
-      }
-    },
-    "main/clients/featured.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770758872106,
-      "modifiedDate": 1770758873060,
-      "sizeInBytes": 855101,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "main/partners/_index.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -2042,11 +1972,11 @@
       "sizeInBytes": 584,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.04,
-        "wordCount": 12,
-        "characterCount": 111,
-        "nonWhitespaceCharacterCount": 99,
-        "newlineCount": 2
+        "pageCount": 0.04666666666666667,
+        "wordCount": 14,
+        "characterCount": 138,
+        "nonWhitespaceCharacterCount": 120,
+        "newlineCount": 4
       },
       "frontmatter": {
         "title": "Партнеры",
@@ -2064,74 +1994,6 @@
         "groupByYear": false,
         "showSummary": true,
         "showBreadcrumbs": true
-      }
-    },
-    "main/partners/RGO/index.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 73,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.24333333333333335,
-      "characterCount": 611,
-      "nonWhitespaceCharacterCount": 537,
-      "newlineCount": 2,
-      "readingTimeInMinutes": 0.27547169811320754,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1769967986223,
-      "modifiedDate": 1770638815403,
-      "sizeInBytes": 1377,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.24333333333333335,
-        "wordCount": 73,
-        "characterCount": 611,
-        "nonWhitespaceCharacterCount": 537,
-        "newlineCount": 2
-      },
-      "frontmatter": {
-        "title": "Российское газовое общество (РГО)",
-        "date": "2026-01-31",
-        "showHero": true,
-        "heroStyle": "background",
-        "showDate": false,
-        "showDateUpdated": false,
-        "weight": 30,
-        "tags": [
-          "Ассоциация",
-          "Lean Six Sigma",
-          "training"
-        ]
-      }
-    },
-    "main/partners/RGO/featured.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770056094524,
-      "modifiedDate": 1770560285299,
-      "sizeInBytes": 130836,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
       }
     },
     "main/partners/MOGBI/index.md": {
@@ -2220,6 +2082,101 @@
       "createdDate": 1770057727983,
       "modifiedDate": 1770057727990,
       "sizeInBytes": 20715,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "main/partners/RGO/index.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 73,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.24333333333333335,
+      "characterCount": 611,
+      "nonWhitespaceCharacterCount": 537,
+      "newlineCount": 2,
+      "readingTimeInMinutes": 0.27547169811320754,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1769967986223,
+      "modifiedDate": 1770638815403,
+      "sizeInBytes": 1377,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.24333333333333335,
+        "wordCount": 73,
+        "characterCount": 611,
+        "nonWhitespaceCharacterCount": 537,
+        "newlineCount": 2
+      },
+      "frontmatter": {
+        "title": "Российское газовое общество (РГО)",
+        "date": "2026-01-31",
+        "showHero": true,
+        "heroStyle": "background",
+        "showDate": false,
+        "showDateUpdated": false,
+        "weight": 30,
+        "tags": [
+          "Ассоциация",
+          "Lean Six Sigma",
+          "training"
+        ]
+      }
+    },
+    "main/partners/RGO/featured.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770056094524,
+      "modifiedDate": 1770560285299,
+      "sizeInBytes": 130836,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "main/partners/featured.jpg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770844324453,
+      "modifiedDate": 1770844324663,
+      "sizeInBytes": 3731500,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -2357,6 +2314,76 @@
       "createdDate": 1770802359487,
       "modifiedDate": 1770802359753,
       "sizeInBytes": 126612,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "main/clients/index.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 286,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.9533333333333334,
+      "characterCount": 2783,
+      "nonWhitespaceCharacterCount": 2321,
+      "newlineCount": 85,
+      "readingTimeInMinutes": 1.079245283018868,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1770754798444,
+      "modifiedDate": 1770760810378,
+      "sizeInBytes": 5784,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.9533333333333334,
+        "wordCount": 286,
+        "characterCount": 2783,
+        "nonWhitespaceCharacterCount": 2321,
+        "newlineCount": 85
+      },
+      "frontmatter": {
+        "title": "Клиенты Ассоциации «Шесть сигм»",
+        "date": "2026-01-31",
+        "showHero": true,
+        "heroStyle": "background",
+        "showDate": false,
+        "showDateUpdated": false,
+        "showReadingTime": false,
+        "showWordCount": false,
+        "weight": 50,
+        "tags": [
+          "training",
+          "Lean Six Sigma"
+        ],
+        "description": "Клиенты - ЦБ РФ, Минпромторг, Газпром, Лукойл, Газпром нефть, Сбербанк, Альфа банк, Русал, ОАК, УМПО, Роскосмос, Гражданские самолёты Сухого, Вертолеты России, МИГ, Холдинг «Высокоточные комплексы», Уралмашзавод, Мегафон, МТС, Билайн, John Deer, Nissan, Schlumberger, Johnson & Johnson, Mars, MWV, Audatex, Boeing, Hundai, Metalfrio, Тиги Кнауф, Legrand, Ledvance, Аком, Акрихин, Профотек, Акзо Нобель, Хоум Кредит, Алтын Банк, Промсвязьбанк"
+      }
+    },
+    "main/clients/featured.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770758872106,
+      "modifiedDate": 1770758873060,
+      "sizeInBytes": 855101,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -2677,33 +2704,6 @@
         "newlineCount": 0
       }
     },
-    "consulting/checkup/featured.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770840127620,
-      "modifiedDate": 1770840129132,
-      "sizeInBytes": 1934016,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "consulting/checkup/index.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -2746,6 +2746,73 @@
         ],
         "description": "Проведите Чекап вашей компании с использованием технологии Шесть Сигм 3.0 и искусственного интеллекта. Выявите уязвимости бизнес-модели, оцените риски и оптимизируйте процессы для повышения устойчивости и конкурентоспособности в условиях неопределенности.",
         "servicePrice": "300 000"
+      }
+    },
+    "consulting/checkup/featured.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770840127620,
+      "modifiedDate": 1770840129132,
+      "sizeInBytes": 1934016,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "certificates/_index.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 65,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.21666666666666667,
+      "characterCount": 536,
+      "nonWhitespaceCharacterCount": 460,
+      "newlineCount": 7,
+      "readingTimeInMinutes": 0.24528301886792453,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1769977654466,
+      "modifiedDate": 1769979591829,
+      "sizeInBytes": 1155,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.21666666666666667,
+        "wordCount": 65,
+        "characterCount": 536,
+        "nonWhitespaceCharacterCount": 460,
+        "newlineCount": 7
+      },
+      "frontmatter": {
+        "title": "Сертификация",
+        "layout": "list",
+        "showHero": false,
+        "showBreadcrumbs": true,
+        "list": {
+          "layout": "cards",
+          "showDate": false,
+          "showAuthor": false,
+          "showReadingTime": false,
+          "groupByYear": false
+        }
       }
     },
     "certificates/CertMBB/index.md": {
@@ -2800,99 +2867,7 @@
         "draft": false
       }
     },
-    "certificates/_index.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 65,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.21666666666666667,
-      "characterCount": 536,
-      "nonWhitespaceCharacterCount": 460,
-      "newlineCount": 7,
-      "readingTimeInMinutes": 0.24528301886792453,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1769977654466,
-      "modifiedDate": 1769979591829,
-      "sizeInBytes": 1155,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.21666666666666667,
-        "wordCount": 65,
-        "characterCount": 536,
-        "nonWhitespaceCharacterCount": 460,
-        "newlineCount": 7
-      },
-      "frontmatter": {
-        "title": "Сертификация",
-        "layout": "list",
-        "showHero": false,
-        "showBreadcrumbs": true,
-        "list": {
-          "layout": "cards",
-          "showDate": false,
-          "showAuthor": false,
-          "showReadingTime": false,
-          "groupByYear": false
-        }
-      }
-    },
-    "certificates/CertBB/index.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 241,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.8033333333333333,
-      "characterCount": 1981,
-      "nonWhitespaceCharacterCount": 1710,
-      "newlineCount": 24,
-      "readingTimeInMinutes": 0.909433962264151,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1770588554935,
-      "modifiedDate": 1770641072182,
-      "sizeInBytes": 4362,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.8033333333333333,
-        "wordCount": 241,
-        "characterCount": 1981,
-        "nonWhitespaceCharacterCount": 1710,
-        "newlineCount": 24
-      },
-      "frontmatter": {
-        "title": "Сертификация Черного пояса Лин Шесть сигм",
-        "date": "2026-01-31",
-        "showHero": true,
-        "heroStyle": "big",
-        "showDate": false,
-        "showDateUpdated": false,
-        "showReadingTime": false,
-        "showWordCount": false,
-        "weight": 50,
-        "menu": {
-          "main": {
-            "name": "Сертификация ЧП",
-            "weight": 50,
-            "parent": "Сертификация",
-            "pre": "shield"
-          }
-        },
-        "tags": [
-          "training",
-          "Lean Six Sigma"
-        ],
-        "description": "Быстрый апгрейд от Green Belt до Black Belt: освойте лидерство, сложный статистический анализ, QFD, управление изменениями и инновационные решения. Получите сертификат Черного пояса и станьте лидером трансформаций в компании.",
-        "coursePrice": "70 000"
-      }
-    },
-    "certificates/CertBB/featured.png": {
+    "certificates/CertMBB/featured.png": {
       "isCountable": false,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -2907,9 +2882,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1770641029302,
-      "modifiedDate": 1770574433641,
-      "sizeInBytes": 678502,
+      "createdDate": 1770845094454,
+      "modifiedDate": 1770846443503,
+      "sizeInBytes": 1199125,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -2987,8 +2962,114 @@
       "embedCount": 0,
       "aliases": [],
       "createdDate": 1770640071238,
-      "modifiedDate": 1769621571373,
-      "sizeInBytes": 2542186,
+      "modifiedDate": 1770846108223,
+      "sizeInBytes": 1009862,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "certificates/CertBB/index.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 241,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8033333333333333,
+      "characterCount": 1981,
+      "nonWhitespaceCharacterCount": 1710,
+      "newlineCount": 24,
+      "readingTimeInMinutes": 0.909433962264151,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1770588554935,
+      "modifiedDate": 1770641072182,
+      "sizeInBytes": 4362,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.8033333333333333,
+        "wordCount": 241,
+        "characterCount": 1981,
+        "nonWhitespaceCharacterCount": 1710,
+        "newlineCount": 24
+      },
+      "frontmatter": {
+        "title": "Сертификация Черного пояса Лин Шесть сигм",
+        "date": "2026-01-31",
+        "showHero": true,
+        "heroStyle": "big",
+        "showDate": false,
+        "showDateUpdated": false,
+        "showReadingTime": false,
+        "showWordCount": false,
+        "weight": 50,
+        "menu": {
+          "main": {
+            "name": "Сертификация ЧП",
+            "weight": 50,
+            "parent": "Сертификация",
+            "pre": "shield"
+          }
+        },
+        "tags": [
+          "training",
+          "Lean Six Sigma"
+        ],
+        "description": "Быстрый апгрейд от Green Belt до Black Belt: освойте лидерство, сложный статистический анализ, QFD, управление изменениями и инновационные решения. Получите сертификат Черного пояса и станьте лидером трансформаций в компании.",
+        "coursePrice": "70 000"
+      }
+    },
+    "certificates/CertBB/featured.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770641029302,
+      "modifiedDate": 1770846294744,
+      "sizeInBytes": 953791,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "CalendarMyYandexCalendar.ical": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1769621571330,
+      "modifiedDate": 1769621571330,
+      "sizeInBytes": 181,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -3026,33 +3107,6 @@
       },
       "frontmatter": {
         "title": "Категории"
-      }
-    },
-    "CalendarMyYandexCalendar.ical": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1769621571330,
-      "modifiedDate": 1769621571330,
-      "sizeInBytes": 181,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
       }
     },
     "adverts/_index.md": {
@@ -3098,115 +3152,7 @@
         "showBreadcrumbs": true
       }
     },
-    "adverts/Черный пояс/featured.svg": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770714140842,
-      "modifiedDate": 1769621571375,
-      "sizeInBytes": 9554,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "adverts/Черный пояс/testfeatured.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770714140851,
-      "modifiedDate": 1769621571377,
-      "sizeInBytes": 105044,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "adverts/Черный пояс/NewGBCertificateTemplate2025.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770714140849,
-      "modifiedDate": 1769621571373,
-      "sizeInBytes": 2542186,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "adverts/Черный пояс/NewBlaclBeltCertificateTemplate.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770714140845,
-      "modifiedDate": 1770574433641,
-      "sizeInBytes": 678502,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "adverts/Черный пояс/deepseek.svg": {
+    "adverts/ExpressGreenBelt/deepseek.svg": {
       "isCountable": false,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -3233,49 +3179,7 @@
         "newlineCount": 0
       }
     },
-    "adverts/Черный пояс/index.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 29,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.09666666666666666,
-      "characterCount": 276,
-      "nonWhitespaceCharacterCount": 241,
-      "newlineCount": 5,
-      "readingTimeInMinutes": 0.10943396226415095,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1770714140843,
-      "modifiedDate": 1770716444786,
-      "sizeInBytes": 759,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.09666666666666666,
-        "wordCount": 29,
-        "characterCount": 276,
-        "nonWhitespaceCharacterCount": 241,
-        "newlineCount": 5
-      },
-      "frontmatter": {
-        "title": "Курс «Чёрный пояс Lean Six Sigma» — стандартный тренинг 5+5 дней",
-        "date": "2026-01-22",
-        "showHero": true,
-        "showDate": false,
-        "showDateUpdated": false,
-        "heroStyle": "background",
-        "coursePrice": "140 000",
-        "weight": 20,
-        "tags": [
-          "Курсы",
-          "Lean Six Sigma",
-          "training"
-        ]
-      }
-    },
-    "adverts/Линсэнсэй/NewLeanCertificateTemplate2026.png": {
+    "adverts/ExpressGreenBelt/featured.svg": {
       "isCountable": false,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -3290,9 +3194,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1770714140859,
-      "modifiedDate": 1770552377492,
-      "sizeInBytes": 1724383,
+      "createdDate": 1770714140842,
+      "modifiedDate": 1770848009844,
+      "sizeInBytes": 4783937,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -3302,7 +3206,130 @@
         "newlineCount": 0
       }
     },
-    "adverts/Линсэнсэй/LeanSensey.svg": {
+    "adverts/ExpressGreenBelt/index.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 285,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.95,
+      "characterCount": 2310,
+      "nonWhitespaceCharacterCount": 1900,
+      "newlineCount": 54,
+      "readingTimeInMinutes": 1.0754716981132075,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1770714140843,
+      "modifiedDate": 1770889208080,
+      "sizeInBytes": 4209,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "title": "Срочная подготовка Зеленых поясов",
+        "date": "2026-01-22",
+        "showHero": true,
+        "showDate": false,
+        "showDateUpdated": false,
+        "heroStyle": "background",
+        "weight": 20,
+        "tags": [
+          "Курсы",
+          "Lean Six Sigma",
+          "training"
+        ],
+        "description": "Срочная подготовка Зеленых поясов в любых условиях и с любого старта."
+      }
+    },
+    "adverts/ExpressGreenBelt/NewGBCertificateTemplate2025.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770714140849,
+      "modifiedDate": 1769621571373,
+      "sizeInBytes": 2542186,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "adverts/ExpressGreenBelt/NewBlaclBeltCertificateTemplate.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770714140845,
+      "modifiedDate": 1770574433641,
+      "sizeInBytes": 678502,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "adverts/YourCertificate/featured.svg": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1770714140855,
+      "modifiedDate": 1770848688158,
+      "sizeInBytes": 19235944,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "adverts/YourCertificate/LeanSensey.svg": {
       "isCountable": false,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -3329,7 +3356,7 @@
         "newlineCount": 0
       }
     },
-    "adverts/Линсэнсэй/featured.svg": {
+    "adverts/YourCertificate/NewLeanCertificateTemplate2026.png": {
       "isCountable": false,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -3344,9 +3371,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1770714140855,
-      "modifiedDate": 1770480420225,
-      "sizeInBytes": 12635,
+      "createdDate": 1770714140859,
+      "modifiedDate": 1770552377492,
+      "sizeInBytes": 1724383,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -3356,73 +3383,45 @@
         "newlineCount": 0
       }
     },
-    "adverts/Линсэнсэй/index.md": {
+    "adverts/YourCertificate/index.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 440,
+      "wordCount": 187,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.4666666666666666,
-      "characterCount": 4057,
-      "nonWhitespaceCharacterCount": 3468,
-      "newlineCount": 51,
-      "readingTimeInMinutes": 1.6603773584905661,
+      "pageCount": 0.6233333333333333,
+      "characterCount": 1541,
+      "nonWhitespaceCharacterCount": 1266,
+      "newlineCount": 31,
+      "readingTimeInMinutes": 0.7056603773584905,
       "linkCount": 0,
-      "embedCount": 1,
+      "embedCount": 0,
       "aliases": null,
       "createdDate": 1770714140856,
-      "modifiedDate": 1770714932021,
-      "sizeInBytes": 7368,
+      "modifiedDate": 1770889193683,
+      "sizeInBytes": 2853,
       "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 1.4666666666666666,
-        "wordCount": 440,
-        "characterCount": 4057,
-        "nonWhitespaceCharacterCount": 3468,
-        "newlineCount": 51
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       },
       "frontmatter": {
-        "title": "Курс «Лин++ сэнсэй»",
+        "title": "Получи свой сертификат Шесть Сигм",
         "date": "2026-01-22",
         "showHero": true,
         "showDate": false,
         "showDateUpdated": false,
         "heroStyle": "background",
-        "coursePrice": "90 000",
         "weight": 40,
         "tags": [
           "Курсы",
           "Lean",
           "training"
         ]
-      }
-    },
-    "main/partners/featured.jpg": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1770844324453,
-      "modifiedDate": 1770844324663,
-      "sizeInBytes": 3731500,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
       }
     }
   }

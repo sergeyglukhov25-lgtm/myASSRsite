@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "adverts/ExpressGreenBelt/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "adverts/YourCertificate/index.md"
+    },
+    {
+      "basename": "featured",
+      "path": "adverts/YourCertificate/featured.svg"
+    },
+    {
+      "basename": "index",
+      "path": "training/АпгрейдЧП/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "training/ЗПТурбо/index.md"
+    },
+    {
       "basename": "_index",
       "path": "main/partners/_index.md"
     },
     {
       "basename": "index",
       "path": "consulting/checkup/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "training/АпгрейдЧП/index.md"
     },
     {
       "basename": "index",
@@ -23,10 +39,6 @@
     {
       "basename": "index",
       "path": "training/Желтыйпояс/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "training/ЗПТурбо/index.md"
     },
     {
       "basename": "index",
@@ -66,15 +78,7 @@
     },
     {
       "basename": "index",
-      "path": "adverts/Черный пояс/index.md"
-    },
-    {
-      "basename": "index",
       "path": "training/ЗПочный/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "adverts/Линсэнсэй/index.md"
     },
     {
       "basename": "_index",

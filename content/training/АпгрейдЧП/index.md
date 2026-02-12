@@ -100,7 +100,7 @@ coursePrice: 120 000
 
 ### Ваш сертификат Lean Six Sigma Black Belt
 
-![Сертификат Lean Six Sigma Black Belt](NewBlaclBeltCertificateTemplate.png)
+![Сертификат Lean Six Sigma Black Belt](training/АпгрейдЧП/NewBlaclBeltCertificateTemplate.png)
 
 > [!SUCCESS] **Сертификат Черного пояса Lean Six Sigma**
 >   
